@@ -29,19 +29,19 @@ spec:
 {{ toYaml .Values.resources | indent 10 }}
         env:
         - name: backupsToKeep
-          value: {{ .Values.env.backupsToKeep | int }}
+          value: "{{ .Values.env.backupsToKeep }}"
         - name: basePort
-          value: {{ .Values.env.basePort | int }}
+          value: "{{ .Values.env.basePort }}"
         - name: defaultSeed
-          value: {{ .Values.env.defaultSeed }}
+          value: "{{ .Values.env.defaultSeed }}"
         - name: gameDNS
-          value: {{ .Values.env.gameDNS }}
+          value: "{{ .Values.env.gameDNS }}"
         - name: phvalheimHost
-          value: {{ .Values.env.phvalheimHost }}
+          value: "{{ .Values.env.phvalheimHost }}"
         - name: phvalheimClientURL
-          value: {{ .Values.env.phvalheimClientURL }}
+          value: "{{ .Values.env.phvalheimClientURL }}"
         - name: steamAPIKey
-          value: {{ .Values.env.steamAPIKey }}
+          value: "{{ .Values.env.steamAPIKey }}"
         ports:
         - name: worlds-port-25000
           containerPort: 25000
