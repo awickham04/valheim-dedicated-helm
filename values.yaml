@@ -29,6 +29,4 @@ env:
   phvalheimClientURL: https://github.com/brianmiller/phvalheim-client/raw/master/published_build/phvalheim-client-installer.exe
   steamAPIKey: 0123456789
   webPort: 8080
-# The following adds 1000 UDP ports for multiple worlds
-  worldsPortRangeStart: 25000
 
