@@ -1,5 +1,5 @@
   {{- range seq 0 10}}
-  - name: worlds-port-{{add 25000 .}}
+  - name: worlds-{{add 25000 .}}
     port: {{add 25000 .}}
     protocol: UDP
     targetPort: {{add 25000 .}}
