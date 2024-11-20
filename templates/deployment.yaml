@@ -43,5007 +43,5007 @@ spec:
         - name: steamAPIKey
           value: "{{ .Values.env.steamAPIKey }}"
         ports:
-        - name: worlds-port-25000
+        - name: worlds-25000
           containerPort: 25000
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25000
           protocol: UDP
-        - name: worlds-port-25001
+        - name: worlds-25001
           containerPort: 25001
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25001
           protocol: UDP
-        - name: worlds-port-25002
+        - name: worlds-25002
           containerPort: 25002
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25002
           protocol: UDP
-        - name: worlds-port-25003
+        - name: worlds-25003
           containerPort: 25003
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25003
           protocol: UDP
-        - name: worlds-port-25004
+        - name: worlds-25004
           containerPort: 25004
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25004
           protocol: UDP
-        - name: worlds-port-25005
+        - name: worlds-25005
           containerPort: 25005
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25005
           protocol: UDP
-        - name: worlds-port-25006
+        - name: worlds-25006
           containerPort: 25006
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25006
           protocol: UDP
-        - name: worlds-port-25007
+        - name: worlds-25007
           containerPort: 25007
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25007
           protocol: UDP
-        - name: worlds-port-25008
+        - name: worlds-25008
           containerPort: 25008
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25008
           protocol: UDP
-        - name: worlds-port-25009
+        - name: worlds-25009
           containerPort: 25009
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25009
           protocol: UDP
-        - name: worlds-port-25010
+        - name: worlds-25010
           containerPort: 25010
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25010
           protocol: UDP
-        - name: worlds-port-25011
+        - name: worlds-25011
           containerPort: 25011
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25011
           protocol: UDP
-        - name: worlds-port-25012
+        - name: worlds-25012
           containerPort: 25012
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25012
           protocol: UDP
-        - name: worlds-port-25013
+        - name: worlds-25013
           containerPort: 25013
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25013
           protocol: UDP
-        - name: worlds-port-25014
+        - name: worlds-25014
           containerPort: 25014
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25014
           protocol: UDP
-        - name: worlds-port-25015
+        - name: worlds-25015
           containerPort: 25015
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25015
           protocol: UDP
-        - name: worlds-port-25016
+        - name: worlds-25016
           containerPort: 25016
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25016
           protocol: UDP
-        - name: worlds-port-25017
+        - name: worlds-25017
           containerPort: 25017
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25017
           protocol: UDP
-        - name: worlds-port-25018
+        - name: worlds-25018
           containerPort: 25018
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25018
           protocol: UDP
-        - name: worlds-port-25019
+        - name: worlds-25019
           containerPort: 25019
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25019
           protocol: UDP
-        - name: worlds-port-25020
+        - name: worlds-25020
           containerPort: 25020
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25020
           protocol: UDP
-        - name: worlds-port-25021
+        - name: worlds-25021
           containerPort: 25021
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25021
           protocol: UDP
-        - name: worlds-port-25022
+        - name: worlds-25022
           containerPort: 25022
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25022
           protocol: UDP
-        - name: worlds-port-25023
+        - name: worlds-25023
           containerPort: 25023
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25023
           protocol: UDP
-        - name: worlds-port-25024
+        - name: worlds-25024
           containerPort: 25024
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25024
           protocol: UDP
-        - name: worlds-port-25025
+        - name: worlds-25025
           containerPort: 25025
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25025
           protocol: UDP
-        - name: worlds-port-25026
+        - name: worlds-25026
           containerPort: 25026
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25026
           protocol: UDP
-        - name: worlds-port-25027
+        - name: worlds-25027
           containerPort: 25027
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25027
           protocol: UDP
-        - name: worlds-port-25028
+        - name: worlds-25028
           containerPort: 25028
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25028
           protocol: UDP
-        - name: worlds-port-25029
+        - name: worlds-25029
           containerPort: 25029
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25029
           protocol: UDP
-        - name: worlds-port-25030
+        - name: worlds-25030
           containerPort: 25030
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25030
           protocol: UDP
-        - name: worlds-port-25031
+        - name: worlds-25031
           containerPort: 25031
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25031
           protocol: UDP
-        - name: worlds-port-25032
+        - name: worlds-25032
           containerPort: 25032
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25032
           protocol: UDP
-        - name: worlds-port-25033
+        - name: worlds-25033
           containerPort: 25033
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25033
           protocol: UDP
-        - name: worlds-port-25034
+        - name: worlds-25034
           containerPort: 25034
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25034
           protocol: UDP
-        - name: worlds-port-25035
+        - name: worlds-25035
           containerPort: 25035
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25035
           protocol: UDP
-        - name: worlds-port-25036
+        - name: worlds-25036
           containerPort: 25036
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25036
           protocol: UDP
-        - name: worlds-port-25037
+        - name: worlds-25037
           containerPort: 25037
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25037
           protocol: UDP
-        - name: worlds-port-25038
+        - name: worlds-25038
           containerPort: 25038
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25038
           protocol: UDP
-        - name: worlds-port-25039
+        - name: worlds-25039
           containerPort: 25039
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25039
           protocol: UDP
-        - name: worlds-port-25040
+        - name: worlds-25040
           containerPort: 25040
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25040
           protocol: UDP
-        - name: worlds-port-25041
+        - name: worlds-25041
           containerPort: 25041
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25041
           protocol: UDP
-        - name: worlds-port-25042
+        - name: worlds-25042
           containerPort: 25042
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25042
           protocol: UDP
-        - name: worlds-port-25043
+        - name: worlds-25043
           containerPort: 25043
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25043
           protocol: UDP
-        - name: worlds-port-25044
+        - name: worlds-25044
           containerPort: 25044
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25044
           protocol: UDP
-        - name: worlds-port-25045
+        - name: worlds-25045
           containerPort: 25045
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25045
           protocol: UDP
-        - name: worlds-port-25046
+        - name: worlds-25046
           containerPort: 25046
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25046
           protocol: UDP
-        - name: worlds-port-25047
+        - name: worlds-25047
           containerPort: 25047
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25047
           protocol: UDP
-        - name: worlds-port-25048
+        - name: worlds-25048
           containerPort: 25048
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25048
           protocol: UDP
-        - name: worlds-port-25049
+        - name: worlds-25049
           containerPort: 25049
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25049
           protocol: UDP
-        - name: worlds-port-25050
+        - name: worlds-25050
           containerPort: 25050
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25050
           protocol: UDP
-        - name: worlds-port-25051
+        - name: worlds-25051
           containerPort: 25051
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25051
           protocol: UDP
-        - name: worlds-port-25052
+        - name: worlds-25052
           containerPort: 25052
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25052
           protocol: UDP
-        - name: worlds-port-25053
+        - name: worlds-25053
           containerPort: 25053
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25053
           protocol: UDP
-        - name: worlds-port-25054
+        - name: worlds-25054
           containerPort: 25054
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25054
           protocol: UDP
-        - name: worlds-port-25055
+        - name: worlds-25055
           containerPort: 25055
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25055
           protocol: UDP
-        - name: worlds-port-25056
+        - name: worlds-25056
           containerPort: 25056
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25056
           protocol: UDP
-        - name: worlds-port-25057
+        - name: worlds-25057
           containerPort: 25057
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25057
           protocol: UDP
-        - name: worlds-port-25058
+        - name: worlds-25058
           containerPort: 25058
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25058
           protocol: UDP
-        - name: worlds-port-25059
+        - name: worlds-25059
           containerPort: 25059
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25059
           protocol: UDP
-        - name: worlds-port-25060
+        - name: worlds-25060
           containerPort: 25060
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25060
           protocol: UDP
-        - name: worlds-port-25061
+        - name: worlds-25061
           containerPort: 25061
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25061
           protocol: UDP
-        - name: worlds-port-25062
+        - name: worlds-25062
           containerPort: 25062
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25062
           protocol: UDP
-        - name: worlds-port-25063
+        - name: worlds-25063
           containerPort: 25063
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25063
           protocol: UDP
-        - name: worlds-port-25064
+        - name: worlds-25064
           containerPort: 25064
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25064
           protocol: UDP
-        - name: worlds-port-25065
+        - name: worlds-25065
           containerPort: 25065
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25065
           protocol: UDP
-        - name: worlds-port-25066
+        - name: worlds-25066
           containerPort: 25066
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25066
           protocol: UDP
-        - name: worlds-port-25067
+        - name: worlds-25067
           containerPort: 25067
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25067
           protocol: UDP
-        - name: worlds-port-25068
+        - name: worlds-25068
           containerPort: 25068
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25068
           protocol: UDP
-        - name: worlds-port-25069
+        - name: worlds-25069
           containerPort: 25069
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25069
           protocol: UDP
-        - name: worlds-port-25070
+        - name: worlds-25070
           containerPort: 25070
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25070
           protocol: UDP
-        - name: worlds-port-25071
+        - name: worlds-25071
           containerPort: 25071
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25071
           protocol: UDP
-        - name: worlds-port-25072
+        - name: worlds-25072
           containerPort: 25072
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25072
           protocol: UDP
-        - name: worlds-port-25073
+        - name: worlds-25073
           containerPort: 25073
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25073
           protocol: UDP
-        - name: worlds-port-25074
+        - name: worlds-25074
           containerPort: 25074
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25074
           protocol: UDP
-        - name: worlds-port-25075
+        - name: worlds-25075
           containerPort: 25075
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25075
           protocol: UDP
-        - name: worlds-port-25076
+        - name: worlds-25076
           containerPort: 25076
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25076
           protocol: UDP
-        - name: worlds-port-25077
+        - name: worlds-25077
           containerPort: 25077
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25077
           protocol: UDP
-        - name: worlds-port-25078
+        - name: worlds-25078
           containerPort: 25078
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25078
           protocol: UDP
-        - name: worlds-port-25079
+        - name: worlds-25079
           containerPort: 25079
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25079
           protocol: UDP
-        - name: worlds-port-25080
+        - name: worlds-25080
           containerPort: 25080
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25080
           protocol: UDP
-        - name: worlds-port-25081
+        - name: worlds-25081
           containerPort: 25081
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25081
           protocol: UDP
-        - name: worlds-port-25082
+        - name: worlds-25082
           containerPort: 25082
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25082
           protocol: UDP
-        - name: worlds-port-25083
+        - name: worlds-25083
           containerPort: 25083
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25083
           protocol: UDP
-        - name: worlds-port-25084
+        - name: worlds-25084
           containerPort: 25084
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25084
           protocol: UDP
-        - name: worlds-port-25085
+        - name: worlds-25085
           containerPort: 25085
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25085
           protocol: UDP
-        - name: worlds-port-25086
+        - name: worlds-25086
           containerPort: 25086
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25086
           protocol: UDP
-        - name: worlds-port-25087
+        - name: worlds-25087
           containerPort: 25087
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25087
           protocol: UDP
-        - name: worlds-port-25088
+        - name: worlds-25088
           containerPort: 25088
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25088
           protocol: UDP
-        - name: worlds-port-25089
+        - name: worlds-25089
           containerPort: 25089
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25089
           protocol: UDP
-        - name: worlds-port-25090
+        - name: worlds-25090
           containerPort: 25090
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25090
           protocol: UDP
-        - name: worlds-port-25091
+        - name: worlds-25091
           containerPort: 25091
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25091
           protocol: UDP
-        - name: worlds-port-25092
+        - name: worlds-25092
           containerPort: 25092
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25092
           protocol: UDP
-        - name: worlds-port-25093
+        - name: worlds-25093
           containerPort: 25093
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25093
           protocol: UDP
-        - name: worlds-port-25094
+        - name: worlds-25094
           containerPort: 25094
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25094
           protocol: UDP
-        - name: worlds-port-25095
+        - name: worlds-25095
           containerPort: 25095
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25095
           protocol: UDP
-        - name: worlds-port-25096
+        - name: worlds-25096
           containerPort: 25096
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25096
           protocol: UDP
-        - name: worlds-port-25097
+        - name: worlds-25097
           containerPort: 25097
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25097
           protocol: UDP
-        - name: worlds-port-25098
+        - name: worlds-25098
           containerPort: 25098
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25098
           protocol: UDP
-        - name: worlds-port-25099
+        - name: worlds-25099
           containerPort: 25099
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25099
           protocol: UDP
-        - name: worlds-port-25100
+        - name: worlds-25100
           containerPort: 25100
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25100
           protocol: UDP
-        - name: worlds-port-25101
+        - name: worlds-25101
           containerPort: 25101
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25101
           protocol: UDP
-        - name: worlds-port-25102
+        - name: worlds-25102
           containerPort: 25102
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25102
           protocol: UDP
-        - name: worlds-port-25103
+        - name: worlds-25103
           containerPort: 25103
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25103
           protocol: UDP
-        - name: worlds-port-25104
+        - name: worlds-25104
           containerPort: 25104
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25104
           protocol: UDP
-        - name: worlds-port-25105
+        - name: worlds-25105
           containerPort: 25105
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25105
           protocol: UDP
-        - name: worlds-port-25106
+        - name: worlds-25106
           containerPort: 25106
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25106
           protocol: UDP
-        - name: worlds-port-25107
+        - name: worlds-25107
           containerPort: 25107
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25107
           protocol: UDP
-        - name: worlds-port-25108
+        - name: worlds-25108
           containerPort: 25108
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25108
           protocol: UDP
-        - name: worlds-port-25109
+        - name: worlds-25109
           containerPort: 25109
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25109
           protocol: UDP
-        - name: worlds-port-25110
+        - name: worlds-25110
           containerPort: 25110
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25110
           protocol: UDP
-        - name: worlds-port-25111
+        - name: worlds-25111
           containerPort: 25111
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25111
           protocol: UDP
-        - name: worlds-port-25112
+        - name: worlds-25112
           containerPort: 25112
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25112
           protocol: UDP
-        - name: worlds-port-25113
+        - name: worlds-25113
           containerPort: 25113
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25113
           protocol: UDP
-        - name: worlds-port-25114
+        - name: worlds-25114
           containerPort: 25114
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25114
           protocol: UDP
-        - name: worlds-port-25115
+        - name: worlds-25115
           containerPort: 25115
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25115
           protocol: UDP
-        - name: worlds-port-25116
+        - name: worlds-25116
           containerPort: 25116
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25116
           protocol: UDP
-        - name: worlds-port-25117
+        - name: worlds-25117
           containerPort: 25117
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25117
           protocol: UDP
-        - name: worlds-port-25118
+        - name: worlds-25118
           containerPort: 25118
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25118
           protocol: UDP
-        - name: worlds-port-25119
+        - name: worlds-25119
           containerPort: 25119
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25119
           protocol: UDP
-        - name: worlds-port-25120
+        - name: worlds-25120
           containerPort: 25120
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25120
           protocol: UDP
-        - name: worlds-port-25121
+        - name: worlds-25121
           containerPort: 25121
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25121
           protocol: UDP
-        - name: worlds-port-25122
+        - name: worlds-25122
           containerPort: 25122
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25122
           protocol: UDP
-        - name: worlds-port-25123
+        - name: worlds-25123
           containerPort: 25123
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25123
           protocol: UDP
-        - name: worlds-port-25124
+        - name: worlds-25124
           containerPort: 25124
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25124
           protocol: UDP
-        - name: worlds-port-25125
+        - name: worlds-25125
           containerPort: 25125
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25125
           protocol: UDP
-        - name: worlds-port-25126
+        - name: worlds-25126
           containerPort: 25126
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25126
           protocol: UDP
-        - name: worlds-port-25127
+        - name: worlds-25127
           containerPort: 25127
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25127
           protocol: UDP
-        - name: worlds-port-25128
+        - name: worlds-25128
           containerPort: 25128
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25128
           protocol: UDP
-        - name: worlds-port-25129
+        - name: worlds-25129
           containerPort: 25129
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25129
           protocol: UDP
-        - name: worlds-port-25130
+        - name: worlds-25130
           containerPort: 25130
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25130
           protocol: UDP
-        - name: worlds-port-25131
+        - name: worlds-25131
           containerPort: 25131
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25131
           protocol: UDP
-        - name: worlds-port-25132
+        - name: worlds-25132
           containerPort: 25132
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25132
           protocol: UDP
-        - name: worlds-port-25133
+        - name: worlds-25133
           containerPort: 25133
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25133
           protocol: UDP
-        - name: worlds-port-25134
+        - name: worlds-25134
           containerPort: 25134
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25134
           protocol: UDP
-        - name: worlds-port-25135
+        - name: worlds-25135
           containerPort: 25135
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25135
           protocol: UDP
-        - name: worlds-port-25136
+        - name: worlds-25136
           containerPort: 25136
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25136
           protocol: UDP
-        - name: worlds-port-25137
+        - name: worlds-25137
           containerPort: 25137
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25137
           protocol: UDP
-        - name: worlds-port-25138
+        - name: worlds-25138
           containerPort: 25138
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25138
           protocol: UDP
-        - name: worlds-port-25139
+        - name: worlds-25139
           containerPort: 25139
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25139
           protocol: UDP
-        - name: worlds-port-25140
+        - name: worlds-25140
           containerPort: 25140
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25140
           protocol: UDP
-        - name: worlds-port-25141
+        - name: worlds-25141
           containerPort: 25141
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25141
           protocol: UDP
-        - name: worlds-port-25142
+        - name: worlds-25142
           containerPort: 25142
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25142
           protocol: UDP
-        - name: worlds-port-25143
+        - name: worlds-25143
           containerPort: 25143
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25143
           protocol: UDP
-        - name: worlds-port-25144
+        - name: worlds-25144
           containerPort: 25144
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25144
           protocol: UDP
-        - name: worlds-port-25145
+        - name: worlds-25145
           containerPort: 25145
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25145
           protocol: UDP
-        - name: worlds-port-25146
+        - name: worlds-25146
           containerPort: 25146
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25146
           protocol: UDP
-        - name: worlds-port-25147
+        - name: worlds-25147
           containerPort: 25147
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25147
           protocol: UDP
-        - name: worlds-port-25148
+        - name: worlds-25148
           containerPort: 25148
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25148
           protocol: UDP
-        - name: worlds-port-25149
+        - name: worlds-25149
           containerPort: 25149
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25149
           protocol: UDP
-        - name: worlds-port-25150
+        - name: worlds-25150
           containerPort: 25150
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25150
           protocol: UDP
-        - name: worlds-port-25151
+        - name: worlds-25151
           containerPort: 25151
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25151
           protocol: UDP
-        - name: worlds-port-25152
+        - name: worlds-25152
           containerPort: 25152
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25152
           protocol: UDP
-        - name: worlds-port-25153
+        - name: worlds-25153
           containerPort: 25153
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25153
           protocol: UDP
-        - name: worlds-port-25154
+        - name: worlds-25154
           containerPort: 25154
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25154
           protocol: UDP
-        - name: worlds-port-25155
+        - name: worlds-25155
           containerPort: 25155
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25155
           protocol: UDP
-        - name: worlds-port-25156
+        - name: worlds-25156
           containerPort: 25156
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25156
           protocol: UDP
-        - name: worlds-port-25157
+        - name: worlds-25157
           containerPort: 25157
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25157
           protocol: UDP
-        - name: worlds-port-25158
+        - name: worlds-25158
           containerPort: 25158
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25158
           protocol: UDP
-        - name: worlds-port-25159
+        - name: worlds-25159
           containerPort: 25159
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25159
           protocol: UDP
-        - name: worlds-port-25160
+        - name: worlds-25160
           containerPort: 25160
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25160
           protocol: UDP
-        - name: worlds-port-25161
+        - name: worlds-25161
           containerPort: 25161
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25161
           protocol: UDP
-        - name: worlds-port-25162
+        - name: worlds-25162
           containerPort: 25162
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25162
           protocol: UDP
-        - name: worlds-port-25163
+        - name: worlds-25163
           containerPort: 25163
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25163
           protocol: UDP
-        - name: worlds-port-25164
+        - name: worlds-25164
           containerPort: 25164
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25164
           protocol: UDP
-        - name: worlds-port-25165
+        - name: worlds-25165
           containerPort: 25165
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25165
           protocol: UDP
-        - name: worlds-port-25166
+        - name: worlds-25166
           containerPort: 25166
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25166
           protocol: UDP
-        - name: worlds-port-25167
+        - name: worlds-25167
           containerPort: 25167
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25167
           protocol: UDP
-        - name: worlds-port-25168
+        - name: worlds-25168
           containerPort: 25168
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25168
           protocol: UDP
-        - name: worlds-port-25169
+        - name: worlds-25169
           containerPort: 25169
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25169
           protocol: UDP
-        - name: worlds-port-25170
+        - name: worlds-25170
           containerPort: 25170
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25170
           protocol: UDP
-        - name: worlds-port-25171
+        - name: worlds-25171
           containerPort: 25171
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25171
           protocol: UDP
-        - name: worlds-port-25172
+        - name: worlds-25172
           containerPort: 25172
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25172
           protocol: UDP
-        - name: worlds-port-25173
+        - name: worlds-25173
           containerPort: 25173
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25173
           protocol: UDP
-        - name: worlds-port-25174
+        - name: worlds-25174
           containerPort: 25174
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25174
           protocol: UDP
-        - name: worlds-port-25175
+        - name: worlds-25175
           containerPort: 25175
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25175
           protocol: UDP
-        - name: worlds-port-25176
+        - name: worlds-25176
           containerPort: 25176
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25176
           protocol: UDP
-        - name: worlds-port-25177
+        - name: worlds-25177
           containerPort: 25177
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25177
           protocol: UDP
-        - name: worlds-port-25178
+        - name: worlds-25178
           containerPort: 25178
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25178
           protocol: UDP
-        - name: worlds-port-25179
+        - name: worlds-25179
           containerPort: 25179
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25179
           protocol: UDP
-        - name: worlds-port-25180
+        - name: worlds-25180
           containerPort: 25180
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25180
           protocol: UDP
-        - name: worlds-port-25181
+        - name: worlds-25181
           containerPort: 25181
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25181
           protocol: UDP
-        - name: worlds-port-25182
+        - name: worlds-25182
           containerPort: 25182
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25182
           protocol: UDP
-        - name: worlds-port-25183
+        - name: worlds-25183
           containerPort: 25183
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25183
           protocol: UDP
-        - name: worlds-port-25184
+        - name: worlds-25184
           containerPort: 25184
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25184
           protocol: UDP
-        - name: worlds-port-25185
+        - name: worlds-25185
           containerPort: 25185
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25185
           protocol: UDP
-        - name: worlds-port-25186
+        - name: worlds-25186
           containerPort: 25186
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25186
           protocol: UDP
-        - name: worlds-port-25187
+        - name: worlds-25187
           containerPort: 25187
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25187
           protocol: UDP
-        - name: worlds-port-25188
+        - name: worlds-25188
           containerPort: 25188
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25188
           protocol: UDP
-        - name: worlds-port-25189
+        - name: worlds-25189
           containerPort: 25189
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25189
           protocol: UDP
-        - name: worlds-port-25190
+        - name: worlds-25190
           containerPort: 25190
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25190
           protocol: UDP
-        - name: worlds-port-25191
+        - name: worlds-25191
           containerPort: 25191
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25191
           protocol: UDP
-        - name: worlds-port-25192
+        - name: worlds-25192
           containerPort: 25192
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25192
           protocol: UDP
-        - name: worlds-port-25193
+        - name: worlds-25193
           containerPort: 25193
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25193
           protocol: UDP
-        - name: worlds-port-25194
+        - name: worlds-25194
           containerPort: 25194
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25194
           protocol: UDP
-        - name: worlds-port-25195
+        - name: worlds-25195
           containerPort: 25195
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25195
           protocol: UDP
-        - name: worlds-port-25196
+        - name: worlds-25196
           containerPort: 25196
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25196
           protocol: UDP
-        - name: worlds-port-25197
+        - name: worlds-25197
           containerPort: 25197
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25197
           protocol: UDP
-        - name: worlds-port-25198
+        - name: worlds-25198
           containerPort: 25198
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25198
           protocol: UDP
-        - name: worlds-port-25199
+        - name: worlds-25199
           containerPort: 25199
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25199
           protocol: UDP
-        - name: worlds-port-25200
+        - name: worlds-25200
           containerPort: 25200
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25200
           protocol: UDP
-        - name: worlds-port-25201
+        - name: worlds-25201
           containerPort: 25201
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25201
           protocol: UDP
-        - name: worlds-port-25202
+        - name: worlds-25202
           containerPort: 25202
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25202
           protocol: UDP
-        - name: worlds-port-25203
+        - name: worlds-25203
           containerPort: 25203
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25203
           protocol: UDP
-        - name: worlds-port-25204
+        - name: worlds-25204
           containerPort: 25204
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25204
           protocol: UDP
-        - name: worlds-port-25205
+        - name: worlds-25205
           containerPort: 25205
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25205
           protocol: UDP
-        - name: worlds-port-25206
+        - name: worlds-25206
           containerPort: 25206
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25206
           protocol: UDP
-        - name: worlds-port-25207
+        - name: worlds-25207
           containerPort: 25207
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25207
           protocol: UDP
-        - name: worlds-port-25208
+        - name: worlds-25208
           containerPort: 25208
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25208
           protocol: UDP
-        - name: worlds-port-25209
+        - name: worlds-25209
           containerPort: 25209
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25209
           protocol: UDP
-        - name: worlds-port-25210
+        - name: worlds-25210
           containerPort: 25210
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25210
           protocol: UDP
-        - name: worlds-port-25211
+        - name: worlds-25211
           containerPort: 25211
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25211
           protocol: UDP
-        - name: worlds-port-25212
+        - name: worlds-25212
           containerPort: 25212
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25212
           protocol: UDP
-        - name: worlds-port-25213
+        - name: worlds-25213
           containerPort: 25213
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25213
           protocol: UDP
-        - name: worlds-port-25214
+        - name: worlds-25214
           containerPort: 25214
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25214
           protocol: UDP
-        - name: worlds-port-25215
+        - name: worlds-25215
           containerPort: 25215
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25215
           protocol: UDP
-        - name: worlds-port-25216
+        - name: worlds-25216
           containerPort: 25216
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25216
           protocol: UDP
-        - name: worlds-port-25217
+        - name: worlds-25217
           containerPort: 25217
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25217
           protocol: UDP
-        - name: worlds-port-25218
+        - name: worlds-25218
           containerPort: 25218
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25218
           protocol: UDP
-        - name: worlds-port-25219
+        - name: worlds-25219
           containerPort: 25219
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25219
           protocol: UDP
-        - name: worlds-port-25220
+        - name: worlds-25220
           containerPort: 25220
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25220
           protocol: UDP
-        - name: worlds-port-25221
+        - name: worlds-25221
           containerPort: 25221
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25221
           protocol: UDP
-        - name: worlds-port-25222
+        - name: worlds-25222
           containerPort: 25222
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25222
           protocol: UDP
-        - name: worlds-port-25223
+        - name: worlds-25223
           containerPort: 25223
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25223
           protocol: UDP
-        - name: worlds-port-25224
+        - name: worlds-25224
           containerPort: 25224
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25224
           protocol: UDP
-        - name: worlds-port-25225
+        - name: worlds-25225
           containerPort: 25225
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25225
           protocol: UDP
-        - name: worlds-port-25226
+        - name: worlds-25226
           containerPort: 25226
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25226
           protocol: UDP
-        - name: worlds-port-25227
+        - name: worlds-25227
           containerPort: 25227
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25227
           protocol: UDP
-        - name: worlds-port-25228
+        - name: worlds-25228
           containerPort: 25228
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25228
           protocol: UDP
-        - name: worlds-port-25229
+        - name: worlds-25229
           containerPort: 25229
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25229
           protocol: UDP
-        - name: worlds-port-25230
+        - name: worlds-25230
           containerPort: 25230
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25230
           protocol: UDP
-        - name: worlds-port-25231
+        - name: worlds-25231
           containerPort: 25231
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25231
           protocol: UDP
-        - name: worlds-port-25232
+        - name: worlds-25232
           containerPort: 25232
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25232
           protocol: UDP
-        - name: worlds-port-25233
+        - name: worlds-25233
           containerPort: 25233
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25233
           protocol: UDP
-        - name: worlds-port-25234
+        - name: worlds-25234
           containerPort: 25234
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25234
           protocol: UDP
-        - name: worlds-port-25235
+        - name: worlds-25235
           containerPort: 25235
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25235
           protocol: UDP
-        - name: worlds-port-25236
+        - name: worlds-25236
           containerPort: 25236
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25236
           protocol: UDP
-        - name: worlds-port-25237
+        - name: worlds-25237
           containerPort: 25237
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25237
           protocol: UDP
-        - name: worlds-port-25238
+        - name: worlds-25238
           containerPort: 25238
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25238
           protocol: UDP
-        - name: worlds-port-25239
+        - name: worlds-25239
           containerPort: 25239
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25239
           protocol: UDP
-        - name: worlds-port-25240
+        - name: worlds-25240
           containerPort: 25240
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25240
           protocol: UDP
-        - name: worlds-port-25241
+        - name: worlds-25241
           containerPort: 25241
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25241
           protocol: UDP
-        - name: worlds-port-25242
+        - name: worlds-25242
           containerPort: 25242
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25242
           protocol: UDP
-        - name: worlds-port-25243
+        - name: worlds-25243
           containerPort: 25243
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25243
           protocol: UDP
-        - name: worlds-port-25244
+        - name: worlds-25244
           containerPort: 25244
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25244
           protocol: UDP
-        - name: worlds-port-25245
+        - name: worlds-25245
           containerPort: 25245
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25245
           protocol: UDP
-        - name: worlds-port-25246
+        - name: worlds-25246
           containerPort: 25246
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25246
           protocol: UDP
-        - name: worlds-port-25247
+        - name: worlds-25247
           containerPort: 25247
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25247
           protocol: UDP
-        - name: worlds-port-25248
+        - name: worlds-25248
           containerPort: 25248
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25248
           protocol: UDP
-        - name: worlds-port-25249
+        - name: worlds-25249
           containerPort: 25249
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25249
           protocol: UDP
-        - name: worlds-port-25250
+        - name: worlds-25250
           containerPort: 25250
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25250
           protocol: UDP
-        - name: worlds-port-25251
+        - name: worlds-25251
           containerPort: 25251
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25251
           protocol: UDP
-        - name: worlds-port-25252
+        - name: worlds-25252
           containerPort: 25252
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25252
           protocol: UDP
-        - name: worlds-port-25253
+        - name: worlds-25253
           containerPort: 25253
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25253
           protocol: UDP
-        - name: worlds-port-25254
+        - name: worlds-25254
           containerPort: 25254
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25254
           protocol: UDP
-        - name: worlds-port-25255
+        - name: worlds-25255
           containerPort: 25255
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25255
           protocol: UDP
-        - name: worlds-port-25256
+        - name: worlds-25256
           containerPort: 25256
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25256
           protocol: UDP
-        - name: worlds-port-25257
+        - name: worlds-25257
           containerPort: 25257
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25257
           protocol: UDP
-        - name: worlds-port-25258
+        - name: worlds-25258
           containerPort: 25258
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25258
           protocol: UDP
-        - name: worlds-port-25259
+        - name: worlds-25259
           containerPort: 25259
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25259
           protocol: UDP
-        - name: worlds-port-25260
+        - name: worlds-25260
           containerPort: 25260
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25260
           protocol: UDP
-        - name: worlds-port-25261
+        - name: worlds-25261
           containerPort: 25261
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25261
           protocol: UDP
-        - name: worlds-port-25262
+        - name: worlds-25262
           containerPort: 25262
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25262
           protocol: UDP
-        - name: worlds-port-25263
+        - name: worlds-25263
           containerPort: 25263
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25263
           protocol: UDP
-        - name: worlds-port-25264
+        - name: worlds-25264
           containerPort: 25264
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25264
           protocol: UDP
-        - name: worlds-port-25265
+        - name: worlds-25265
           containerPort: 25265
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25265
           protocol: UDP
-        - name: worlds-port-25266
+        - name: worlds-25266
           containerPort: 25266
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25266
           protocol: UDP
-        - name: worlds-port-25267
+        - name: worlds-25267
           containerPort: 25267
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25267
           protocol: UDP
-        - name: worlds-port-25268
+        - name: worlds-25268
           containerPort: 25268
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25268
           protocol: UDP
-        - name: worlds-port-25269
+        - name: worlds-25269
           containerPort: 25269
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25269
           protocol: UDP
-        - name: worlds-port-25270
+        - name: worlds-25270
           containerPort: 25270
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25270
           protocol: UDP
-        - name: worlds-port-25271
+        - name: worlds-25271
           containerPort: 25271
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25271
           protocol: UDP
-        - name: worlds-port-25272
+        - name: worlds-25272
           containerPort: 25272
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25272
           protocol: UDP
-        - name: worlds-port-25273
+        - name: worlds-25273
           containerPort: 25273
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25273
           protocol: UDP
-        - name: worlds-port-25274
+        - name: worlds-25274
           containerPort: 25274
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25274
           protocol: UDP
-        - name: worlds-port-25275
+        - name: worlds-25275
           containerPort: 25275
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25275
           protocol: UDP
-        - name: worlds-port-25276
+        - name: worlds-25276
           containerPort: 25276
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25276
           protocol: UDP
-        - name: worlds-port-25277
+        - name: worlds-25277
           containerPort: 25277
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25277
           protocol: UDP
-        - name: worlds-port-25278
+        - name: worlds-25278
           containerPort: 25278
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25278
           protocol: UDP
-        - name: worlds-port-25279
+        - name: worlds-25279
           containerPort: 25279
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25279
           protocol: UDP
-        - name: worlds-port-25280
+        - name: worlds-25280
           containerPort: 25280
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25280
           protocol: UDP
-        - name: worlds-port-25281
+        - name: worlds-25281
           containerPort: 25281
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25281
           protocol: UDP
-        - name: worlds-port-25282
+        - name: worlds-25282
           containerPort: 25282
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25282
           protocol: UDP
-        - name: worlds-port-25283
+        - name: worlds-25283
           containerPort: 25283
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25283
           protocol: UDP
-        - name: worlds-port-25284
+        - name: worlds-25284
           containerPort: 25284
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25284
           protocol: UDP
-        - name: worlds-port-25285
+        - name: worlds-25285
           containerPort: 25285
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25285
           protocol: UDP
-        - name: worlds-port-25286
+        - name: worlds-25286
           containerPort: 25286
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25286
           protocol: UDP
-        - name: worlds-port-25287
+        - name: worlds-25287
           containerPort: 25287
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25287
           protocol: UDP
-        - name: worlds-port-25288
+        - name: worlds-25288
           containerPort: 25288
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25288
           protocol: UDP
-        - name: worlds-port-25289
+        - name: worlds-25289
           containerPort: 25289
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25289
           protocol: UDP
-        - name: worlds-port-25290
+        - name: worlds-25290
           containerPort: 25290
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25290
           protocol: UDP
-        - name: worlds-port-25291
+        - name: worlds-25291
           containerPort: 25291
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25291
           protocol: UDP
-        - name: worlds-port-25292
+        - name: worlds-25292
           containerPort: 25292
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25292
           protocol: UDP
-        - name: worlds-port-25293
+        - name: worlds-25293
           containerPort: 25293
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25293
           protocol: UDP
-        - name: worlds-port-25294
+        - name: worlds-25294
           containerPort: 25294
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25294
           protocol: UDP
-        - name: worlds-port-25295
+        - name: worlds-25295
           containerPort: 25295
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25295
           protocol: UDP
-        - name: worlds-port-25296
+        - name: worlds-25296
           containerPort: 25296
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25296
           protocol: UDP
-        - name: worlds-port-25297
+        - name: worlds-25297
           containerPort: 25297
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25297
           protocol: UDP
-        - name: worlds-port-25298
+        - name: worlds-25298
           containerPort: 25298
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25298
           protocol: UDP
-        - name: worlds-port-25299
+        - name: worlds-25299
           containerPort: 25299
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25299
           protocol: UDP
-        - name: worlds-port-25300
+        - name: worlds-25300
           containerPort: 25300
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25300
           protocol: UDP
-        - name: worlds-port-25301
+        - name: worlds-25301
           containerPort: 25301
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25301
           protocol: UDP
-        - name: worlds-port-25302
+        - name: worlds-25302
           containerPort: 25302
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25302
           protocol: UDP
-        - name: worlds-port-25303
+        - name: worlds-25303
           containerPort: 25303
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25303
           protocol: UDP
-        - name: worlds-port-25304
+        - name: worlds-25304
           containerPort: 25304
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25304
           protocol: UDP
-        - name: worlds-port-25305
+        - name: worlds-25305
           containerPort: 25305
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25305
           protocol: UDP
-        - name: worlds-port-25306
+        - name: worlds-25306
           containerPort: 25306
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25306
           protocol: UDP
-        - name: worlds-port-25307
+        - name: worlds-25307
           containerPort: 25307
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25307
           protocol: UDP
-        - name: worlds-port-25308
+        - name: worlds-25308
           containerPort: 25308
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25308
           protocol: UDP
-        - name: worlds-port-25309
+        - name: worlds-25309
           containerPort: 25309
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25309
           protocol: UDP
-        - name: worlds-port-25310
+        - name: worlds-25310
           containerPort: 25310
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25310
           protocol: UDP
-        - name: worlds-port-25311
+        - name: worlds-25311
           containerPort: 25311
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25311
           protocol: UDP
-        - name: worlds-port-25312
+        - name: worlds-25312
           containerPort: 25312
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25312
           protocol: UDP
-        - name: worlds-port-25313
+        - name: worlds-25313
           containerPort: 25313
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25313
           protocol: UDP
-        - name: worlds-port-25314
+        - name: worlds-25314
           containerPort: 25314
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25314
           protocol: UDP
-        - name: worlds-port-25315
+        - name: worlds-25315
           containerPort: 25315
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25315
           protocol: UDP
-        - name: worlds-port-25316
+        - name: worlds-25316
           containerPort: 25316
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25316
           protocol: UDP
-        - name: worlds-port-25317
+        - name: worlds-25317
           containerPort: 25317
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25317
           protocol: UDP
-        - name: worlds-port-25318
+        - name: worlds-25318
           containerPort: 25318
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25318
           protocol: UDP
-        - name: worlds-port-25319
+        - name: worlds-25319
           containerPort: 25319
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25319
           protocol: UDP
-        - name: worlds-port-25320
+        - name: worlds-25320
           containerPort: 25320
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25320
           protocol: UDP
-        - name: worlds-port-25321
+        - name: worlds-25321
           containerPort: 25321
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25321
           protocol: UDP
-        - name: worlds-port-25322
+        - name: worlds-25322
           containerPort: 25322
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25322
           protocol: UDP
-        - name: worlds-port-25323
+        - name: worlds-25323
           containerPort: 25323
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25323
           protocol: UDP
-        - name: worlds-port-25324
+        - name: worlds-25324
           containerPort: 25324
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25324
           protocol: UDP
-        - name: worlds-port-25325
+        - name: worlds-25325
           containerPort: 25325
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25325
           protocol: UDP
-        - name: worlds-port-25326
+        - name: worlds-25326
           containerPort: 25326
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25326
           protocol: UDP
-        - name: worlds-port-25327
+        - name: worlds-25327
           containerPort: 25327
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25327
           protocol: UDP
-        - name: worlds-port-25328
+        - name: worlds-25328
           containerPort: 25328
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25328
           protocol: UDP
-        - name: worlds-port-25329
+        - name: worlds-25329
           containerPort: 25329
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25329
           protocol: UDP
-        - name: worlds-port-25330
+        - name: worlds-25330
           containerPort: 25330
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25330
           protocol: UDP
-        - name: worlds-port-25331
+        - name: worlds-25331
           containerPort: 25331
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25331
           protocol: UDP
-        - name: worlds-port-25332
+        - name: worlds-25332
           containerPort: 25332
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25332
           protocol: UDP
-        - name: worlds-port-25333
+        - name: worlds-25333
           containerPort: 25333
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25333
           protocol: UDP
-        - name: worlds-port-25334
+        - name: worlds-25334
           containerPort: 25334
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25334
           protocol: UDP
-        - name: worlds-port-25335
+        - name: worlds-25335
           containerPort: 25335
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25335
           protocol: UDP
-        - name: worlds-port-25336
+        - name: worlds-25336
           containerPort: 25336
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25336
           protocol: UDP
-        - name: worlds-port-25337
+        - name: worlds-25337
           containerPort: 25337
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25337
           protocol: UDP
-        - name: worlds-port-25338
+        - name: worlds-25338
           containerPort: 25338
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25338
           protocol: UDP
-        - name: worlds-port-25339
+        - name: worlds-25339
           containerPort: 25339
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25339
           protocol: UDP
-        - name: worlds-port-25340
+        - name: worlds-25340
           containerPort: 25340
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25340
           protocol: UDP
-        - name: worlds-port-25341
+        - name: worlds-25341
           containerPort: 25341
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25341
           protocol: UDP
-        - name: worlds-port-25342
+        - name: worlds-25342
           containerPort: 25342
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25342
           protocol: UDP
-        - name: worlds-port-25343
+        - name: worlds-25343
           containerPort: 25343
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25343
           protocol: UDP
-        - name: worlds-port-25344
+        - name: worlds-25344
           containerPort: 25344
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25344
           protocol: UDP
-        - name: worlds-port-25345
+        - name: worlds-25345
           containerPort: 25345
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25345
           protocol: UDP
-        - name: worlds-port-25346
+        - name: worlds-25346
           containerPort: 25346
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25346
           protocol: UDP
-        - name: worlds-port-25347
+        - name: worlds-25347
           containerPort: 25347
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25347
           protocol: UDP
-        - name: worlds-port-25348
+        - name: worlds-25348
           containerPort: 25348
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25348
           protocol: UDP
-        - name: worlds-port-25349
+        - name: worlds-25349
           containerPort: 25349
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25349
           protocol: UDP
-        - name: worlds-port-25350
+        - name: worlds-25350
           containerPort: 25350
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25350
           protocol: UDP
-        - name: worlds-port-25351
+        - name: worlds-25351
           containerPort: 25351
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25351
           protocol: UDP
-        - name: worlds-port-25352
+        - name: worlds-25352
           containerPort: 25352
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25352
           protocol: UDP
-        - name: worlds-port-25353
+        - name: worlds-25353
           containerPort: 25353
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25353
           protocol: UDP
-        - name: worlds-port-25354
+        - name: worlds-25354
           containerPort: 25354
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25354
           protocol: UDP
-        - name: worlds-port-25355
+        - name: worlds-25355
           containerPort: 25355
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25355
           protocol: UDP
-        - name: worlds-port-25356
+        - name: worlds-25356
           containerPort: 25356
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25356
           protocol: UDP
-        - name: worlds-port-25357
+        - name: worlds-25357
           containerPort: 25357
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25357
           protocol: UDP
-        - name: worlds-port-25358
+        - name: worlds-25358
           containerPort: 25358
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25358
           protocol: UDP
-        - name: worlds-port-25359
+        - name: worlds-25359
           containerPort: 25359
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25359
           protocol: UDP
-        - name: worlds-port-25360
+        - name: worlds-25360
           containerPort: 25360
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25360
           protocol: UDP
-        - name: worlds-port-25361
+        - name: worlds-25361
           containerPort: 25361
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25361
           protocol: UDP
-        - name: worlds-port-25362
+        - name: worlds-25362
           containerPort: 25362
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25362
           protocol: UDP
-        - name: worlds-port-25363
+        - name: worlds-25363
           containerPort: 25363
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25363
           protocol: UDP
-        - name: worlds-port-25364
+        - name: worlds-25364
           containerPort: 25364
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25364
           protocol: UDP
-        - name: worlds-port-25365
+        - name: worlds-25365
           containerPort: 25365
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25365
           protocol: UDP
-        - name: worlds-port-25366
+        - name: worlds-25366
           containerPort: 25366
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25366
           protocol: UDP
-        - name: worlds-port-25367
+        - name: worlds-25367
           containerPort: 25367
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25367
           protocol: UDP
-        - name: worlds-port-25368
+        - name: worlds-25368
           containerPort: 25368
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25368
           protocol: UDP
-        - name: worlds-port-25369
+        - name: worlds-25369
           containerPort: 25369
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25369
           protocol: UDP
-        - name: worlds-port-25370
+        - name: worlds-25370
           containerPort: 25370
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25370
           protocol: UDP
-        - name: worlds-port-25371
+        - name: worlds-25371
           containerPort: 25371
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25371
           protocol: UDP
-        - name: worlds-port-25372
+        - name: worlds-25372
           containerPort: 25372
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25372
           protocol: UDP
-        - name: worlds-port-25373
+        - name: worlds-25373
           containerPort: 25373
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25373
           protocol: UDP
-        - name: worlds-port-25374
+        - name: worlds-25374
           containerPort: 25374
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25374
           protocol: UDP
-        - name: worlds-port-25375
+        - name: worlds-25375
           containerPort: 25375
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25375
           protocol: UDP
-        - name: worlds-port-25376
+        - name: worlds-25376
           containerPort: 25376
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25376
           protocol: UDP
-        - name: worlds-port-25377
+        - name: worlds-25377
           containerPort: 25377
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25377
           protocol: UDP
-        - name: worlds-port-25378
+        - name: worlds-25378
           containerPort: 25378
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25378
           protocol: UDP
-        - name: worlds-port-25379
+        - name: worlds-25379
           containerPort: 25379
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25379
           protocol: UDP
-        - name: worlds-port-25380
+        - name: worlds-25380
           containerPort: 25380
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25380
           protocol: UDP
-        - name: worlds-port-25381
+        - name: worlds-25381
           containerPort: 25381
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25381
           protocol: UDP
-        - name: worlds-port-25382
+        - name: worlds-25382
           containerPort: 25382
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25382
           protocol: UDP
-        - name: worlds-port-25383
+        - name: worlds-25383
           containerPort: 25383
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25383
           protocol: UDP
-        - name: worlds-port-25384
+        - name: worlds-25384
           containerPort: 25384
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25384
           protocol: UDP
-        - name: worlds-port-25385
+        - name: worlds-25385
           containerPort: 25385
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25385
           protocol: UDP
-        - name: worlds-port-25386
+        - name: worlds-25386
           containerPort: 25386
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25386
           protocol: UDP
-        - name: worlds-port-25387
+        - name: worlds-25387
           containerPort: 25387
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25387
           protocol: UDP
-        - name: worlds-port-25388
+        - name: worlds-25388
           containerPort: 25388
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25388
           protocol: UDP
-        - name: worlds-port-25389
+        - name: worlds-25389
           containerPort: 25389
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25389
           protocol: UDP
-        - name: worlds-port-25390
+        - name: worlds-25390
           containerPort: 25390
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25390
           protocol: UDP
-        - name: worlds-port-25391
+        - name: worlds-25391
           containerPort: 25391
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25391
           protocol: UDP
-        - name: worlds-port-25392
+        - name: worlds-25392
           containerPort: 25392
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25392
           protocol: UDP
-        - name: worlds-port-25393
+        - name: worlds-25393
           containerPort: 25393
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25393
           protocol: UDP
-        - name: worlds-port-25394
+        - name: worlds-25394
           containerPort: 25394
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25394
           protocol: UDP
-        - name: worlds-port-25395
+        - name: worlds-25395
           containerPort: 25395
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25395
           protocol: UDP
-        - name: worlds-port-25396
+        - name: worlds-25396
           containerPort: 25396
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25396
           protocol: UDP
-        - name: worlds-port-25397
+        - name: worlds-25397
           containerPort: 25397
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25397
           protocol: UDP
-        - name: worlds-port-25398
+        - name: worlds-25398
           containerPort: 25398
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25398
           protocol: UDP
-        - name: worlds-port-25399
+        - name: worlds-25399
           containerPort: 25399
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25399
           protocol: UDP
-        - name: worlds-port-25400
+        - name: worlds-25400
           containerPort: 25400
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25400
           protocol: UDP
-        - name: worlds-port-25401
+        - name: worlds-25401
           containerPort: 25401
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25401
           protocol: UDP
-        - name: worlds-port-25402
+        - name: worlds-25402
           containerPort: 25402
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25402
           protocol: UDP
-        - name: worlds-port-25403
+        - name: worlds-25403
           containerPort: 25403
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25403
           protocol: UDP
-        - name: worlds-port-25404
+        - name: worlds-25404
           containerPort: 25404
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25404
           protocol: UDP
-        - name: worlds-port-25405
+        - name: worlds-25405
           containerPort: 25405
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25405
           protocol: UDP
-        - name: worlds-port-25406
+        - name: worlds-25406
           containerPort: 25406
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25406
           protocol: UDP
-        - name: worlds-port-25407
+        - name: worlds-25407
           containerPort: 25407
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25407
           protocol: UDP
-        - name: worlds-port-25408
+        - name: worlds-25408
           containerPort: 25408
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25408
           protocol: UDP
-        - name: worlds-port-25409
+        - name: worlds-25409
           containerPort: 25409
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25409
           protocol: UDP
-        - name: worlds-port-25410
+        - name: worlds-25410
           containerPort: 25410
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25410
           protocol: UDP
-        - name: worlds-port-25411
+        - name: worlds-25411
           containerPort: 25411
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25411
           protocol: UDP
-        - name: worlds-port-25412
+        - name: worlds-25412
           containerPort: 25412
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25412
           protocol: UDP
-        - name: worlds-port-25413
+        - name: worlds-25413
           containerPort: 25413
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25413
           protocol: UDP
-        - name: worlds-port-25414
+        - name: worlds-25414
           containerPort: 25414
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25414
           protocol: UDP
-        - name: worlds-port-25415
+        - name: worlds-25415
           containerPort: 25415
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25415
           protocol: UDP
-        - name: worlds-port-25416
+        - name: worlds-25416
           containerPort: 25416
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25416
           protocol: UDP
-        - name: worlds-port-25417
+        - name: worlds-25417
           containerPort: 25417
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25417
           protocol: UDP
-        - name: worlds-port-25418
+        - name: worlds-25418
           containerPort: 25418
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25418
           protocol: UDP
-        - name: worlds-port-25419
+        - name: worlds-25419
           containerPort: 25419
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25419
           protocol: UDP
-        - name: worlds-port-25420
+        - name: worlds-25420
           containerPort: 25420
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25420
           protocol: UDP
-        - name: worlds-port-25421
+        - name: worlds-25421
           containerPort: 25421
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25421
           protocol: UDP
-        - name: worlds-port-25422
+        - name: worlds-25422
           containerPort: 25422
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25422
           protocol: UDP
-        - name: worlds-port-25423
+        - name: worlds-25423
           containerPort: 25423
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25423
           protocol: UDP
-        - name: worlds-port-25424
+        - name: worlds-25424
           containerPort: 25424
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25424
           protocol: UDP
-        - name: worlds-port-25425
+        - name: worlds-25425
           containerPort: 25425
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25425
           protocol: UDP
-        - name: worlds-port-25426
+        - name: worlds-25426
           containerPort: 25426
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25426
           protocol: UDP
-        - name: worlds-port-25427
+        - name: worlds-25427
           containerPort: 25427
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25427
           protocol: UDP
-        - name: worlds-port-25428
+        - name: worlds-25428
           containerPort: 25428
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25428
           protocol: UDP
-        - name: worlds-port-25429
+        - name: worlds-25429
           containerPort: 25429
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25429
           protocol: UDP
-        - name: worlds-port-25430
+        - name: worlds-25430
           containerPort: 25430
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25430
           protocol: UDP
-        - name: worlds-port-25431
+        - name: worlds-25431
           containerPort: 25431
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25431
           protocol: UDP
-        - name: worlds-port-25432
+        - name: worlds-25432
           containerPort: 25432
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25432
           protocol: UDP
-        - name: worlds-port-25433
+        - name: worlds-25433
           containerPort: 25433
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25433
           protocol: UDP
-        - name: worlds-port-25434
+        - name: worlds-25434
           containerPort: 25434
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25434
           protocol: UDP
-        - name: worlds-port-25435
+        - name: worlds-25435
           containerPort: 25435
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25435
           protocol: UDP
-        - name: worlds-port-25436
+        - name: worlds-25436
           containerPort: 25436
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25436
           protocol: UDP
-        - name: worlds-port-25437
+        - name: worlds-25437
           containerPort: 25437
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25437
           protocol: UDP
-        - name: worlds-port-25438
+        - name: worlds-25438
           containerPort: 25438
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25438
           protocol: UDP
-        - name: worlds-port-25439
+        - name: worlds-25439
           containerPort: 25439
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25439
           protocol: UDP
-        - name: worlds-port-25440
+        - name: worlds-25440
           containerPort: 25440
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25440
           protocol: UDP
-        - name: worlds-port-25441
+        - name: worlds-25441
           containerPort: 25441
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25441
           protocol: UDP
-        - name: worlds-port-25442
+        - name: worlds-25442
           containerPort: 25442
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25442
           protocol: UDP
-        - name: worlds-port-25443
+        - name: worlds-25443
           containerPort: 25443
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25443
           protocol: UDP
-        - name: worlds-port-25444
+        - name: worlds-25444
           containerPort: 25444
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25444
           protocol: UDP
-        - name: worlds-port-25445
+        - name: worlds-25445
           containerPort: 25445
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25445
           protocol: UDP
-        - name: worlds-port-25446
+        - name: worlds-25446
           containerPort: 25446
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25446
           protocol: UDP
-        - name: worlds-port-25447
+        - name: worlds-25447
           containerPort: 25447
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25447
           protocol: UDP
-        - name: worlds-port-25448
+        - name: worlds-25448
           containerPort: 25448
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25448
           protocol: UDP
-        - name: worlds-port-25449
+        - name: worlds-25449
           containerPort: 25449
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25449
           protocol: UDP
-        - name: worlds-port-25450
+        - name: worlds-25450
           containerPort: 25450
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25450
           protocol: UDP
-        - name: worlds-port-25451
+        - name: worlds-25451
           containerPort: 25451
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25451
           protocol: UDP
-        - name: worlds-port-25452
+        - name: worlds-25452
           containerPort: 25452
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25452
           protocol: UDP
-        - name: worlds-port-25453
+        - name: worlds-25453
           containerPort: 25453
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25453
           protocol: UDP
-        - name: worlds-port-25454
+        - name: worlds-25454
           containerPort: 25454
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25454
           protocol: UDP
-        - name: worlds-port-25455
+        - name: worlds-25455
           containerPort: 25455
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25455
           protocol: UDP
-        - name: worlds-port-25456
+        - name: worlds-25456
           containerPort: 25456
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25456
           protocol: UDP
-        - name: worlds-port-25457
+        - name: worlds-25457
           containerPort: 25457
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25457
           protocol: UDP
-        - name: worlds-port-25458
+        - name: worlds-25458
           containerPort: 25458
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25458
           protocol: UDP
-        - name: worlds-port-25459
+        - name: worlds-25459
           containerPort: 25459
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25459
           protocol: UDP
-        - name: worlds-port-25460
+        - name: worlds-25460
           containerPort: 25460
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25460
           protocol: UDP
-        - name: worlds-port-25461
+        - name: worlds-25461
           containerPort: 25461
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25461
           protocol: UDP
-        - name: worlds-port-25462
+        - name: worlds-25462
           containerPort: 25462
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25462
           protocol: UDP
-        - name: worlds-port-25463
+        - name: worlds-25463
           containerPort: 25463
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25463
           protocol: UDP
-        - name: worlds-port-25464
+        - name: worlds-25464
           containerPort: 25464
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25464
           protocol: UDP
-        - name: worlds-port-25465
+        - name: worlds-25465
           containerPort: 25465
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25465
           protocol: UDP
-        - name: worlds-port-25466
+        - name: worlds-25466
           containerPort: 25466
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25466
           protocol: UDP
-        - name: worlds-port-25467
+        - name: worlds-25467
           containerPort: 25467
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25467
           protocol: UDP
-        - name: worlds-port-25468
+        - name: worlds-25468
           containerPort: 25468
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25468
           protocol: UDP
-        - name: worlds-port-25469
+        - name: worlds-25469
           containerPort: 25469
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25469
           protocol: UDP
-        - name: worlds-port-25470
+        - name: worlds-25470
           containerPort: 25470
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25470
           protocol: UDP
-        - name: worlds-port-25471
+        - name: worlds-25471
           containerPort: 25471
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25471
           protocol: UDP
-        - name: worlds-port-25472
+        - name: worlds-25472
           containerPort: 25472
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25472
           protocol: UDP
-        - name: worlds-port-25473
+        - name: worlds-25473
           containerPort: 25473
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25473
           protocol: UDP
-        - name: worlds-port-25474
+        - name: worlds-25474
           containerPort: 25474
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25474
           protocol: UDP
-        - name: worlds-port-25475
+        - name: worlds-25475
           containerPort: 25475
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25475
           protocol: UDP
-        - name: worlds-port-25476
+        - name: worlds-25476
           containerPort: 25476
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25476
           protocol: UDP
-        - name: worlds-port-25477
+        - name: worlds-25477
           containerPort: 25477
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25477
           protocol: UDP
-        - name: worlds-port-25478
+        - name: worlds-25478
           containerPort: 25478
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25478
           protocol: UDP
-        - name: worlds-port-25479
+        - name: worlds-25479
           containerPort: 25479
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25479
           protocol: UDP
-        - name: worlds-port-25480
+        - name: worlds-25480
           containerPort: 25480
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25480
           protocol: UDP
-        - name: worlds-port-25481
+        - name: worlds-25481
           containerPort: 25481
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25481
           protocol: UDP
-        - name: worlds-port-25482
+        - name: worlds-25482
           containerPort: 25482
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25482
           protocol: UDP
-        - name: worlds-port-25483
+        - name: worlds-25483
           containerPort: 25483
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25483
           protocol: UDP
-        - name: worlds-port-25484
+        - name: worlds-25484
           containerPort: 25484
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25484
           protocol: UDP
-        - name: worlds-port-25485
+        - name: worlds-25485
           containerPort: 25485
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25485
           protocol: UDP
-        - name: worlds-port-25486
+        - name: worlds-25486
           containerPort: 25486
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25486
           protocol: UDP
-        - name: worlds-port-25487
+        - name: worlds-25487
           containerPort: 25487
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25487
           protocol: UDP
-        - name: worlds-port-25488
+        - name: worlds-25488
           containerPort: 25488
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25488
           protocol: UDP
-        - name: worlds-port-25489
+        - name: worlds-25489
           containerPort: 25489
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25489
           protocol: UDP
-        - name: worlds-port-25490
+        - name: worlds-25490
           containerPort: 25490
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25490
           protocol: UDP
-        - name: worlds-port-25491
+        - name: worlds-25491
           containerPort: 25491
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25491
           protocol: UDP
-        - name: worlds-port-25492
+        - name: worlds-25492
           containerPort: 25492
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25492
           protocol: UDP
-        - name: worlds-port-25493
+        - name: worlds-25493
           containerPort: 25493
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25493
           protocol: UDP
-        - name: worlds-port-25494
+        - name: worlds-25494
           containerPort: 25494
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25494
           protocol: UDP
-        - name: worlds-port-25495
+        - name: worlds-25495
           containerPort: 25495
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25495
           protocol: UDP
-        - name: worlds-port-25496
+        - name: worlds-25496
           containerPort: 25496
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25496
           protocol: UDP
-        - name: worlds-port-25497
+        - name: worlds-25497
           containerPort: 25497
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25497
           protocol: UDP
-        - name: worlds-port-25498
+        - name: worlds-25498
           containerPort: 25498
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25498
           protocol: UDP
-        - name: worlds-port-25499
+        - name: worlds-25499
           containerPort: 25499
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25499
           protocol: UDP
-        - name: worlds-port-25500
+        - name: worlds-25500
           containerPort: 25500
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25500
           protocol: UDP
-        - name: worlds-port-25501
+        - name: worlds-25501
           containerPort: 25501
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25501
           protocol: UDP
-        - name: worlds-port-25502
+        - name: worlds-25502
           containerPort: 25502
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25502
           protocol: UDP
-        - name: worlds-port-25503
+        - name: worlds-25503
           containerPort: 25503
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25503
           protocol: UDP
-        - name: worlds-port-25504
+        - name: worlds-25504
           containerPort: 25504
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25504
           protocol: UDP
-        - name: worlds-port-25505
+        - name: worlds-25505
           containerPort: 25505
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25505
           protocol: UDP
-        - name: worlds-port-25506
+        - name: worlds-25506
           containerPort: 25506
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25506
           protocol: UDP
-        - name: worlds-port-25507
+        - name: worlds-25507
           containerPort: 25507
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25507
           protocol: UDP
-        - name: worlds-port-25508
+        - name: worlds-25508
           containerPort: 25508
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25508
           protocol: UDP
-        - name: worlds-port-25509
+        - name: worlds-25509
           containerPort: 25509
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25509
           protocol: UDP
-        - name: worlds-port-25510
+        - name: worlds-25510
           containerPort: 25510
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25510
           protocol: UDP
-        - name: worlds-port-25511
+        - name: worlds-25511
           containerPort: 25511
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25511
           protocol: UDP
-        - name: worlds-port-25512
+        - name: worlds-25512
           containerPort: 25512
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25512
           protocol: UDP
-        - name: worlds-port-25513
+        - name: worlds-25513
           containerPort: 25513
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25513
           protocol: UDP
-        - name: worlds-port-25514
+        - name: worlds-25514
           containerPort: 25514
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25514
           protocol: UDP
-        - name: worlds-port-25515
+        - name: worlds-25515
           containerPort: 25515
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25515
           protocol: UDP
-        - name: worlds-port-25516
+        - name: worlds-25516
           containerPort: 25516
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25516
           protocol: UDP
-        - name: worlds-port-25517
+        - name: worlds-25517
           containerPort: 25517
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25517
           protocol: UDP
-        - name: worlds-port-25518
+        - name: worlds-25518
           containerPort: 25518
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25518
           protocol: UDP
-        - name: worlds-port-25519
+        - name: worlds-25519
           containerPort: 25519
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25519
           protocol: UDP
-        - name: worlds-port-25520
+        - name: worlds-25520
           containerPort: 25520
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25520
           protocol: UDP
-        - name: worlds-port-25521
+        - name: worlds-25521
           containerPort: 25521
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25521
           protocol: UDP
-        - name: worlds-port-25522
+        - name: worlds-25522
           containerPort: 25522
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25522
           protocol: UDP
-        - name: worlds-port-25523
+        - name: worlds-25523
           containerPort: 25523
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25523
           protocol: UDP
-        - name: worlds-port-25524
+        - name: worlds-25524
           containerPort: 25524
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25524
           protocol: UDP
-        - name: worlds-port-25525
+        - name: worlds-25525
           containerPort: 25525
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25525
           protocol: UDP
-        - name: worlds-port-25526
+        - name: worlds-25526
           containerPort: 25526
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25526
           protocol: UDP
-        - name: worlds-port-25527
+        - name: worlds-25527
           containerPort: 25527
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25527
           protocol: UDP
-        - name: worlds-port-25528
+        - name: worlds-25528
           containerPort: 25528
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25528
           protocol: UDP
-        - name: worlds-port-25529
+        - name: worlds-25529
           containerPort: 25529
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25529
           protocol: UDP
-        - name: worlds-port-25530
+        - name: worlds-25530
           containerPort: 25530
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25530
           protocol: UDP
-        - name: worlds-port-25531
+        - name: worlds-25531
           containerPort: 25531
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25531
           protocol: UDP
-        - name: worlds-port-25532
+        - name: worlds-25532
           containerPort: 25532
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25532
           protocol: UDP
-        - name: worlds-port-25533
+        - name: worlds-25533
           containerPort: 25533
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25533
           protocol: UDP
-        - name: worlds-port-25534
+        - name: worlds-25534
           containerPort: 25534
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25534
           protocol: UDP
-        - name: worlds-port-25535
+        - name: worlds-25535
           containerPort: 25535
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25535
           protocol: UDP
-        - name: worlds-port-25536
+        - name: worlds-25536
           containerPort: 25536
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25536
           protocol: UDP
-        - name: worlds-port-25537
+        - name: worlds-25537
           containerPort: 25537
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25537
           protocol: UDP
-        - name: worlds-port-25538
+        - name: worlds-25538
           containerPort: 25538
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25538
           protocol: UDP
-        - name: worlds-port-25539
+        - name: worlds-25539
           containerPort: 25539
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25539
           protocol: UDP
-        - name: worlds-port-25540
+        - name: worlds-25540
           containerPort: 25540
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25540
           protocol: UDP
-        - name: worlds-port-25541
+        - name: worlds-25541
           containerPort: 25541
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25541
           protocol: UDP
-        - name: worlds-port-25542
+        - name: worlds-25542
           containerPort: 25542
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25542
           protocol: UDP
-        - name: worlds-port-25543
+        - name: worlds-25543
           containerPort: 25543
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25543
           protocol: UDP
-        - name: worlds-port-25544
+        - name: worlds-25544
           containerPort: 25544
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25544
           protocol: UDP
-        - name: worlds-port-25545
+        - name: worlds-25545
           containerPort: 25545
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25545
           protocol: UDP
-        - name: worlds-port-25546
+        - name: worlds-25546
           containerPort: 25546
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25546
           protocol: UDP
-        - name: worlds-port-25547
+        - name: worlds-25547
           containerPort: 25547
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25547
           protocol: UDP
-        - name: worlds-port-25548
+        - name: worlds-25548
           containerPort: 25548
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25548
           protocol: UDP
-        - name: worlds-port-25549
+        - name: worlds-25549
           containerPort: 25549
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25549
           protocol: UDP
-        - name: worlds-port-25550
+        - name: worlds-25550
           containerPort: 25550
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25550
           protocol: UDP
-        - name: worlds-port-25551
+        - name: worlds-25551
           containerPort: 25551
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25551
           protocol: UDP
-        - name: worlds-port-25552
+        - name: worlds-25552
           containerPort: 25552
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25552
           protocol: UDP
-        - name: worlds-port-25553
+        - name: worlds-25553
           containerPort: 25553
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25553
           protocol: UDP
-        - name: worlds-port-25554
+        - name: worlds-25554
           containerPort: 25554
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25554
           protocol: UDP
-        - name: worlds-port-25555
+        - name: worlds-25555
           containerPort: 25555
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25555
           protocol: UDP
-        - name: worlds-port-25556
+        - name: worlds-25556
           containerPort: 25556
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25556
           protocol: UDP
-        - name: worlds-port-25557
+        - name: worlds-25557
           containerPort: 25557
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25557
           protocol: UDP
-        - name: worlds-port-25558
+        - name: worlds-25558
           containerPort: 25558
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25558
           protocol: UDP
-        - name: worlds-port-25559
+        - name: worlds-25559
           containerPort: 25559
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25559
           protocol: UDP
-        - name: worlds-port-25560
+        - name: worlds-25560
           containerPort: 25560
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25560
           protocol: UDP
-        - name: worlds-port-25561
+        - name: worlds-25561
           containerPort: 25561
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25561
           protocol: UDP
-        - name: worlds-port-25562
+        - name: worlds-25562
           containerPort: 25562
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25562
           protocol: UDP
-        - name: worlds-port-25563
+        - name: worlds-25563
           containerPort: 25563
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25563
           protocol: UDP
-        - name: worlds-port-25564
+        - name: worlds-25564
           containerPort: 25564
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25564
           protocol: UDP
-        - name: worlds-port-25565
+        - name: worlds-25565
           containerPort: 25565
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25565
           protocol: UDP
-        - name: worlds-port-25566
+        - name: worlds-25566
           containerPort: 25566
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25566
           protocol: UDP
-        - name: worlds-port-25567
+        - name: worlds-25567
           containerPort: 25567
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25567
           protocol: UDP
-        - name: worlds-port-25568
+        - name: worlds-25568
           containerPort: 25568
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25568
           protocol: UDP
-        - name: worlds-port-25569
+        - name: worlds-25569
           containerPort: 25569
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25569
           protocol: UDP
-        - name: worlds-port-25570
+        - name: worlds-25570
           containerPort: 25570
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25570
           protocol: UDP
-        - name: worlds-port-25571
+        - name: worlds-25571
           containerPort: 25571
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25571
           protocol: UDP
-        - name: worlds-port-25572
+        - name: worlds-25572
           containerPort: 25572
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25572
           protocol: UDP
-        - name: worlds-port-25573
+        - name: worlds-25573
           containerPort: 25573
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25573
           protocol: UDP
-        - name: worlds-port-25574
+        - name: worlds-25574
           containerPort: 25574
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25574
           protocol: UDP
-        - name: worlds-port-25575
+        - name: worlds-25575
           containerPort: 25575
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25575
           protocol: UDP
-        - name: worlds-port-25576
+        - name: worlds-25576
           containerPort: 25576
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25576
           protocol: UDP
-        - name: worlds-port-25577
+        - name: worlds-25577
           containerPort: 25577
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25577
           protocol: UDP
-        - name: worlds-port-25578
+        - name: worlds-25578
           containerPort: 25578
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25578
           protocol: UDP
-        - name: worlds-port-25579
+        - name: worlds-25579
           containerPort: 25579
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25579
           protocol: UDP
-        - name: worlds-port-25580
+        - name: worlds-25580
           containerPort: 25580
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25580
           protocol: UDP
-        - name: worlds-port-25581
+        - name: worlds-25581
           containerPort: 25581
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25581
           protocol: UDP
-        - name: worlds-port-25582
+        - name: worlds-25582
           containerPort: 25582
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25582
           protocol: UDP
-        - name: worlds-port-25583
+        - name: worlds-25583
           containerPort: 25583
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25583
           protocol: UDP
-        - name: worlds-port-25584
+        - name: worlds-25584
           containerPort: 25584
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25584
           protocol: UDP
-        - name: worlds-port-25585
+        - name: worlds-25585
           containerPort: 25585
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25585
           protocol: UDP
-        - name: worlds-port-25586
+        - name: worlds-25586
           containerPort: 25586
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25586
           protocol: UDP
-        - name: worlds-port-25587
+        - name: worlds-25587
           containerPort: 25587
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25587
           protocol: UDP
-        - name: worlds-port-25588
+        - name: worlds-25588
           containerPort: 25588
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25588
           protocol: UDP
-        - name: worlds-port-25589
+        - name: worlds-25589
           containerPort: 25589
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25589
           protocol: UDP
-        - name: worlds-port-25590
+        - name: worlds-25590
           containerPort: 25590
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25590
           protocol: UDP
-        - name: worlds-port-25591
+        - name: worlds-25591
           containerPort: 25591
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25591
           protocol: UDP
-        - name: worlds-port-25592
+        - name: worlds-25592
           containerPort: 25592
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25592
           protocol: UDP
-        - name: worlds-port-25593
+        - name: worlds-25593
           containerPort: 25593
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25593
           protocol: UDP
-        - name: worlds-port-25594
+        - name: worlds-25594
           containerPort: 25594
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25594
           protocol: UDP
-        - name: worlds-port-25595
+        - name: worlds-25595
           containerPort: 25595
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25595
           protocol: UDP
-        - name: worlds-port-25596
+        - name: worlds-25596
           containerPort: 25596
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25596
           protocol: UDP
-        - name: worlds-port-25597
+        - name: worlds-25597
           containerPort: 25597
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25597
           protocol: UDP
-        - name: worlds-port-25598
+        - name: worlds-25598
           containerPort: 25598
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25598
           protocol: UDP
-        - name: worlds-port-25599
+        - name: worlds-25599
           containerPort: 25599
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25599
           protocol: UDP
-        - name: worlds-port-25600
+        - name: worlds-25600
           containerPort: 25600
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25600
           protocol: UDP
-        - name: worlds-port-25601
+        - name: worlds-25601
           containerPort: 25601
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25601
           protocol: UDP
-        - name: worlds-port-25602
+        - name: worlds-25602
           containerPort: 25602
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25602
           protocol: UDP
-        - name: worlds-port-25603
+        - name: worlds-25603
           containerPort: 25603
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25603
           protocol: UDP
-        - name: worlds-port-25604
+        - name: worlds-25604
           containerPort: 25604
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25604
           protocol: UDP
-        - name: worlds-port-25605
+        - name: worlds-25605
           containerPort: 25605
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25605
           protocol: UDP
-        - name: worlds-port-25606
+        - name: worlds-25606
           containerPort: 25606
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25606
           protocol: UDP
-        - name: worlds-port-25607
+        - name: worlds-25607
           containerPort: 25607
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25607
           protocol: UDP
-        - name: worlds-port-25608
+        - name: worlds-25608
           containerPort: 25608
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25608
           protocol: UDP
-        - name: worlds-port-25609
+        - name: worlds-25609
           containerPort: 25609
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25609
           protocol: UDP
-        - name: worlds-port-25610
+        - name: worlds-25610
           containerPort: 25610
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25610
           protocol: UDP
-        - name: worlds-port-25611
+        - name: worlds-25611
           containerPort: 25611
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25611
           protocol: UDP
-        - name: worlds-port-25612
+        - name: worlds-25612
           containerPort: 25612
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25612
           protocol: UDP
-        - name: worlds-port-25613
+        - name: worlds-25613
           containerPort: 25613
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25613
           protocol: UDP
-        - name: worlds-port-25614
+        - name: worlds-25614
           containerPort: 25614
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25614
           protocol: UDP
-        - name: worlds-port-25615
+        - name: worlds-25615
           containerPort: 25615
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25615
           protocol: UDP
-        - name: worlds-port-25616
+        - name: worlds-25616
           containerPort: 25616
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25616
           protocol: UDP
-        - name: worlds-port-25617
+        - name: worlds-25617
           containerPort: 25617
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25617
           protocol: UDP
-        - name: worlds-port-25618
+        - name: worlds-25618
           containerPort: 25618
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25618
           protocol: UDP
-        - name: worlds-port-25619
+        - name: worlds-25619
           containerPort: 25619
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25619
           protocol: UDP
-        - name: worlds-port-25620
+        - name: worlds-25620
           containerPort: 25620
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25620
           protocol: UDP
-        - name: worlds-port-25621
+        - name: worlds-25621
           containerPort: 25621
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25621
           protocol: UDP
-        - name: worlds-port-25622
+        - name: worlds-25622
           containerPort: 25622
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25622
           protocol: UDP
-        - name: worlds-port-25623
+        - name: worlds-25623
           containerPort: 25623
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25623
           protocol: UDP
-        - name: worlds-port-25624
+        - name: worlds-25624
           containerPort: 25624
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25624
           protocol: UDP
-        - name: worlds-port-25625
+        - name: worlds-25625
           containerPort: 25625
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25625
           protocol: UDP
-        - name: worlds-port-25626
+        - name: worlds-25626
           containerPort: 25626
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25626
           protocol: UDP
-        - name: worlds-port-25627
+        - name: worlds-25627
           containerPort: 25627
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25627
           protocol: UDP
-        - name: worlds-port-25628
+        - name: worlds-25628
           containerPort: 25628
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25628
           protocol: UDP
-        - name: worlds-port-25629
+        - name: worlds-25629
           containerPort: 25629
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25629
           protocol: UDP
-        - name: worlds-port-25630
+        - name: worlds-25630
           containerPort: 25630
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25630
           protocol: UDP
-        - name: worlds-port-25631
+        - name: worlds-25631
           containerPort: 25631
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25631
           protocol: UDP
-        - name: worlds-port-25632
+        - name: worlds-25632
           containerPort: 25632
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25632
           protocol: UDP
-        - name: worlds-port-25633
+        - name: worlds-25633
           containerPort: 25633
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25633
           protocol: UDP
-        - name: worlds-port-25634
+        - name: worlds-25634
           containerPort: 25634
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25634
           protocol: UDP
-        - name: worlds-port-25635
+        - name: worlds-25635
           containerPort: 25635
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25635
           protocol: UDP
-        - name: worlds-port-25636
+        - name: worlds-25636
           containerPort: 25636
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25636
           protocol: UDP
-        - name: worlds-port-25637
+        - name: worlds-25637
           containerPort: 25637
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25637
           protocol: UDP
-        - name: worlds-port-25638
+        - name: worlds-25638
           containerPort: 25638
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25638
           protocol: UDP
-        - name: worlds-port-25639
+        - name: worlds-25639
           containerPort: 25639
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25639
           protocol: UDP
-        - name: worlds-port-25640
+        - name: worlds-25640
           containerPort: 25640
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25640
           protocol: UDP
-        - name: worlds-port-25641
+        - name: worlds-25641
           containerPort: 25641
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25641
           protocol: UDP
-        - name: worlds-port-25642
+        - name: worlds-25642
           containerPort: 25642
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25642
           protocol: UDP
-        - name: worlds-port-25643
+        - name: worlds-25643
           containerPort: 25643
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25643
           protocol: UDP
-        - name: worlds-port-25644
+        - name: worlds-25644
           containerPort: 25644
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25644
           protocol: UDP
-        - name: worlds-port-25645
+        - name: worlds-25645
           containerPort: 25645
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25645
           protocol: UDP
-        - name: worlds-port-25646
+        - name: worlds-25646
           containerPort: 25646
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25646
           protocol: UDP
-        - name: worlds-port-25647
+        - name: worlds-25647
           containerPort: 25647
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25647
           protocol: UDP
-        - name: worlds-port-25648
+        - name: worlds-25648
           containerPort: 25648
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25648
           protocol: UDP
-        - name: worlds-port-25649
+        - name: worlds-25649
           containerPort: 25649
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25649
           protocol: UDP
-        - name: worlds-port-25650
+        - name: worlds-25650
           containerPort: 25650
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25650
           protocol: UDP
-        - name: worlds-port-25651
+        - name: worlds-25651
           containerPort: 25651
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25651
           protocol: UDP
-        - name: worlds-port-25652
+        - name: worlds-25652
           containerPort: 25652
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25652
           protocol: UDP
-        - name: worlds-port-25653
+        - name: worlds-25653
           containerPort: 25653
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25653
           protocol: UDP
-        - name: worlds-port-25654
+        - name: worlds-25654
           containerPort: 25654
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25654
           protocol: UDP
-        - name: worlds-port-25655
+        - name: worlds-25655
           containerPort: 25655
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25655
           protocol: UDP
-        - name: worlds-port-25656
+        - name: worlds-25656
           containerPort: 25656
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25656
           protocol: UDP
-        - name: worlds-port-25657
+        - name: worlds-25657
           containerPort: 25657
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25657
           protocol: UDP
-        - name: worlds-port-25658
+        - name: worlds-25658
           containerPort: 25658
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25658
           protocol: UDP
-        - name: worlds-port-25659
+        - name: worlds-25659
           containerPort: 25659
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25659
           protocol: UDP
-        - name: worlds-port-25660
+        - name: worlds-25660
           containerPort: 25660
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25660
           protocol: UDP
-        - name: worlds-port-25661
+        - name: worlds-25661
           containerPort: 25661
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25661
           protocol: UDP
-        - name: worlds-port-25662
+        - name: worlds-25662
           containerPort: 25662
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25662
           protocol: UDP
-        - name: worlds-port-25663
+        - name: worlds-25663
           containerPort: 25663
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25663
           protocol: UDP
-        - name: worlds-port-25664
+        - name: worlds-25664
           containerPort: 25664
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25664
           protocol: UDP
-        - name: worlds-port-25665
+        - name: worlds-25665
           containerPort: 25665
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25665
           protocol: UDP
-        - name: worlds-port-25666
+        - name: worlds-25666
           containerPort: 25666
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25666
           protocol: UDP
-        - name: worlds-port-25667
+        - name: worlds-25667
           containerPort: 25667
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25667
           protocol: UDP
-        - name: worlds-port-25668
+        - name: worlds-25668
           containerPort: 25668
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25668
           protocol: UDP
-        - name: worlds-port-25669
+        - name: worlds-25669
           containerPort: 25669
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25669
           protocol: UDP
-        - name: worlds-port-25670
+        - name: worlds-25670
           containerPort: 25670
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25670
           protocol: UDP
-        - name: worlds-port-25671
+        - name: worlds-25671
           containerPort: 25671
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25671
           protocol: UDP
-        - name: worlds-port-25672
+        - name: worlds-25672
           containerPort: 25672
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25672
           protocol: UDP
-        - name: worlds-port-25673
+        - name: worlds-25673
           containerPort: 25673
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25673
           protocol: UDP
-        - name: worlds-port-25674
+        - name: worlds-25674
           containerPort: 25674
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25674
           protocol: UDP
-        - name: worlds-port-25675
+        - name: worlds-25675
           containerPort: 25675
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25675
           protocol: UDP
-        - name: worlds-port-25676
+        - name: worlds-25676
           containerPort: 25676
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25676
           protocol: UDP
-        - name: worlds-port-25677
+        - name: worlds-25677
           containerPort: 25677
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25677
           protocol: UDP
-        - name: worlds-port-25678
+        - name: worlds-25678
           containerPort: 25678
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25678
           protocol: UDP
-        - name: worlds-port-25679
+        - name: worlds-25679
           containerPort: 25679
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25679
           protocol: UDP
-        - name: worlds-port-25680
+        - name: worlds-25680
           containerPort: 25680
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25680
           protocol: UDP
-        - name: worlds-port-25681
+        - name: worlds-25681
           containerPort: 25681
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25681
           protocol: UDP
-        - name: worlds-port-25682
+        - name: worlds-25682
           containerPort: 25682
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25682
           protocol: UDP
-        - name: worlds-port-25683
+        - name: worlds-25683
           containerPort: 25683
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25683
           protocol: UDP
-        - name: worlds-port-25684
+        - name: worlds-25684
           containerPort: 25684
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25684
           protocol: UDP
-        - name: worlds-port-25685
+        - name: worlds-25685
           containerPort: 25685
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25685
           protocol: UDP
-        - name: worlds-port-25686
+        - name: worlds-25686
           containerPort: 25686
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25686
           protocol: UDP
-        - name: worlds-port-25687
+        - name: worlds-25687
           containerPort: 25687
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25687
           protocol: UDP
-        - name: worlds-port-25688
+        - name: worlds-25688
           containerPort: 25688
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25688
           protocol: UDP
-        - name: worlds-port-25689
+        - name: worlds-25689
           containerPort: 25689
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25689
           protocol: UDP
-        - name: worlds-port-25690
+        - name: worlds-25690
           containerPort: 25690
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25690
           protocol: UDP
-        - name: worlds-port-25691
+        - name: worlds-25691
           containerPort: 25691
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25691
           protocol: UDP
-        - name: worlds-port-25692
+        - name: worlds-25692
           containerPort: 25692
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25692
           protocol: UDP
-        - name: worlds-port-25693
+        - name: worlds-25693
           containerPort: 25693
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25693
           protocol: UDP
-        - name: worlds-port-25694
+        - name: worlds-25694
           containerPort: 25694
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25694
           protocol: UDP
-        - name: worlds-port-25695
+        - name: worlds-25695
           containerPort: 25695
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25695
           protocol: UDP
-        - name: worlds-port-25696
+        - name: worlds-25696
           containerPort: 25696
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25696
           protocol: UDP
-        - name: worlds-port-25697
+        - name: worlds-25697
           containerPort: 25697
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25697
           protocol: UDP
-        - name: worlds-port-25698
+        - name: worlds-25698
           containerPort: 25698
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25698
           protocol: UDP
-        - name: worlds-port-25699
+        - name: worlds-25699
           containerPort: 25699
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25699
           protocol: UDP
-        - name: worlds-port-25700
+        - name: worlds-25700
           containerPort: 25700
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25700
           protocol: UDP
-        - name: worlds-port-25701
+        - name: worlds-25701
           containerPort: 25701
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25701
           protocol: UDP
-        - name: worlds-port-25702
+        - name: worlds-25702
           containerPort: 25702
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25702
           protocol: UDP
-        - name: worlds-port-25703
+        - name: worlds-25703
           containerPort: 25703
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25703
           protocol: UDP
-        - name: worlds-port-25704
+        - name: worlds-25704
           containerPort: 25704
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25704
           protocol: UDP
-        - name: worlds-port-25705
+        - name: worlds-25705
           containerPort: 25705
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25705
           protocol: UDP
-        - name: worlds-port-25706
+        - name: worlds-25706
           containerPort: 25706
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25706
           protocol: UDP
-        - name: worlds-port-25707
+        - name: worlds-25707
           containerPort: 25707
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25707
           protocol: UDP
-        - name: worlds-port-25708
+        - name: worlds-25708
           containerPort: 25708
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25708
           protocol: UDP
-        - name: worlds-port-25709
+        - name: worlds-25709
           containerPort: 25709
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25709
           protocol: UDP
-        - name: worlds-port-25710
+        - name: worlds-25710
           containerPort: 25710
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25710
           protocol: UDP
-        - name: worlds-port-25711
+        - name: worlds-25711
           containerPort: 25711
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25711
           protocol: UDP
-        - name: worlds-port-25712
+        - name: worlds-25712
           containerPort: 25712
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25712
           protocol: UDP
-        - name: worlds-port-25713
+        - name: worlds-25713
           containerPort: 25713
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25713
           protocol: UDP
-        - name: worlds-port-25714
+        - name: worlds-25714
           containerPort: 25714
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25714
           protocol: UDP
-        - name: worlds-port-25715
+        - name: worlds-25715
           containerPort: 25715
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25715
           protocol: UDP
-        - name: worlds-port-25716
+        - name: worlds-25716
           containerPort: 25716
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25716
           protocol: UDP
-        - name: worlds-port-25717
+        - name: worlds-25717
           containerPort: 25717
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25717
           protocol: UDP
-        - name: worlds-port-25718
+        - name: worlds-25718
           containerPort: 25718
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25718
           protocol: UDP
-        - name: worlds-port-25719
+        - name: worlds-25719
           containerPort: 25719
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25719
           protocol: UDP
-        - name: worlds-port-25720
+        - name: worlds-25720
           containerPort: 25720
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25720
           protocol: UDP
-        - name: worlds-port-25721
+        - name: worlds-25721
           containerPort: 25721
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25721
           protocol: UDP
-        - name: worlds-port-25722
+        - name: worlds-25722
           containerPort: 25722
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25722
           protocol: UDP
-        - name: worlds-port-25723
+        - name: worlds-25723
           containerPort: 25723
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25723
           protocol: UDP
-        - name: worlds-port-25724
+        - name: worlds-25724
           containerPort: 25724
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25724
           protocol: UDP
-        - name: worlds-port-25725
+        - name: worlds-25725
           containerPort: 25725
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25725
           protocol: UDP
-        - name: worlds-port-25726
+        - name: worlds-25726
           containerPort: 25726
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25726
           protocol: UDP
-        - name: worlds-port-25727
+        - name: worlds-25727
           containerPort: 25727
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25727
           protocol: UDP
-        - name: worlds-port-25728
+        - name: worlds-25728
           containerPort: 25728
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25728
           protocol: UDP
-        - name: worlds-port-25729
+        - name: worlds-25729
           containerPort: 25729
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25729
           protocol: UDP
-        - name: worlds-port-25730
+        - name: worlds-25730
           containerPort: 25730
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25730
           protocol: UDP
-        - name: worlds-port-25731
+        - name: worlds-25731
           containerPort: 25731
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25731
           protocol: UDP
-        - name: worlds-port-25732
+        - name: worlds-25732
           containerPort: 25732
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25732
           protocol: UDP
-        - name: worlds-port-25733
+        - name: worlds-25733
           containerPort: 25733
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25733
           protocol: UDP
-        - name: worlds-port-25734
+        - name: worlds-25734
           containerPort: 25734
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25734
           protocol: UDP
-        - name: worlds-port-25735
+        - name: worlds-25735
           containerPort: 25735
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25735
           protocol: UDP
-        - name: worlds-port-25736
+        - name: worlds-25736
           containerPort: 25736
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25736
           protocol: UDP
-        - name: worlds-port-25737
+        - name: worlds-25737
           containerPort: 25737
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25737
           protocol: UDP
-        - name: worlds-port-25738
+        - name: worlds-25738
           containerPort: 25738
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25738
           protocol: UDP
-        - name: worlds-port-25739
+        - name: worlds-25739
           containerPort: 25739
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25739
           protocol: UDP
-        - name: worlds-port-25740
+        - name: worlds-25740
           containerPort: 25740
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25740
           protocol: UDP
-        - name: worlds-port-25741
+        - name: worlds-25741
           containerPort: 25741
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25741
           protocol: UDP
-        - name: worlds-port-25742
+        - name: worlds-25742
           containerPort: 25742
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25742
           protocol: UDP
-        - name: worlds-port-25743
+        - name: worlds-25743
           containerPort: 25743
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25743
           protocol: UDP
-        - name: worlds-port-25744
+        - name: worlds-25744
           containerPort: 25744
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25744
           protocol: UDP
-        - name: worlds-port-25745
+        - name: worlds-25745
           containerPort: 25745
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25745
           protocol: UDP
-        - name: worlds-port-25746
+        - name: worlds-25746
           containerPort: 25746
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25746
           protocol: UDP
-        - name: worlds-port-25747
+        - name: worlds-25747
           containerPort: 25747
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25747
           protocol: UDP
-        - name: worlds-port-25748
+        - name: worlds-25748
           containerPort: 25748
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25748
           protocol: UDP
-        - name: worlds-port-25749
+        - name: worlds-25749
           containerPort: 25749
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25749
           protocol: UDP
-        - name: worlds-port-25750
+        - name: worlds-25750
           containerPort: 25750
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25750
           protocol: UDP
-        - name: worlds-port-25751
+        - name: worlds-25751
           containerPort: 25751
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25751
           protocol: UDP
-        - name: worlds-port-25752
+        - name: worlds-25752
           containerPort: 25752
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25752
           protocol: UDP
-        - name: worlds-port-25753
+        - name: worlds-25753
           containerPort: 25753
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25753
           protocol: UDP
-        - name: worlds-port-25754
+        - name: worlds-25754
           containerPort: 25754
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25754
           protocol: UDP
-        - name: worlds-port-25755
+        - name: worlds-25755
           containerPort: 25755
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25755
           protocol: UDP
-        - name: worlds-port-25756
+        - name: worlds-25756
           containerPort: 25756
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25756
           protocol: UDP
-        - name: worlds-port-25757
+        - name: worlds-25757
           containerPort: 25757
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25757
           protocol: UDP
-        - name: worlds-port-25758
+        - name: worlds-25758
           containerPort: 25758
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25758
           protocol: UDP
-        - name: worlds-port-25759
+        - name: worlds-25759
           containerPort: 25759
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25759
           protocol: UDP
-        - name: worlds-port-25760
+        - name: worlds-25760
           containerPort: 25760
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25760
           protocol: UDP
-        - name: worlds-port-25761
+        - name: worlds-25761
           containerPort: 25761
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25761
           protocol: UDP
-        - name: worlds-port-25762
+        - name: worlds-25762
           containerPort: 25762
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25762
           protocol: UDP
-        - name: worlds-port-25763
+        - name: worlds-25763
           containerPort: 25763
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25763
           protocol: UDP
-        - name: worlds-port-25764
+        - name: worlds-25764
           containerPort: 25764
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25764
           protocol: UDP
-        - name: worlds-port-25765
+        - name: worlds-25765
           containerPort: 25765
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25765
           protocol: UDP
-        - name: worlds-port-25766
+        - name: worlds-25766
           containerPort: 25766
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25766
           protocol: UDP
-        - name: worlds-port-25767
+        - name: worlds-25767
           containerPort: 25767
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25767
           protocol: UDP
-        - name: worlds-port-25768
+        - name: worlds-25768
           containerPort: 25768
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25768
           protocol: UDP
-        - name: worlds-port-25769
+        - name: worlds-25769
           containerPort: 25769
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25769
           protocol: UDP
-        - name: worlds-port-25770
+        - name: worlds-25770
           containerPort: 25770
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25770
           protocol: UDP
-        - name: worlds-port-25771
+        - name: worlds-25771
           containerPort: 25771
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25771
           protocol: UDP
-        - name: worlds-port-25772
+        - name: worlds-25772
           containerPort: 25772
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25772
           protocol: UDP
-        - name: worlds-port-25773
+        - name: worlds-25773
           containerPort: 25773
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25773
           protocol: UDP
-        - name: worlds-port-25774
+        - name: worlds-25774
           containerPort: 25774
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25774
           protocol: UDP
-        - name: worlds-port-25775
+        - name: worlds-25775
           containerPort: 25775
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25775
           protocol: UDP
-        - name: worlds-port-25776
+        - name: worlds-25776
           containerPort: 25776
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25776
           protocol: UDP
-        - name: worlds-port-25777
+        - name: worlds-25777
           containerPort: 25777
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25777
           protocol: UDP
-        - name: worlds-port-25778
+        - name: worlds-25778
           containerPort: 25778
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25778
           protocol: UDP
-        - name: worlds-port-25779
+        - name: worlds-25779
           containerPort: 25779
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25779
           protocol: UDP
-        - name: worlds-port-25780
+        - name: worlds-25780
           containerPort: 25780
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25780
           protocol: UDP
-        - name: worlds-port-25781
+        - name: worlds-25781
           containerPort: 25781
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25781
           protocol: UDP
-        - name: worlds-port-25782
+        - name: worlds-25782
           containerPort: 25782
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25782
           protocol: UDP
-        - name: worlds-port-25783
+        - name: worlds-25783
           containerPort: 25783
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25783
           protocol: UDP
-        - name: worlds-port-25784
+        - name: worlds-25784
           containerPort: 25784
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25784
           protocol: UDP
-        - name: worlds-port-25785
+        - name: worlds-25785
           containerPort: 25785
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25785
           protocol: UDP
-        - name: worlds-port-25786
+        - name: worlds-25786
           containerPort: 25786
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25786
           protocol: UDP
-        - name: worlds-port-25787
+        - name: worlds-25787
           containerPort: 25787
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25787
           protocol: UDP
-        - name: worlds-port-25788
+        - name: worlds-25788
           containerPort: 25788
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25788
           protocol: UDP
-        - name: worlds-port-25789
+        - name: worlds-25789
           containerPort: 25789
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25789
           protocol: UDP
-        - name: worlds-port-25790
+        - name: worlds-25790
           containerPort: 25790
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25790
           protocol: UDP
-        - name: worlds-port-25791
+        - name: worlds-25791
           containerPort: 25791
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25791
           protocol: UDP
-        - name: worlds-port-25792
+        - name: worlds-25792
           containerPort: 25792
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25792
           protocol: UDP
-        - name: worlds-port-25793
+        - name: worlds-25793
           containerPort: 25793
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25793
           protocol: UDP
-        - name: worlds-port-25794
+        - name: worlds-25794
           containerPort: 25794
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25794
           protocol: UDP
-        - name: worlds-port-25795
+        - name: worlds-25795
           containerPort: 25795
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25795
           protocol: UDP
-        - name: worlds-port-25796
+        - name: worlds-25796
           containerPort: 25796
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25796
           protocol: UDP
-        - name: worlds-port-25797
+        - name: worlds-25797
           containerPort: 25797
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25797
           protocol: UDP
-        - name: worlds-port-25798
+        - name: worlds-25798
           containerPort: 25798
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25798
           protocol: UDP
-        - name: worlds-port-25799
+        - name: worlds-25799
           containerPort: 25799
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25799
           protocol: UDP
-        - name: worlds-port-25800
+        - name: worlds-25800
           containerPort: 25800
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25800
           protocol: UDP
-        - name: worlds-port-25801
+        - name: worlds-25801
           containerPort: 25801
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25801
           protocol: UDP
-        - name: worlds-port-25802
+        - name: worlds-25802
           containerPort: 25802
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25802
           protocol: UDP
-        - name: worlds-port-25803
+        - name: worlds-25803
           containerPort: 25803
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25803
           protocol: UDP
-        - name: worlds-port-25804
+        - name: worlds-25804
           containerPort: 25804
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25804
           protocol: UDP
-        - name: worlds-port-25805
+        - name: worlds-25805
           containerPort: 25805
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25805
           protocol: UDP
-        - name: worlds-port-25806
+        - name: worlds-25806
           containerPort: 25806
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25806
           protocol: UDP
-        - name: worlds-port-25807
+        - name: worlds-25807
           containerPort: 25807
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25807
           protocol: UDP
-        - name: worlds-port-25808
+        - name: worlds-25808
           containerPort: 25808
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25808
           protocol: UDP
-        - name: worlds-port-25809
+        - name: worlds-25809
           containerPort: 25809
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25809
           protocol: UDP
-        - name: worlds-port-25810
+        - name: worlds-25810
           containerPort: 25810
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25810
           protocol: UDP
-        - name: worlds-port-25811
+        - name: worlds-25811
           containerPort: 25811
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25811
           protocol: UDP
-        - name: worlds-port-25812
+        - name: worlds-25812
           containerPort: 25812
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25812
           protocol: UDP
-        - name: worlds-port-25813
+        - name: worlds-25813
           containerPort: 25813
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25813
           protocol: UDP
-        - name: worlds-port-25814
+        - name: worlds-25814
           containerPort: 25814
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25814
           protocol: UDP
-        - name: worlds-port-25815
+        - name: worlds-25815
           containerPort: 25815
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25815
           protocol: UDP
-        - name: worlds-port-25816
+        - name: worlds-25816
           containerPort: 25816
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25816
           protocol: UDP
-        - name: worlds-port-25817
+        - name: worlds-25817
           containerPort: 25817
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25817
           protocol: UDP
-        - name: worlds-port-25818
+        - name: worlds-25818
           containerPort: 25818
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25818
           protocol: UDP
-        - name: worlds-port-25819
+        - name: worlds-25819
           containerPort: 25819
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25819
           protocol: UDP
-        - name: worlds-port-25820
+        - name: worlds-25820
           containerPort: 25820
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25820
           protocol: UDP
-        - name: worlds-port-25821
+        - name: worlds-25821
           containerPort: 25821
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25821
           protocol: UDP
-        - name: worlds-port-25822
+        - name: worlds-25822
           containerPort: 25822
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25822
           protocol: UDP
-        - name: worlds-port-25823
+        - name: worlds-25823
           containerPort: 25823
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25823
           protocol: UDP
-        - name: worlds-port-25824
+        - name: worlds-25824
           containerPort: 25824
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25824
           protocol: UDP
-        - name: worlds-port-25825
+        - name: worlds-25825
           containerPort: 25825
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25825
           protocol: UDP
-        - name: worlds-port-25826
+        - name: worlds-25826
           containerPort: 25826
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25826
           protocol: UDP
-        - name: worlds-port-25827
+        - name: worlds-25827
           containerPort: 25827
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25827
           protocol: UDP
-        - name: worlds-port-25828
+        - name: worlds-25828
           containerPort: 25828
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25828
           protocol: UDP
-        - name: worlds-port-25829
+        - name: worlds-25829
           containerPort: 25829
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25829
           protocol: UDP
-        - name: worlds-port-25830
+        - name: worlds-25830
           containerPort: 25830
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25830
           protocol: UDP
-        - name: worlds-port-25831
+        - name: worlds-25831
           containerPort: 25831
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25831
           protocol: UDP
-        - name: worlds-port-25832
+        - name: worlds-25832
           containerPort: 25832
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25832
           protocol: UDP
-        - name: worlds-port-25833
+        - name: worlds-25833
           containerPort: 25833
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25833
           protocol: UDP
-        - name: worlds-port-25834
+        - name: worlds-25834
           containerPort: 25834
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25834
           protocol: UDP
-        - name: worlds-port-25835
+        - name: worlds-25835
           containerPort: 25835
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25835
           protocol: UDP
-        - name: worlds-port-25836
+        - name: worlds-25836
           containerPort: 25836
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25836
           protocol: UDP
-        - name: worlds-port-25837
+        - name: worlds-25837
           containerPort: 25837
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25837
           protocol: UDP
-        - name: worlds-port-25838
+        - name: worlds-25838
           containerPort: 25838
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25838
           protocol: UDP
-        - name: worlds-port-25839
+        - name: worlds-25839
           containerPort: 25839
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25839
           protocol: UDP
-        - name: worlds-port-25840
+        - name: worlds-25840
           containerPort: 25840
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25840
           protocol: UDP
-        - name: worlds-port-25841
+        - name: worlds-25841
           containerPort: 25841
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25841
           protocol: UDP
-        - name: worlds-port-25842
+        - name: worlds-25842
           containerPort: 25842
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25842
           protocol: UDP
-        - name: worlds-port-25843
+        - name: worlds-25843
           containerPort: 25843
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25843
           protocol: UDP
-        - name: worlds-port-25844
+        - name: worlds-25844
           containerPort: 25844
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25844
           protocol: UDP
-        - name: worlds-port-25845
+        - name: worlds-25845
           containerPort: 25845
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25845
           protocol: UDP
-        - name: worlds-port-25846
+        - name: worlds-25846
           containerPort: 25846
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25846
           protocol: UDP
-        - name: worlds-port-25847
+        - name: worlds-25847
           containerPort: 25847
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25847
           protocol: UDP
-        - name: worlds-port-25848
+        - name: worlds-25848
           containerPort: 25848
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25848
           protocol: UDP
-        - name: worlds-port-25849
+        - name: worlds-25849
           containerPort: 25849
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25849
           protocol: UDP
-        - name: worlds-port-25850
+        - name: worlds-25850
           containerPort: 25850
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25850
           protocol: UDP
-        - name: worlds-port-25851
+        - name: worlds-25851
           containerPort: 25851
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25851
           protocol: UDP
-        - name: worlds-port-25852
+        - name: worlds-25852
           containerPort: 25852
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25852
           protocol: UDP
-        - name: worlds-port-25853
+        - name: worlds-25853
           containerPort: 25853
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25853
           protocol: UDP
-        - name: worlds-port-25854
+        - name: worlds-25854
           containerPort: 25854
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25854
           protocol: UDP
-        - name: worlds-port-25855
+        - name: worlds-25855
           containerPort: 25855
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25855
           protocol: UDP
-        - name: worlds-port-25856
+        - name: worlds-25856
           containerPort: 25856
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25856
           protocol: UDP
-        - name: worlds-port-25857
+        - name: worlds-25857
           containerPort: 25857
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25857
           protocol: UDP
-        - name: worlds-port-25858
+        - name: worlds-25858
           containerPort: 25858
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25858
           protocol: UDP
-        - name: worlds-port-25859
+        - name: worlds-25859
           containerPort: 25859
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25859
           protocol: UDP
-        - name: worlds-port-25860
+        - name: worlds-25860
           containerPort: 25860
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25860
           protocol: UDP
-        - name: worlds-port-25861
+        - name: worlds-25861
           containerPort: 25861
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25861
           protocol: UDP
-        - name: worlds-port-25862
+        - name: worlds-25862
           containerPort: 25862
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25862
           protocol: UDP
-        - name: worlds-port-25863
+        - name: worlds-25863
           containerPort: 25863
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25863
           protocol: UDP
-        - name: worlds-port-25864
+        - name: worlds-25864
           containerPort: 25864
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25864
           protocol: UDP
-        - name: worlds-port-25865
+        - name: worlds-25865
           containerPort: 25865
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25865
           protocol: UDP
-        - name: worlds-port-25866
+        - name: worlds-25866
           containerPort: 25866
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25866
           protocol: UDP
-        - name: worlds-port-25867
+        - name: worlds-25867
           containerPort: 25867
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25867
           protocol: UDP
-        - name: worlds-port-25868
+        - name: worlds-25868
           containerPort: 25868
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25868
           protocol: UDP
-        - name: worlds-port-25869
+        - name: worlds-25869
           containerPort: 25869
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25869
           protocol: UDP
-        - name: worlds-port-25870
+        - name: worlds-25870
           containerPort: 25870
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25870
           protocol: UDP
-        - name: worlds-port-25871
+        - name: worlds-25871
           containerPort: 25871
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25871
           protocol: UDP
-        - name: worlds-port-25872
+        - name: worlds-25872
           containerPort: 25872
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25872
           protocol: UDP
-        - name: worlds-port-25873
+        - name: worlds-25873
           containerPort: 25873
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25873
           protocol: UDP
-        - name: worlds-port-25874
+        - name: worlds-25874
           containerPort: 25874
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25874
           protocol: UDP
-        - name: worlds-port-25875
+        - name: worlds-25875
           containerPort: 25875
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25875
           protocol: UDP
-        - name: worlds-port-25876
+        - name: worlds-25876
           containerPort: 25876
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25876
           protocol: UDP
-        - name: worlds-port-25877
+        - name: worlds-25877
           containerPort: 25877
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25877
           protocol: UDP
-        - name: worlds-port-25878
+        - name: worlds-25878
           containerPort: 25878
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25878
           protocol: UDP
-        - name: worlds-port-25879
+        - name: worlds-25879
           containerPort: 25879
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25879
           protocol: UDP
-        - name: worlds-port-25880
+        - name: worlds-25880
           containerPort: 25880
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25880
           protocol: UDP
-        - name: worlds-port-25881
+        - name: worlds-25881
           containerPort: 25881
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25881
           protocol: UDP
-        - name: worlds-port-25882
+        - name: worlds-25882
           containerPort: 25882
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25882
           protocol: UDP
-        - name: worlds-port-25883
+        - name: worlds-25883
           containerPort: 25883
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25883
           protocol: UDP
-        - name: worlds-port-25884
+        - name: worlds-25884
           containerPort: 25884
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25884
           protocol: UDP
-        - name: worlds-port-25885
+        - name: worlds-25885
           containerPort: 25885
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25885
           protocol: UDP
-        - name: worlds-port-25886
+        - name: worlds-25886
           containerPort: 25886
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25886
           protocol: UDP
-        - name: worlds-port-25887
+        - name: worlds-25887
           containerPort: 25887
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25887
           protocol: UDP
-        - name: worlds-port-25888
+        - name: worlds-25888
           containerPort: 25888
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25888
           protocol: UDP
-        - name: worlds-port-25889
+        - name: worlds-25889
           containerPort: 25889
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25889
           protocol: UDP
-        - name: worlds-port-25890
+        - name: worlds-25890
           containerPort: 25890
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25890
           protocol: UDP
-        - name: worlds-port-25891
+        - name: worlds-25891
           containerPort: 25891
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25891
           protocol: UDP
-        - name: worlds-port-25892
+        - name: worlds-25892
           containerPort: 25892
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25892
           protocol: UDP
-        - name: worlds-port-25893
+        - name: worlds-25893
           containerPort: 25893
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25893
           protocol: UDP
-        - name: worlds-port-25894
+        - name: worlds-25894
           containerPort: 25894
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25894
           protocol: UDP
-        - name: worlds-port-25895
+        - name: worlds-25895
           containerPort: 25895
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25895
           protocol: UDP
-        - name: worlds-port-25896
+        - name: worlds-25896
           containerPort: 25896
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25896
           protocol: UDP
-        - name: worlds-port-25897
+        - name: worlds-25897
           containerPort: 25897
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25897
           protocol: UDP
-        - name: worlds-port-25898
+        - name: worlds-25898
           containerPort: 25898
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25898
           protocol: UDP
-        - name: worlds-port-25899
+        - name: worlds-25899
           containerPort: 25899
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25899
           protocol: UDP
-        - name: worlds-port-25900
+        - name: worlds-25900
           containerPort: 25900
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25900
           protocol: UDP
-        - name: worlds-port-25901
+        - name: worlds-25901
           containerPort: 25901
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25901
           protocol: UDP
-        - name: worlds-port-25902
+        - name: worlds-25902
           containerPort: 25902
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25902
           protocol: UDP
-        - name: worlds-port-25903
+        - name: worlds-25903
           containerPort: 25903
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25903
           protocol: UDP
-        - name: worlds-port-25904
+        - name: worlds-25904
           containerPort: 25904
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25904
           protocol: UDP
-        - name: worlds-port-25905
+        - name: worlds-25905
           containerPort: 25905
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25905
           protocol: UDP
-        - name: worlds-port-25906
+        - name: worlds-25906
           containerPort: 25906
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25906
           protocol: UDP
-        - name: worlds-port-25907
+        - name: worlds-25907
           containerPort: 25907
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25907
           protocol: UDP
-        - name: worlds-port-25908
+        - name: worlds-25908
           containerPort: 25908
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25908
           protocol: UDP
-        - name: worlds-port-25909
+        - name: worlds-25909
           containerPort: 25909
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25909
           protocol: UDP
-        - name: worlds-port-25910
+        - name: worlds-25910
           containerPort: 25910
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25910
           protocol: UDP
-        - name: worlds-port-25911
+        - name: worlds-25911
           containerPort: 25911
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25911
           protocol: UDP
-        - name: worlds-port-25912
+        - name: worlds-25912
           containerPort: 25912
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25912
           protocol: UDP
-        - name: worlds-port-25913
+        - name: worlds-25913
           containerPort: 25913
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25913
           protocol: UDP
-        - name: worlds-port-25914
+        - name: worlds-25914
           containerPort: 25914
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25914
           protocol: UDP
-        - name: worlds-port-25915
+        - name: worlds-25915
           containerPort: 25915
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25915
           protocol: UDP
-        - name: worlds-port-25916
+        - name: worlds-25916
           containerPort: 25916
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25916
           protocol: UDP
-        - name: worlds-port-25917
+        - name: worlds-25917
           containerPort: 25917
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25917
           protocol: UDP
-        - name: worlds-port-25918
+        - name: worlds-25918
           containerPort: 25918
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25918
           protocol: UDP
-        - name: worlds-port-25919
+        - name: worlds-25919
           containerPort: 25919
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25919
           protocol: UDP
-        - name: worlds-port-25920
+        - name: worlds-25920
           containerPort: 25920
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25920
           protocol: UDP
-        - name: worlds-port-25921
+        - name: worlds-25921
           containerPort: 25921
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25921
           protocol: UDP
-        - name: worlds-port-25922
+        - name: worlds-25922
           containerPort: 25922
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25922
           protocol: UDP
-        - name: worlds-port-25923
+        - name: worlds-25923
           containerPort: 25923
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25923
           protocol: UDP
-        - name: worlds-port-25924
+        - name: worlds-25924
           containerPort: 25924
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25924
           protocol: UDP
-        - name: worlds-port-25925
+        - name: worlds-25925
           containerPort: 25925
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25925
           protocol: UDP
-        - name: worlds-port-25926
+        - name: worlds-25926
           containerPort: 25926
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25926
           protocol: UDP
-        - name: worlds-port-25927
+        - name: worlds-25927
           containerPort: 25927
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25927
           protocol: UDP
-        - name: worlds-port-25928
+        - name: worlds-25928
           containerPort: 25928
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25928
           protocol: UDP
-        - name: worlds-port-25929
+        - name: worlds-25929
           containerPort: 25929
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25929
           protocol: UDP
-        - name: worlds-port-25930
+        - name: worlds-25930
           containerPort: 25930
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25930
           protocol: UDP
-        - name: worlds-port-25931
+        - name: worlds-25931
           containerPort: 25931
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25931
           protocol: UDP
-        - name: worlds-port-25932
+        - name: worlds-25932
           containerPort: 25932
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25932
           protocol: UDP
-        - name: worlds-port-25933
+        - name: worlds-25933
           containerPort: 25933
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25933
           protocol: UDP
-        - name: worlds-port-25934
+        - name: worlds-25934
           containerPort: 25934
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25934
           protocol: UDP
-        - name: worlds-port-25935
+        - name: worlds-25935
           containerPort: 25935
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25935
           protocol: UDP
-        - name: worlds-port-25936
+        - name: worlds-25936
           containerPort: 25936
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25936
           protocol: UDP
-        - name: worlds-port-25937
+        - name: worlds-25937
           containerPort: 25937
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25937
           protocol: UDP
-        - name: worlds-port-25938
+        - name: worlds-25938
           containerPort: 25938
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25938
           protocol: UDP
-        - name: worlds-port-25939
+        - name: worlds-25939
           containerPort: 25939
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25939
           protocol: UDP
-        - name: worlds-port-25940
+        - name: worlds-25940
           containerPort: 25940
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25940
           protocol: UDP
-        - name: worlds-port-25941
+        - name: worlds-25941
           containerPort: 25941
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25941
           protocol: UDP
-        - name: worlds-port-25942
+        - name: worlds-25942
           containerPort: 25942
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25942
           protocol: UDP
-        - name: worlds-port-25943
+        - name: worlds-25943
           containerPort: 25943
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25943
           protocol: UDP
-        - name: worlds-port-25944
+        - name: worlds-25944
           containerPort: 25944
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25944
           protocol: UDP
-        - name: worlds-port-25945
+        - name: worlds-25945
           containerPort: 25945
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25945
           protocol: UDP
-        - name: worlds-port-25946
+        - name: worlds-25946
           containerPort: 25946
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25946
           protocol: UDP
-        - name: worlds-port-25947
+        - name: worlds-25947
           containerPort: 25947
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25947
           protocol: UDP
-        - name: worlds-port-25948
+        - name: worlds-25948
           containerPort: 25948
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25948
           protocol: UDP
-        - name: worlds-port-25949
+        - name: worlds-25949
           containerPort: 25949
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25949
           protocol: UDP
-        - name: worlds-port-25950
+        - name: worlds-25950
           containerPort: 25950
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25950
           protocol: UDP
-        - name: worlds-port-25951
+        - name: worlds-25951
           containerPort: 25951
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25951
           protocol: UDP
-        - name: worlds-port-25952
+        - name: worlds-25952
           containerPort: 25952
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25952
           protocol: UDP
-        - name: worlds-port-25953
+        - name: worlds-25953
           containerPort: 25953
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25953
           protocol: UDP
-        - name: worlds-port-25954
+        - name: worlds-25954
           containerPort: 25954
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25954
           protocol: UDP
-        - name: worlds-port-25955
+        - name: worlds-25955
           containerPort: 25955
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25955
           protocol: UDP
-        - name: worlds-port-25956
+        - name: worlds-25956
           containerPort: 25956
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25956
           protocol: UDP
-        - name: worlds-port-25957
+        - name: worlds-25957
           containerPort: 25957
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25957
           protocol: UDP
-        - name: worlds-port-25958
+        - name: worlds-25958
           containerPort: 25958
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25958
           protocol: UDP
-        - name: worlds-port-25959
+        - name: worlds-25959
           containerPort: 25959
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25959
           protocol: UDP
-        - name: worlds-port-25960
+        - name: worlds-25960
           containerPort: 25960
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25960
           protocol: UDP
-        - name: worlds-port-25961
+        - name: worlds-25961
           containerPort: 25961
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25961
           protocol: UDP
-        - name: worlds-port-25962
+        - name: worlds-25962
           containerPort: 25962
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25962
           protocol: UDP
-        - name: worlds-port-25963
+        - name: worlds-25963
           containerPort: 25963
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25963
           protocol: UDP
-        - name: worlds-port-25964
+        - name: worlds-25964
           containerPort: 25964
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25964
           protocol: UDP
-        - name: worlds-port-25965
+        - name: worlds-25965
           containerPort: 25965
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25965
           protocol: UDP
-        - name: worlds-port-25966
+        - name: worlds-25966
           containerPort: 25966
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25966
           protocol: UDP
-        - name: worlds-port-25967
+        - name: worlds-25967
           containerPort: 25967
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25967
           protocol: UDP
-        - name: worlds-port-25968
+        - name: worlds-25968
           containerPort: 25968
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25968
           protocol: UDP
-        - name: worlds-port-25969
+        - name: worlds-25969
           containerPort: 25969
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25969
           protocol: UDP
-        - name: worlds-port-25970
+        - name: worlds-25970
           containerPort: 25970
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25970
           protocol: UDP
-        - name: worlds-port-25971
+        - name: worlds-25971
           containerPort: 25971
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25971
           protocol: UDP
-        - name: worlds-port-25972
+        - name: worlds-25972
           containerPort: 25972
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25972
           protocol: UDP
-        - name: worlds-port-25973
+        - name: worlds-25973
           containerPort: 25973
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25973
           protocol: UDP
-        - name: worlds-port-25974
+        - name: worlds-25974
           containerPort: 25974
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25974
           protocol: UDP
-        - name: worlds-port-25975
+        - name: worlds-25975
           containerPort: 25975
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25975
           protocol: UDP
-        - name: worlds-port-25976
+        - name: worlds-25976
           containerPort: 25976
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25976
           protocol: UDP
-        - name: worlds-port-25977
+        - name: worlds-25977
           containerPort: 25977
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25977
           protocol: UDP
-        - name: worlds-port-25978
+        - name: worlds-25978
           containerPort: 25978
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25978
           protocol: UDP
-        - name: worlds-port-25979
+        - name: worlds-25979
           containerPort: 25979
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25979
           protocol: UDP
-        - name: worlds-port-25980
+        - name: worlds-25980
           containerPort: 25980
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25980
           protocol: UDP
-        - name: worlds-port-25981
+        - name: worlds-25981
           containerPort: 25981
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25981
           protocol: UDP
-        - name: worlds-port-25982
+        - name: worlds-25982
           containerPort: 25982
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25982
           protocol: UDP
-        - name: worlds-port-25983
+        - name: worlds-25983
           containerPort: 25983
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25983
           protocol: UDP
-        - name: worlds-port-25984
+        - name: worlds-25984
           containerPort: 25984
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25984
           protocol: UDP
-        - name: worlds-port-25985
+        - name: worlds-25985
           containerPort: 25985
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25985
           protocol: UDP
-        - name: worlds-port-25986
+        - name: worlds-25986
           containerPort: 25986
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25986
           protocol: UDP
-        - name: worlds-port-25987
+        - name: worlds-25987
           containerPort: 25987
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25987
           protocol: UDP
-        - name: worlds-port-25988
+        - name: worlds-25988
           containerPort: 25988
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25988
           protocol: UDP
-        - name: worlds-port-25989
+        - name: worlds-25989
           containerPort: 25989
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25989
           protocol: UDP
-        - name: worlds-port-25990
+        - name: worlds-25990
           containerPort: 25990
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25990
           protocol: UDP
-        - name: worlds-port-25991
+        - name: worlds-25991
           containerPort: 25991
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25991
           protocol: UDP
-        - name: worlds-port-25992
+        - name: worlds-25992
           containerPort: 25992
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25992
           protocol: UDP
-        - name: worlds-port-25993
+        - name: worlds-25993
           containerPort: 25993
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25993
           protocol: UDP
-        - name: worlds-port-25994
+        - name: worlds-25994
           containerPort: 25994
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25994
           protocol: UDP
-        - name: worlds-port-25995
+        - name: worlds-25995
           containerPort: 25995
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25995
           protocol: UDP
-        - name: worlds-port-25996
+        - name: worlds-25996
           containerPort: 25996
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25996
           protocol: UDP
-        - name: worlds-port-25997
+        - name: worlds-25997
           containerPort: 25997
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25997
           protocol: UDP
-        - name: worlds-port-25998
+        - name: worlds-25998
           containerPort: 25998
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25998
           protocol: UDP
-        - name: worlds-port-25999
+        - name: worlds-25999
           containerPort: 25999
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 25999
           protocol: UDP
-        - name: worlds-port-26000
+        - name: worlds-26000
           containerPort: 26000
           hostIP: {{ .Values.env.hostIP }}
           hostPort: 26000
