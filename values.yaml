@@ -1,0 +1,34 @@
+image:
+  repository: theoriginalbrian/phvalheim-server
+  tag: latest
+
+service:
+  type: ClusterIP
+  hostNetwork: "false"
+
+resources:
+  requests:
+    memory: 4G
+    cpu: 2.0
+
+volumes:
+  dataPVC:
+    size: 50Gi
+  backupPVC:
+    size: 50Gi
+  storageClassName: "longhorn"
+
+env:
+  adminPort: 8081
+  backupsToKeep: 10
+  basePort: 25000
+  defaultSeed: szN8qp2lBn
+  gameDNS: phvalheim-client.example.com
+  hostIP: 0.0.0.0
+  phvalheimHost: phvalheim-dev.example.com
+  phvalheimClientURL: https://github.com/brianmiller/phvalheim-client/raw/master/published_build/phvalheim-client-installer.exe
+  steamAPIKey: 0123456789
+  webPort: 8080
+# The following adds 1000 UDP ports for multiple worlds
+  worldsPortRangeStart: 25000
+

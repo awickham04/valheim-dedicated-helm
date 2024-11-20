@@ -1,0 +1,76 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: "{{ .Chart.Name }}"
+  labels:
+    app: "{{ .Chart.Name }}"
+    chart: "{{ .Chart.Name }}-{{ .Chart.Version }}"
+    release: "{{ .Release.Name }}"
+    heritage: "{{ .Release.Service }}"
+spec:
+  strategy:
+    type: Recreate
+  replicas: 1
+  selector:
+    matchLabels:
+      app: "{{ .Chart.Name }}"
+      release: "{{ .Release.Name }}"
+  template:
+    metadata:
+      labels:
+        app: "{{ .Chart.Name }}"
+        release: "{{ .Release.Name }}"
+    spec:
+      containers:
+      - name: "{{ .Chart.Name }}"
+        image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
+        imagePullPolicy: Always
+        resources:
+{{ toYaml .Values.resources | indent 10 }}
+        env:
+        - name: backupsToKeep
+          value: {{ .Values.env.backupsToKeep | int }}
+        - name: basePort
+          value: {{ .Values.env.basePort | int }}
+        - name: defaultSeed
+          value: {{ .Values.env.defaultSeed }}
+        - name: gameDNS
+          value: {{ .Values.env.gameDNS }}
+        - name: phvalheimHost
+          value: {{ .Values.env.phvalheimHost }}
+        - name: phvalheimClientURL
+          value: {{ .Values.env.phvalheimClientURL }}
+        - name: steamAPIKey
+          value: {{ .Values.env.steamAPIKey }}
+        ports:
+        {{- range seq 0 1000}}
+        - name: worlds-port-{{add {{ .Values.env.worldsPortRangeStart | int }} }}
+          containerPort: {{add {{ .Values.env.worldsPortRangeStart | int }} }}
+          hostIP: {{ .Values.env.hostIP }}
+          hostPort: {{add {{ .Values.env.worldsPortRangeStart | int }} }}
+          protocol: UDP
+        {{- end -}}
+        - name: web-port
+          containerPort: {{ .Values.env.webPort | int }}
+          hostIP: {{ .Values.env.hostIP }}
+          hostPort: {{ .Values.env.webPort | int }}
+          protocol: TCP
+        - name: admin-port
+          containerPort: {{ .Values.env.adminPort | int }}
+          hostIP: {{ .Values.env.hostIP }}
+          hostPort: {{ .Values.env.adminPort | int }}
+          protocol: TCP
+        volumeMounts:
+        - name: valheim-data
+          mountPath: /opt/stateful
+        - name: valheim-backup
+          mountPath: /opt/stateful/backups
+      volumes:
+      - name: valheim-data
+        persistentVolumeClaim:
+          claimName: "{{ .Chart.Name }}-pvc-data"
+      - name: valheim-backup
+        persistentVolumeClaim:
+          claimName: "{{ .Chart.Name }}-pvc-backup"
+      hostNetwork: {{ .Values.service.hostNetwork }}
+

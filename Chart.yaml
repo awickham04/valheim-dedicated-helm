@@ -1,0 +1,14 @@
+apiVersion: v1
+name: valheim-dedicated
+version: 1.0.0
+appVersion: public
+description: Valheim dedicated server.
+keywords:
+- game
+- server
+home: https://www.valheimgame.com/
+sources:
+- https://github.com/brianmiller/phvalheim-server
+maintainers:
+  - name: awickham04
+    url: https://github.com/awickham04
