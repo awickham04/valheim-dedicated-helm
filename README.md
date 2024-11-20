@@ -12,5 +12,5 @@ gomplate -f lotsofports.yaml >> servicepart.yaml && sed -i '/^\s*$/d' servicepar
 cat deploymentpart.yaml > templates/deployment.yaml
 gomplate -f lotsofdeployment.yaml >> deploymentpart.yaml && sed -i '/^\s*$/d' deploymentpart.yaml && sed -i 's/placeholder/{{ .Values.env.hostIP }}/g' deploymentpart.yaml
 ```
-I'll eventually make this a more sane process, but this gets the job done for now.
+This is because kubernetes doesn't allow for opening port ranges. I'll eventually make this a more sane process, but this gets the job done for now.
 
