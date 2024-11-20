@@ -10,12 +10,4010 @@ metadata:
 spec:
   type: {{ .Values.service.type }}
   ports:
-  {{- range seq 0 1000}}
-  - name: worlds-port-{{add 25000 .}}
-    port: {{add 25000 .}}
+  - name: worlds-port-25000
+    port: 25000
     protocol: UDP
-    targetPort: {{add 25000 .}}
-  {{- end -}}
+    targetPort: 25000
+  - name: worlds-port-25001
+    port: 25001
+    protocol: UDP
+    targetPort: 25001
+  - name: worlds-port-25002
+    port: 25002
+    protocol: UDP
+    targetPort: 25002
+  - name: worlds-port-25003
+    port: 25003
+    protocol: UDP
+    targetPort: 25003
+  - name: worlds-port-25004
+    port: 25004
+    protocol: UDP
+    targetPort: 25004
+  - name: worlds-port-25005
+    port: 25005
+    protocol: UDP
+    targetPort: 25005
+  - name: worlds-port-25006
+    port: 25006
+    protocol: UDP
+    targetPort: 25006
+  - name: worlds-port-25007
+    port: 25007
+    protocol: UDP
+    targetPort: 25007
+  - name: worlds-port-25008
+    port: 25008
+    protocol: UDP
+    targetPort: 25008
+  - name: worlds-port-25009
+    port: 25009
+    protocol: UDP
+    targetPort: 25009
+  - name: worlds-port-25010
+    port: 25010
+    protocol: UDP
+    targetPort: 25010
+  - name: worlds-port-25011
+    port: 25011
+    protocol: UDP
+    targetPort: 25011
+  - name: worlds-port-25012
+    port: 25012
+    protocol: UDP
+    targetPort: 25012
+  - name: worlds-port-25013
+    port: 25013
+    protocol: UDP
+    targetPort: 25013
+  - name: worlds-port-25014
+    port: 25014
+    protocol: UDP
+    targetPort: 25014
+  - name: worlds-port-25015
+    port: 25015
+    protocol: UDP
+    targetPort: 25015
+  - name: worlds-port-25016
+    port: 25016
+    protocol: UDP
+    targetPort: 25016
+  - name: worlds-port-25017
+    port: 25017
+    protocol: UDP
+    targetPort: 25017
+  - name: worlds-port-25018
+    port: 25018
+    protocol: UDP
+    targetPort: 25018
+  - name: worlds-port-25019
+    port: 25019
+    protocol: UDP
+    targetPort: 25019
+  - name: worlds-port-25020
+    port: 25020
+    protocol: UDP
+    targetPort: 25020
+  - name: worlds-port-25021
+    port: 25021
+    protocol: UDP
+    targetPort: 25021
+  - name: worlds-port-25022
+    port: 25022
+    protocol: UDP
+    targetPort: 25022
+  - name: worlds-port-25023
+    port: 25023
+    protocol: UDP
+    targetPort: 25023
+  - name: worlds-port-25024
+    port: 25024
+    protocol: UDP
+    targetPort: 25024
+  - name: worlds-port-25025
+    port: 25025
+    protocol: UDP
+    targetPort: 25025
+  - name: worlds-port-25026
+    port: 25026
+    protocol: UDP
+    targetPort: 25026
+  - name: worlds-port-25027
+    port: 25027
+    protocol: UDP
+    targetPort: 25027
+  - name: worlds-port-25028
+    port: 25028
+    protocol: UDP
+    targetPort: 25028
+  - name: worlds-port-25029
+    port: 25029
+    protocol: UDP
+    targetPort: 25029
+  - name: worlds-port-25030
+    port: 25030
+    protocol: UDP
+    targetPort: 25030
+  - name: worlds-port-25031
+    port: 25031
+    protocol: UDP
+    targetPort: 25031
+  - name: worlds-port-25032
+    port: 25032
+    protocol: UDP
+    targetPort: 25032
+  - name: worlds-port-25033
+    port: 25033
+    protocol: UDP
+    targetPort: 25033
+  - name: worlds-port-25034
+    port: 25034
+    protocol: UDP
+    targetPort: 25034
+  - name: worlds-port-25035
+    port: 25035
+    protocol: UDP
+    targetPort: 25035
+  - name: worlds-port-25036
+    port: 25036
+    protocol: UDP
+    targetPort: 25036
+  - name: worlds-port-25037
+    port: 25037
+    protocol: UDP
+    targetPort: 25037
+  - name: worlds-port-25038
+    port: 25038
+    protocol: UDP
+    targetPort: 25038
+  - name: worlds-port-25039
+    port: 25039
+    protocol: UDP
+    targetPort: 25039
+  - name: worlds-port-25040
+    port: 25040
+    protocol: UDP
+    targetPort: 25040
+  - name: worlds-port-25041
+    port: 25041
+    protocol: UDP
+    targetPort: 25041
+  - name: worlds-port-25042
+    port: 25042
+    protocol: UDP
+    targetPort: 25042
+  - name: worlds-port-25043
+    port: 25043
+    protocol: UDP
+    targetPort: 25043
+  - name: worlds-port-25044
+    port: 25044
+    protocol: UDP
+    targetPort: 25044
+  - name: worlds-port-25045
+    port: 25045
+    protocol: UDP
+    targetPort: 25045
+  - name: worlds-port-25046
+    port: 25046
+    protocol: UDP
+    targetPort: 25046
+  - name: worlds-port-25047
+    port: 25047
+    protocol: UDP
+    targetPort: 25047
+  - name: worlds-port-25048
+    port: 25048
+    protocol: UDP
+    targetPort: 25048
+  - name: worlds-port-25049
+    port: 25049
+    protocol: UDP
+    targetPort: 25049
+  - name: worlds-port-25050
+    port: 25050
+    protocol: UDP
+    targetPort: 25050
+  - name: worlds-port-25051
+    port: 25051
+    protocol: UDP
+    targetPort: 25051
+  - name: worlds-port-25052
+    port: 25052
+    protocol: UDP
+    targetPort: 25052
+  - name: worlds-port-25053
+    port: 25053
+    protocol: UDP
+    targetPort: 25053
+  - name: worlds-port-25054
+    port: 25054
+    protocol: UDP
+    targetPort: 25054
+  - name: worlds-port-25055
+    port: 25055
+    protocol: UDP
+    targetPort: 25055
+  - name: worlds-port-25056
+    port: 25056
+    protocol: UDP
+    targetPort: 25056
+  - name: worlds-port-25057
+    port: 25057
+    protocol: UDP
+    targetPort: 25057
+  - name: worlds-port-25058
+    port: 25058
+    protocol: UDP
+    targetPort: 25058
+  - name: worlds-port-25059
+    port: 25059
+    protocol: UDP
+    targetPort: 25059
+  - name: worlds-port-25060
+    port: 25060
+    protocol: UDP
+    targetPort: 25060
+  - name: worlds-port-25061
+    port: 25061
+    protocol: UDP
+    targetPort: 25061
+  - name: worlds-port-25062
+    port: 25062
+    protocol: UDP
+    targetPort: 25062
+  - name: worlds-port-25063
+    port: 25063
+    protocol: UDP
+    targetPort: 25063
+  - name: worlds-port-25064
+    port: 25064
+    protocol: UDP
+    targetPort: 25064
+  - name: worlds-port-25065
+    port: 25065
+    protocol: UDP
+    targetPort: 25065
+  - name: worlds-port-25066
+    port: 25066
+    protocol: UDP
+    targetPort: 25066
+  - name: worlds-port-25067
+    port: 25067
+    protocol: UDP
+    targetPort: 25067
+  - name: worlds-port-25068
+    port: 25068
+    protocol: UDP
+    targetPort: 25068
+  - name: worlds-port-25069
+    port: 25069
+    protocol: UDP
+    targetPort: 25069
+  - name: worlds-port-25070
+    port: 25070
+    protocol: UDP
+    targetPort: 25070
+  - name: worlds-port-25071
+    port: 25071
+    protocol: UDP
+    targetPort: 25071
+  - name: worlds-port-25072
+    port: 25072
+    protocol: UDP
+    targetPort: 25072
+  - name: worlds-port-25073
+    port: 25073
+    protocol: UDP
+    targetPort: 25073
+  - name: worlds-port-25074
+    port: 25074
+    protocol: UDP
+    targetPort: 25074
+  - name: worlds-port-25075
+    port: 25075
+    protocol: UDP
+    targetPort: 25075
+  - name: worlds-port-25076
+    port: 25076
+    protocol: UDP
+    targetPort: 25076
+  - name: worlds-port-25077
+    port: 25077
+    protocol: UDP
+    targetPort: 25077
+  - name: worlds-port-25078
+    port: 25078
+    protocol: UDP
+    targetPort: 25078
+  - name: worlds-port-25079
+    port: 25079
+    protocol: UDP
+    targetPort: 25079
+  - name: worlds-port-25080
+    port: 25080
+    protocol: UDP
+    targetPort: 25080
+  - name: worlds-port-25081
+    port: 25081
+    protocol: UDP
+    targetPort: 25081
+  - name: worlds-port-25082
+    port: 25082
+    protocol: UDP
+    targetPort: 25082
+  - name: worlds-port-25083
+    port: 25083
+    protocol: UDP
+    targetPort: 25083
+  - name: worlds-port-25084
+    port: 25084
+    protocol: UDP
+    targetPort: 25084
+  - name: worlds-port-25085
+    port: 25085
+    protocol: UDP
+    targetPort: 25085
+  - name: worlds-port-25086
+    port: 25086
+    protocol: UDP
+    targetPort: 25086
+  - name: worlds-port-25087
+    port: 25087
+    protocol: UDP
+    targetPort: 25087
+  - name: worlds-port-25088
+    port: 25088
+    protocol: UDP
+    targetPort: 25088
+  - name: worlds-port-25089
+    port: 25089
+    protocol: UDP
+    targetPort: 25089
+  - name: worlds-port-25090
+    port: 25090
+    protocol: UDP
+    targetPort: 25090
+  - name: worlds-port-25091
+    port: 25091
+    protocol: UDP
+    targetPort: 25091
+  - name: worlds-port-25092
+    port: 25092
+    protocol: UDP
+    targetPort: 25092
+  - name: worlds-port-25093
+    port: 25093
+    protocol: UDP
+    targetPort: 25093
+  - name: worlds-port-25094
+    port: 25094
+    protocol: UDP
+    targetPort: 25094
+  - name: worlds-port-25095
+    port: 25095
+    protocol: UDP
+    targetPort: 25095
+  - name: worlds-port-25096
+    port: 25096
+    protocol: UDP
+    targetPort: 25096
+  - name: worlds-port-25097
+    port: 25097
+    protocol: UDP
+    targetPort: 25097
+  - name: worlds-port-25098
+    port: 25098
+    protocol: UDP
+    targetPort: 25098
+  - name: worlds-port-25099
+    port: 25099
+    protocol: UDP
+    targetPort: 25099
+  - name: worlds-port-25100
+    port: 25100
+    protocol: UDP
+    targetPort: 25100
+  - name: worlds-port-25101
+    port: 25101
+    protocol: UDP
+    targetPort: 25101
+  - name: worlds-port-25102
+    port: 25102
+    protocol: UDP
+    targetPort: 25102
+  - name: worlds-port-25103
+    port: 25103
+    protocol: UDP
+    targetPort: 25103
+  - name: worlds-port-25104
+    port: 25104
+    protocol: UDP
+    targetPort: 25104
+  - name: worlds-port-25105
+    port: 25105
+    protocol: UDP
+    targetPort: 25105
+  - name: worlds-port-25106
+    port: 25106
+    protocol: UDP
+    targetPort: 25106
+  - name: worlds-port-25107
+    port: 25107
+    protocol: UDP
+    targetPort: 25107
+  - name: worlds-port-25108
+    port: 25108
+    protocol: UDP
+    targetPort: 25108
+  - name: worlds-port-25109
+    port: 25109
+    protocol: UDP
+    targetPort: 25109
+  - name: worlds-port-25110
+    port: 25110
+    protocol: UDP
+    targetPort: 25110
+  - name: worlds-port-25111
+    port: 25111
+    protocol: UDP
+    targetPort: 25111
+  - name: worlds-port-25112
+    port: 25112
+    protocol: UDP
+    targetPort: 25112
+  - name: worlds-port-25113
+    port: 25113
+    protocol: UDP
+    targetPort: 25113
+  - name: worlds-port-25114
+    port: 25114
+    protocol: UDP
+    targetPort: 25114
+  - name: worlds-port-25115
+    port: 25115
+    protocol: UDP
+    targetPort: 25115
+  - name: worlds-port-25116
+    port: 25116
+    protocol: UDP
+    targetPort: 25116
+  - name: worlds-port-25117
+    port: 25117
+    protocol: UDP
+    targetPort: 25117
+  - name: worlds-port-25118
+    port: 25118
+    protocol: UDP
+    targetPort: 25118
+  - name: worlds-port-25119
+    port: 25119
+    protocol: UDP
+    targetPort: 25119
+  - name: worlds-port-25120
+    port: 25120
+    protocol: UDP
+    targetPort: 25120
+  - name: worlds-port-25121
+    port: 25121
+    protocol: UDP
+    targetPort: 25121
+  - name: worlds-port-25122
+    port: 25122
+    protocol: UDP
+    targetPort: 25122
+  - name: worlds-port-25123
+    port: 25123
+    protocol: UDP
+    targetPort: 25123
+  - name: worlds-port-25124
+    port: 25124
+    protocol: UDP
+    targetPort: 25124
+  - name: worlds-port-25125
+    port: 25125
+    protocol: UDP
+    targetPort: 25125
+  - name: worlds-port-25126
+    port: 25126
+    protocol: UDP
+    targetPort: 25126
+  - name: worlds-port-25127
+    port: 25127
+    protocol: UDP
+    targetPort: 25127
+  - name: worlds-port-25128
+    port: 25128
+    protocol: UDP
+    targetPort: 25128
+  - name: worlds-port-25129
+    port: 25129
+    protocol: UDP
+    targetPort: 25129
+  - name: worlds-port-25130
+    port: 25130
+    protocol: UDP
+    targetPort: 25130
+  - name: worlds-port-25131
+    port: 25131
+    protocol: UDP
+    targetPort: 25131
+  - name: worlds-port-25132
+    port: 25132
+    protocol: UDP
+    targetPort: 25132
+  - name: worlds-port-25133
+    port: 25133
+    protocol: UDP
+    targetPort: 25133
+  - name: worlds-port-25134
+    port: 25134
+    protocol: UDP
+    targetPort: 25134
+  - name: worlds-port-25135
+    port: 25135
+    protocol: UDP
+    targetPort: 25135
+  - name: worlds-port-25136
+    port: 25136
+    protocol: UDP
+    targetPort: 25136
+  - name: worlds-port-25137
+    port: 25137
+    protocol: UDP
+    targetPort: 25137
+  - name: worlds-port-25138
+    port: 25138
+    protocol: UDP
+    targetPort: 25138
+  - name: worlds-port-25139
+    port: 25139
+    protocol: UDP
+    targetPort: 25139
+  - name: worlds-port-25140
+    port: 25140
+    protocol: UDP
+    targetPort: 25140
+  - name: worlds-port-25141
+    port: 25141
+    protocol: UDP
+    targetPort: 25141
+  - name: worlds-port-25142
+    port: 25142
+    protocol: UDP
+    targetPort: 25142
+  - name: worlds-port-25143
+    port: 25143
+    protocol: UDP
+    targetPort: 25143
+  - name: worlds-port-25144
+    port: 25144
+    protocol: UDP
+    targetPort: 25144
+  - name: worlds-port-25145
+    port: 25145
+    protocol: UDP
+    targetPort: 25145
+  - name: worlds-port-25146
+    port: 25146
+    protocol: UDP
+    targetPort: 25146
+  - name: worlds-port-25147
+    port: 25147
+    protocol: UDP
+    targetPort: 25147
+  - name: worlds-port-25148
+    port: 25148
+    protocol: UDP
+    targetPort: 25148
+  - name: worlds-port-25149
+    port: 25149
+    protocol: UDP
+    targetPort: 25149
+  - name: worlds-port-25150
+    port: 25150
+    protocol: UDP
+    targetPort: 25150
+  - name: worlds-port-25151
+    port: 25151
+    protocol: UDP
+    targetPort: 25151
+  - name: worlds-port-25152
+    port: 25152
+    protocol: UDP
+    targetPort: 25152
+  - name: worlds-port-25153
+    port: 25153
+    protocol: UDP
+    targetPort: 25153
+  - name: worlds-port-25154
+    port: 25154
+    protocol: UDP
+    targetPort: 25154
+  - name: worlds-port-25155
+    port: 25155
+    protocol: UDP
+    targetPort: 25155
+  - name: worlds-port-25156
+    port: 25156
+    protocol: UDP
+    targetPort: 25156
+  - name: worlds-port-25157
+    port: 25157
+    protocol: UDP
+    targetPort: 25157
+  - name: worlds-port-25158
+    port: 25158
+    protocol: UDP
+    targetPort: 25158
+  - name: worlds-port-25159
+    port: 25159
+    protocol: UDP
+    targetPort: 25159
+  - name: worlds-port-25160
+    port: 25160
+    protocol: UDP
+    targetPort: 25160
+  - name: worlds-port-25161
+    port: 25161
+    protocol: UDP
+    targetPort: 25161
+  - name: worlds-port-25162
+    port: 25162
+    protocol: UDP
+    targetPort: 25162
+  - name: worlds-port-25163
+    port: 25163
+    protocol: UDP
+    targetPort: 25163
+  - name: worlds-port-25164
+    port: 25164
+    protocol: UDP
+    targetPort: 25164
+  - name: worlds-port-25165
+    port: 25165
+    protocol: UDP
+    targetPort: 25165
+  - name: worlds-port-25166
+    port: 25166
+    protocol: UDP
+    targetPort: 25166
+  - name: worlds-port-25167
+    port: 25167
+    protocol: UDP
+    targetPort: 25167
+  - name: worlds-port-25168
+    port: 25168
+    protocol: UDP
+    targetPort: 25168
+  - name: worlds-port-25169
+    port: 25169
+    protocol: UDP
+    targetPort: 25169
+  - name: worlds-port-25170
+    port: 25170
+    protocol: UDP
+    targetPort: 25170
+  - name: worlds-port-25171
+    port: 25171
+    protocol: UDP
+    targetPort: 25171
+  - name: worlds-port-25172
+    port: 25172
+    protocol: UDP
+    targetPort: 25172
+  - name: worlds-port-25173
+    port: 25173
+    protocol: UDP
+    targetPort: 25173
+  - name: worlds-port-25174
+    port: 25174
+    protocol: UDP
+    targetPort: 25174
+  - name: worlds-port-25175
+    port: 25175
+    protocol: UDP
+    targetPort: 25175
+  - name: worlds-port-25176
+    port: 25176
+    protocol: UDP
+    targetPort: 25176
+  - name: worlds-port-25177
+    port: 25177
+    protocol: UDP
+    targetPort: 25177
+  - name: worlds-port-25178
+    port: 25178
+    protocol: UDP
+    targetPort: 25178
+  - name: worlds-port-25179
+    port: 25179
+    protocol: UDP
+    targetPort: 25179
+  - name: worlds-port-25180
+    port: 25180
+    protocol: UDP
+    targetPort: 25180
+  - name: worlds-port-25181
+    port: 25181
+    protocol: UDP
+    targetPort: 25181
+  - name: worlds-port-25182
+    port: 25182
+    protocol: UDP
+    targetPort: 25182
+  - name: worlds-port-25183
+    port: 25183
+    protocol: UDP
+    targetPort: 25183
+  - name: worlds-port-25184
+    port: 25184
+    protocol: UDP
+    targetPort: 25184
+  - name: worlds-port-25185
+    port: 25185
+    protocol: UDP
+    targetPort: 25185
+  - name: worlds-port-25186
+    port: 25186
+    protocol: UDP
+    targetPort: 25186
+  - name: worlds-port-25187
+    port: 25187
+    protocol: UDP
+    targetPort: 25187
+  - name: worlds-port-25188
+    port: 25188
+    protocol: UDP
+    targetPort: 25188
+  - name: worlds-port-25189
+    port: 25189
+    protocol: UDP
+    targetPort: 25189
+  - name: worlds-port-25190
+    port: 25190
+    protocol: UDP
+    targetPort: 25190
+  - name: worlds-port-25191
+    port: 25191
+    protocol: UDP
+    targetPort: 25191
+  - name: worlds-port-25192
+    port: 25192
+    protocol: UDP
+    targetPort: 25192
+  - name: worlds-port-25193
+    port: 25193
+    protocol: UDP
+    targetPort: 25193
+  - name: worlds-port-25194
+    port: 25194
+    protocol: UDP
+    targetPort: 25194
+  - name: worlds-port-25195
+    port: 25195
+    protocol: UDP
+    targetPort: 25195
+  - name: worlds-port-25196
+    port: 25196
+    protocol: UDP
+    targetPort: 25196
+  - name: worlds-port-25197
+    port: 25197
+    protocol: UDP
+    targetPort: 25197
+  - name: worlds-port-25198
+    port: 25198
+    protocol: UDP
+    targetPort: 25198
+  - name: worlds-port-25199
+    port: 25199
+    protocol: UDP
+    targetPort: 25199
+  - name: worlds-port-25200
+    port: 25200
+    protocol: UDP
+    targetPort: 25200
+  - name: worlds-port-25201
+    port: 25201
+    protocol: UDP
+    targetPort: 25201
+  - name: worlds-port-25202
+    port: 25202
+    protocol: UDP
+    targetPort: 25202
+  - name: worlds-port-25203
+    port: 25203
+    protocol: UDP
+    targetPort: 25203
+  - name: worlds-port-25204
+    port: 25204
+    protocol: UDP
+    targetPort: 25204
+  - name: worlds-port-25205
+    port: 25205
+    protocol: UDP
+    targetPort: 25205
+  - name: worlds-port-25206
+    port: 25206
+    protocol: UDP
+    targetPort: 25206
+  - name: worlds-port-25207
+    port: 25207
+    protocol: UDP
+    targetPort: 25207
+  - name: worlds-port-25208
+    port: 25208
+    protocol: UDP
+    targetPort: 25208
+  - name: worlds-port-25209
+    port: 25209
+    protocol: UDP
+    targetPort: 25209
+  - name: worlds-port-25210
+    port: 25210
+    protocol: UDP
+    targetPort: 25210
+  - name: worlds-port-25211
+    port: 25211
+    protocol: UDP
+    targetPort: 25211
+  - name: worlds-port-25212
+    port: 25212
+    protocol: UDP
+    targetPort: 25212
+  - name: worlds-port-25213
+    port: 25213
+    protocol: UDP
+    targetPort: 25213
+  - name: worlds-port-25214
+    port: 25214
+    protocol: UDP
+    targetPort: 25214
+  - name: worlds-port-25215
+    port: 25215
+    protocol: UDP
+    targetPort: 25215
+  - name: worlds-port-25216
+    port: 25216
+    protocol: UDP
+    targetPort: 25216
+  - name: worlds-port-25217
+    port: 25217
+    protocol: UDP
+    targetPort: 25217
+  - name: worlds-port-25218
+    port: 25218
+    protocol: UDP
+    targetPort: 25218
+  - name: worlds-port-25219
+    port: 25219
+    protocol: UDP
+    targetPort: 25219
+  - name: worlds-port-25220
+    port: 25220
+    protocol: UDP
+    targetPort: 25220
+  - name: worlds-port-25221
+    port: 25221
+    protocol: UDP
+    targetPort: 25221
+  - name: worlds-port-25222
+    port: 25222
+    protocol: UDP
+    targetPort: 25222
+  - name: worlds-port-25223
+    port: 25223
+    protocol: UDP
+    targetPort: 25223
+  - name: worlds-port-25224
+    port: 25224
+    protocol: UDP
+    targetPort: 25224
+  - name: worlds-port-25225
+    port: 25225
+    protocol: UDP
+    targetPort: 25225
+  - name: worlds-port-25226
+    port: 25226
+    protocol: UDP
+    targetPort: 25226
+  - name: worlds-port-25227
+    port: 25227
+    protocol: UDP
+    targetPort: 25227
+  - name: worlds-port-25228
+    port: 25228
+    protocol: UDP
+    targetPort: 25228
+  - name: worlds-port-25229
+    port: 25229
+    protocol: UDP
+    targetPort: 25229
+  - name: worlds-port-25230
+    port: 25230
+    protocol: UDP
+    targetPort: 25230
+  - name: worlds-port-25231
+    port: 25231
+    protocol: UDP
+    targetPort: 25231
+  - name: worlds-port-25232
+    port: 25232
+    protocol: UDP
+    targetPort: 25232
+  - name: worlds-port-25233
+    port: 25233
+    protocol: UDP
+    targetPort: 25233
+  - name: worlds-port-25234
+    port: 25234
+    protocol: UDP
+    targetPort: 25234
+  - name: worlds-port-25235
+    port: 25235
+    protocol: UDP
+    targetPort: 25235
+  - name: worlds-port-25236
+    port: 25236
+    protocol: UDP
+    targetPort: 25236
+  - name: worlds-port-25237
+    port: 25237
+    protocol: UDP
+    targetPort: 25237
+  - name: worlds-port-25238
+    port: 25238
+    protocol: UDP
+    targetPort: 25238
+  - name: worlds-port-25239
+    port: 25239
+    protocol: UDP
+    targetPort: 25239
+  - name: worlds-port-25240
+    port: 25240
+    protocol: UDP
+    targetPort: 25240
+  - name: worlds-port-25241
+    port: 25241
+    protocol: UDP
+    targetPort: 25241
+  - name: worlds-port-25242
+    port: 25242
+    protocol: UDP
+    targetPort: 25242
+  - name: worlds-port-25243
+    port: 25243
+    protocol: UDP
+    targetPort: 25243
+  - name: worlds-port-25244
+    port: 25244
+    protocol: UDP
+    targetPort: 25244
+  - name: worlds-port-25245
+    port: 25245
+    protocol: UDP
+    targetPort: 25245
+  - name: worlds-port-25246
+    port: 25246
+    protocol: UDP
+    targetPort: 25246
+  - name: worlds-port-25247
+    port: 25247
+    protocol: UDP
+    targetPort: 25247
+  - name: worlds-port-25248
+    port: 25248
+    protocol: UDP
+    targetPort: 25248
+  - name: worlds-port-25249
+    port: 25249
+    protocol: UDP
+    targetPort: 25249
+  - name: worlds-port-25250
+    port: 25250
+    protocol: UDP
+    targetPort: 25250
+  - name: worlds-port-25251
+    port: 25251
+    protocol: UDP
+    targetPort: 25251
+  - name: worlds-port-25252
+    port: 25252
+    protocol: UDP
+    targetPort: 25252
+  - name: worlds-port-25253
+    port: 25253
+    protocol: UDP
+    targetPort: 25253
+  - name: worlds-port-25254
+    port: 25254
+    protocol: UDP
+    targetPort: 25254
+  - name: worlds-port-25255
+    port: 25255
+    protocol: UDP
+    targetPort: 25255
+  - name: worlds-port-25256
+    port: 25256
+    protocol: UDP
+    targetPort: 25256
+  - name: worlds-port-25257
+    port: 25257
+    protocol: UDP
+    targetPort: 25257
+  - name: worlds-port-25258
+    port: 25258
+    protocol: UDP
+    targetPort: 25258
+  - name: worlds-port-25259
+    port: 25259
+    protocol: UDP
+    targetPort: 25259
+  - name: worlds-port-25260
+    port: 25260
+    protocol: UDP
+    targetPort: 25260
+  - name: worlds-port-25261
+    port: 25261
+    protocol: UDP
+    targetPort: 25261
+  - name: worlds-port-25262
+    port: 25262
+    protocol: UDP
+    targetPort: 25262
+  - name: worlds-port-25263
+    port: 25263
+    protocol: UDP
+    targetPort: 25263
+  - name: worlds-port-25264
+    port: 25264
+    protocol: UDP
+    targetPort: 25264
+  - name: worlds-port-25265
+    port: 25265
+    protocol: UDP
+    targetPort: 25265
+  - name: worlds-port-25266
+    port: 25266
+    protocol: UDP
+    targetPort: 25266
+  - name: worlds-port-25267
+    port: 25267
+    protocol: UDP
+    targetPort: 25267
+  - name: worlds-port-25268
+    port: 25268
+    protocol: UDP
+    targetPort: 25268
+  - name: worlds-port-25269
+    port: 25269
+    protocol: UDP
+    targetPort: 25269
+  - name: worlds-port-25270
+    port: 25270
+    protocol: UDP
+    targetPort: 25270
+  - name: worlds-port-25271
+    port: 25271
+    protocol: UDP
+    targetPort: 25271
+  - name: worlds-port-25272
+    port: 25272
+    protocol: UDP
+    targetPort: 25272
+  - name: worlds-port-25273
+    port: 25273
+    protocol: UDP
+    targetPort: 25273
+  - name: worlds-port-25274
+    port: 25274
+    protocol: UDP
+    targetPort: 25274
+  - name: worlds-port-25275
+    port: 25275
+    protocol: UDP
+    targetPort: 25275
+  - name: worlds-port-25276
+    port: 25276
+    protocol: UDP
+    targetPort: 25276
+  - name: worlds-port-25277
+    port: 25277
+    protocol: UDP
+    targetPort: 25277
+  - name: worlds-port-25278
+    port: 25278
+    protocol: UDP
+    targetPort: 25278
+  - name: worlds-port-25279
+    port: 25279
+    protocol: UDP
+    targetPort: 25279
+  - name: worlds-port-25280
+    port: 25280
+    protocol: UDP
+    targetPort: 25280
+  - name: worlds-port-25281
+    port: 25281
+    protocol: UDP
+    targetPort: 25281
+  - name: worlds-port-25282
+    port: 25282
+    protocol: UDP
+    targetPort: 25282
+  - name: worlds-port-25283
+    port: 25283
+    protocol: UDP
+    targetPort: 25283
+  - name: worlds-port-25284
+    port: 25284
+    protocol: UDP
+    targetPort: 25284
+  - name: worlds-port-25285
+    port: 25285
+    protocol: UDP
+    targetPort: 25285
+  - name: worlds-port-25286
+    port: 25286
+    protocol: UDP
+    targetPort: 25286
+  - name: worlds-port-25287
+    port: 25287
+    protocol: UDP
+    targetPort: 25287
+  - name: worlds-port-25288
+    port: 25288
+    protocol: UDP
+    targetPort: 25288
+  - name: worlds-port-25289
+    port: 25289
+    protocol: UDP
+    targetPort: 25289
+  - name: worlds-port-25290
+    port: 25290
+    protocol: UDP
+    targetPort: 25290
+  - name: worlds-port-25291
+    port: 25291
+    protocol: UDP
+    targetPort: 25291
+  - name: worlds-port-25292
+    port: 25292
+    protocol: UDP
+    targetPort: 25292
+  - name: worlds-port-25293
+    port: 25293
+    protocol: UDP
+    targetPort: 25293
+  - name: worlds-port-25294
+    port: 25294
+    protocol: UDP
+    targetPort: 25294
+  - name: worlds-port-25295
+    port: 25295
+    protocol: UDP
+    targetPort: 25295
+  - name: worlds-port-25296
+    port: 25296
+    protocol: UDP
+    targetPort: 25296
+  - name: worlds-port-25297
+    port: 25297
+    protocol: UDP
+    targetPort: 25297
+  - name: worlds-port-25298
+    port: 25298
+    protocol: UDP
+    targetPort: 25298
+  - name: worlds-port-25299
+    port: 25299
+    protocol: UDP
+    targetPort: 25299
+  - name: worlds-port-25300
+    port: 25300
+    protocol: UDP
+    targetPort: 25300
+  - name: worlds-port-25301
+    port: 25301
+    protocol: UDP
+    targetPort: 25301
+  - name: worlds-port-25302
+    port: 25302
+    protocol: UDP
+    targetPort: 25302
+  - name: worlds-port-25303
+    port: 25303
+    protocol: UDP
+    targetPort: 25303
+  - name: worlds-port-25304
+    port: 25304
+    protocol: UDP
+    targetPort: 25304
+  - name: worlds-port-25305
+    port: 25305
+    protocol: UDP
+    targetPort: 25305
+  - name: worlds-port-25306
+    port: 25306
+    protocol: UDP
+    targetPort: 25306
+  - name: worlds-port-25307
+    port: 25307
+    protocol: UDP
+    targetPort: 25307
+  - name: worlds-port-25308
+    port: 25308
+    protocol: UDP
+    targetPort: 25308
+  - name: worlds-port-25309
+    port: 25309
+    protocol: UDP
+    targetPort: 25309
+  - name: worlds-port-25310
+    port: 25310
+    protocol: UDP
+    targetPort: 25310
+  - name: worlds-port-25311
+    port: 25311
+    protocol: UDP
+    targetPort: 25311
+  - name: worlds-port-25312
+    port: 25312
+    protocol: UDP
+    targetPort: 25312
+  - name: worlds-port-25313
+    port: 25313
+    protocol: UDP
+    targetPort: 25313
+  - name: worlds-port-25314
+    port: 25314
+    protocol: UDP
+    targetPort: 25314
+  - name: worlds-port-25315
+    port: 25315
+    protocol: UDP
+    targetPort: 25315
+  - name: worlds-port-25316
+    port: 25316
+    protocol: UDP
+    targetPort: 25316
+  - name: worlds-port-25317
+    port: 25317
+    protocol: UDP
+    targetPort: 25317
+  - name: worlds-port-25318
+    port: 25318
+    protocol: UDP
+    targetPort: 25318
+  - name: worlds-port-25319
+    port: 25319
+    protocol: UDP
+    targetPort: 25319
+  - name: worlds-port-25320
+    port: 25320
+    protocol: UDP
+    targetPort: 25320
+  - name: worlds-port-25321
+    port: 25321
+    protocol: UDP
+    targetPort: 25321
+  - name: worlds-port-25322
+    port: 25322
+    protocol: UDP
+    targetPort: 25322
+  - name: worlds-port-25323
+    port: 25323
+    protocol: UDP
+    targetPort: 25323
+  - name: worlds-port-25324
+    port: 25324
+    protocol: UDP
+    targetPort: 25324
+  - name: worlds-port-25325
+    port: 25325
+    protocol: UDP
+    targetPort: 25325
+  - name: worlds-port-25326
+    port: 25326
+    protocol: UDP
+    targetPort: 25326
+  - name: worlds-port-25327
+    port: 25327
+    protocol: UDP
+    targetPort: 25327
+  - name: worlds-port-25328
+    port: 25328
+    protocol: UDP
+    targetPort: 25328
+  - name: worlds-port-25329
+    port: 25329
+    protocol: UDP
+    targetPort: 25329
+  - name: worlds-port-25330
+    port: 25330
+    protocol: UDP
+    targetPort: 25330
+  - name: worlds-port-25331
+    port: 25331
+    protocol: UDP
+    targetPort: 25331
+  - name: worlds-port-25332
+    port: 25332
+    protocol: UDP
+    targetPort: 25332
+  - name: worlds-port-25333
+    port: 25333
+    protocol: UDP
+    targetPort: 25333
+  - name: worlds-port-25334
+    port: 25334
+    protocol: UDP
+    targetPort: 25334
+  - name: worlds-port-25335
+    port: 25335
+    protocol: UDP
+    targetPort: 25335
+  - name: worlds-port-25336
+    port: 25336
+    protocol: UDP
+    targetPort: 25336
+  - name: worlds-port-25337
+    port: 25337
+    protocol: UDP
+    targetPort: 25337
+  - name: worlds-port-25338
+    port: 25338
+    protocol: UDP
+    targetPort: 25338
+  - name: worlds-port-25339
+    port: 25339
+    protocol: UDP
+    targetPort: 25339
+  - name: worlds-port-25340
+    port: 25340
+    protocol: UDP
+    targetPort: 25340
+  - name: worlds-port-25341
+    port: 25341
+    protocol: UDP
+    targetPort: 25341
+  - name: worlds-port-25342
+    port: 25342
+    protocol: UDP
+    targetPort: 25342
+  - name: worlds-port-25343
+    port: 25343
+    protocol: UDP
+    targetPort: 25343
+  - name: worlds-port-25344
+    port: 25344
+    protocol: UDP
+    targetPort: 25344
+  - name: worlds-port-25345
+    port: 25345
+    protocol: UDP
+    targetPort: 25345
+  - name: worlds-port-25346
+    port: 25346
+    protocol: UDP
+    targetPort: 25346
+  - name: worlds-port-25347
+    port: 25347
+    protocol: UDP
+    targetPort: 25347
+  - name: worlds-port-25348
+    port: 25348
+    protocol: UDP
+    targetPort: 25348
+  - name: worlds-port-25349
+    port: 25349
+    protocol: UDP
+    targetPort: 25349
+  - name: worlds-port-25350
+    port: 25350
+    protocol: UDP
+    targetPort: 25350
+  - name: worlds-port-25351
+    port: 25351
+    protocol: UDP
+    targetPort: 25351
+  - name: worlds-port-25352
+    port: 25352
+    protocol: UDP
+    targetPort: 25352
+  - name: worlds-port-25353
+    port: 25353
+    protocol: UDP
+    targetPort: 25353
+  - name: worlds-port-25354
+    port: 25354
+    protocol: UDP
+    targetPort: 25354
+  - name: worlds-port-25355
+    port: 25355
+    protocol: UDP
+    targetPort: 25355
+  - name: worlds-port-25356
+    port: 25356
+    protocol: UDP
+    targetPort: 25356
+  - name: worlds-port-25357
+    port: 25357
+    protocol: UDP
+    targetPort: 25357
+  - name: worlds-port-25358
+    port: 25358
+    protocol: UDP
+    targetPort: 25358
+  - name: worlds-port-25359
+    port: 25359
+    protocol: UDP
+    targetPort: 25359
+  - name: worlds-port-25360
+    port: 25360
+    protocol: UDP
+    targetPort: 25360
+  - name: worlds-port-25361
+    port: 25361
+    protocol: UDP
+    targetPort: 25361
+  - name: worlds-port-25362
+    port: 25362
+    protocol: UDP
+    targetPort: 25362
+  - name: worlds-port-25363
+    port: 25363
+    protocol: UDP
+    targetPort: 25363
+  - name: worlds-port-25364
+    port: 25364
+    protocol: UDP
+    targetPort: 25364
+  - name: worlds-port-25365
+    port: 25365
+    protocol: UDP
+    targetPort: 25365
+  - name: worlds-port-25366
+    port: 25366
+    protocol: UDP
+    targetPort: 25366
+  - name: worlds-port-25367
+    port: 25367
+    protocol: UDP
+    targetPort: 25367
+  - name: worlds-port-25368
+    port: 25368
+    protocol: UDP
+    targetPort: 25368
+  - name: worlds-port-25369
+    port: 25369
+    protocol: UDP
+    targetPort: 25369
+  - name: worlds-port-25370
+    port: 25370
+    protocol: UDP
+    targetPort: 25370
+  - name: worlds-port-25371
+    port: 25371
+    protocol: UDP
+    targetPort: 25371
+  - name: worlds-port-25372
+    port: 25372
+    protocol: UDP
+    targetPort: 25372
+  - name: worlds-port-25373
+    port: 25373
+    protocol: UDP
+    targetPort: 25373
+  - name: worlds-port-25374
+    port: 25374
+    protocol: UDP
+    targetPort: 25374
+  - name: worlds-port-25375
+    port: 25375
+    protocol: UDP
+    targetPort: 25375
+  - name: worlds-port-25376
+    port: 25376
+    protocol: UDP
+    targetPort: 25376
+  - name: worlds-port-25377
+    port: 25377
+    protocol: UDP
+    targetPort: 25377
+  - name: worlds-port-25378
+    port: 25378
+    protocol: UDP
+    targetPort: 25378
+  - name: worlds-port-25379
+    port: 25379
+    protocol: UDP
+    targetPort: 25379
+  - name: worlds-port-25380
+    port: 25380
+    protocol: UDP
+    targetPort: 25380
+  - name: worlds-port-25381
+    port: 25381
+    protocol: UDP
+    targetPort: 25381
+  - name: worlds-port-25382
+    port: 25382
+    protocol: UDP
+    targetPort: 25382
+  - name: worlds-port-25383
+    port: 25383
+    protocol: UDP
+    targetPort: 25383
+  - name: worlds-port-25384
+    port: 25384
+    protocol: UDP
+    targetPort: 25384
+  - name: worlds-port-25385
+    port: 25385
+    protocol: UDP
+    targetPort: 25385
+  - name: worlds-port-25386
+    port: 25386
+    protocol: UDP
+    targetPort: 25386
+  - name: worlds-port-25387
+    port: 25387
+    protocol: UDP
+    targetPort: 25387
+  - name: worlds-port-25388
+    port: 25388
+    protocol: UDP
+    targetPort: 25388
+  - name: worlds-port-25389
+    port: 25389
+    protocol: UDP
+    targetPort: 25389
+  - name: worlds-port-25390
+    port: 25390
+    protocol: UDP
+    targetPort: 25390
+  - name: worlds-port-25391
+    port: 25391
+    protocol: UDP
+    targetPort: 25391
+  - name: worlds-port-25392
+    port: 25392
+    protocol: UDP
+    targetPort: 25392
+  - name: worlds-port-25393
+    port: 25393
+    protocol: UDP
+    targetPort: 25393
+  - name: worlds-port-25394
+    port: 25394
+    protocol: UDP
+    targetPort: 25394
+  - name: worlds-port-25395
+    port: 25395
+    protocol: UDP
+    targetPort: 25395
+  - name: worlds-port-25396
+    port: 25396
+    protocol: UDP
+    targetPort: 25396
+  - name: worlds-port-25397
+    port: 25397
+    protocol: UDP
+    targetPort: 25397
+  - name: worlds-port-25398
+    port: 25398
+    protocol: UDP
+    targetPort: 25398
+  - name: worlds-port-25399
+    port: 25399
+    protocol: UDP
+    targetPort: 25399
+  - name: worlds-port-25400
+    port: 25400
+    protocol: UDP
+    targetPort: 25400
+  - name: worlds-port-25401
+    port: 25401
+    protocol: UDP
+    targetPort: 25401
+  - name: worlds-port-25402
+    port: 25402
+    protocol: UDP
+    targetPort: 25402
+  - name: worlds-port-25403
+    port: 25403
+    protocol: UDP
+    targetPort: 25403
+  - name: worlds-port-25404
+    port: 25404
+    protocol: UDP
+    targetPort: 25404
+  - name: worlds-port-25405
+    port: 25405
+    protocol: UDP
+    targetPort: 25405
+  - name: worlds-port-25406
+    port: 25406
+    protocol: UDP
+    targetPort: 25406
+  - name: worlds-port-25407
+    port: 25407
+    protocol: UDP
+    targetPort: 25407
+  - name: worlds-port-25408
+    port: 25408
+    protocol: UDP
+    targetPort: 25408
+  - name: worlds-port-25409
+    port: 25409
+    protocol: UDP
+    targetPort: 25409
+  - name: worlds-port-25410
+    port: 25410
+    protocol: UDP
+    targetPort: 25410
+  - name: worlds-port-25411
+    port: 25411
+    protocol: UDP
+    targetPort: 25411
+  - name: worlds-port-25412
+    port: 25412
+    protocol: UDP
+    targetPort: 25412
+  - name: worlds-port-25413
+    port: 25413
+    protocol: UDP
+    targetPort: 25413
+  - name: worlds-port-25414
+    port: 25414
+    protocol: UDP
+    targetPort: 25414
+  - name: worlds-port-25415
+    port: 25415
+    protocol: UDP
+    targetPort: 25415
+  - name: worlds-port-25416
+    port: 25416
+    protocol: UDP
+    targetPort: 25416
+  - name: worlds-port-25417
+    port: 25417
+    protocol: UDP
+    targetPort: 25417
+  - name: worlds-port-25418
+    port: 25418
+    protocol: UDP
+    targetPort: 25418
+  - name: worlds-port-25419
+    port: 25419
+    protocol: UDP
+    targetPort: 25419
+  - name: worlds-port-25420
+    port: 25420
+    protocol: UDP
+    targetPort: 25420
+  - name: worlds-port-25421
+    port: 25421
+    protocol: UDP
+    targetPort: 25421
+  - name: worlds-port-25422
+    port: 25422
+    protocol: UDP
+    targetPort: 25422
+  - name: worlds-port-25423
+    port: 25423
+    protocol: UDP
+    targetPort: 25423
+  - name: worlds-port-25424
+    port: 25424
+    protocol: UDP
+    targetPort: 25424
+  - name: worlds-port-25425
+    port: 25425
+    protocol: UDP
+    targetPort: 25425
+  - name: worlds-port-25426
+    port: 25426
+    protocol: UDP
+    targetPort: 25426
+  - name: worlds-port-25427
+    port: 25427
+    protocol: UDP
+    targetPort: 25427
+  - name: worlds-port-25428
+    port: 25428
+    protocol: UDP
+    targetPort: 25428
+  - name: worlds-port-25429
+    port: 25429
+    protocol: UDP
+    targetPort: 25429
+  - name: worlds-port-25430
+    port: 25430
+    protocol: UDP
+    targetPort: 25430
+  - name: worlds-port-25431
+    port: 25431
+    protocol: UDP
+    targetPort: 25431
+  - name: worlds-port-25432
+    port: 25432
+    protocol: UDP
+    targetPort: 25432
+  - name: worlds-port-25433
+    port: 25433
+    protocol: UDP
+    targetPort: 25433
+  - name: worlds-port-25434
+    port: 25434
+    protocol: UDP
+    targetPort: 25434
+  - name: worlds-port-25435
+    port: 25435
+    protocol: UDP
+    targetPort: 25435
+  - name: worlds-port-25436
+    port: 25436
+    protocol: UDP
+    targetPort: 25436
+  - name: worlds-port-25437
+    port: 25437
+    protocol: UDP
+    targetPort: 25437
+  - name: worlds-port-25438
+    port: 25438
+    protocol: UDP
+    targetPort: 25438
+  - name: worlds-port-25439
+    port: 25439
+    protocol: UDP
+    targetPort: 25439
+  - name: worlds-port-25440
+    port: 25440
+    protocol: UDP
+    targetPort: 25440
+  - name: worlds-port-25441
+    port: 25441
+    protocol: UDP
+    targetPort: 25441
+  - name: worlds-port-25442
+    port: 25442
+    protocol: UDP
+    targetPort: 25442
+  - name: worlds-port-25443
+    port: 25443
+    protocol: UDP
+    targetPort: 25443
+  - name: worlds-port-25444
+    port: 25444
+    protocol: UDP
+    targetPort: 25444
+  - name: worlds-port-25445
+    port: 25445
+    protocol: UDP
+    targetPort: 25445
+  - name: worlds-port-25446
+    port: 25446
+    protocol: UDP
+    targetPort: 25446
+  - name: worlds-port-25447
+    port: 25447
+    protocol: UDP
+    targetPort: 25447
+  - name: worlds-port-25448
+    port: 25448
+    protocol: UDP
+    targetPort: 25448
+  - name: worlds-port-25449
+    port: 25449
+    protocol: UDP
+    targetPort: 25449
+  - name: worlds-port-25450
+    port: 25450
+    protocol: UDP
+    targetPort: 25450
+  - name: worlds-port-25451
+    port: 25451
+    protocol: UDP
+    targetPort: 25451
+  - name: worlds-port-25452
+    port: 25452
+    protocol: UDP
+    targetPort: 25452
+  - name: worlds-port-25453
+    port: 25453
+    protocol: UDP
+    targetPort: 25453
+  - name: worlds-port-25454
+    port: 25454
+    protocol: UDP
+    targetPort: 25454
+  - name: worlds-port-25455
+    port: 25455
+    protocol: UDP
+    targetPort: 25455
+  - name: worlds-port-25456
+    port: 25456
+    protocol: UDP
+    targetPort: 25456
+  - name: worlds-port-25457
+    port: 25457
+    protocol: UDP
+    targetPort: 25457
+  - name: worlds-port-25458
+    port: 25458
+    protocol: UDP
+    targetPort: 25458
+  - name: worlds-port-25459
+    port: 25459
+    protocol: UDP
+    targetPort: 25459
+  - name: worlds-port-25460
+    port: 25460
+    protocol: UDP
+    targetPort: 25460
+  - name: worlds-port-25461
+    port: 25461
+    protocol: UDP
+    targetPort: 25461
+  - name: worlds-port-25462
+    port: 25462
+    protocol: UDP
+    targetPort: 25462
+  - name: worlds-port-25463
+    port: 25463
+    protocol: UDP
+    targetPort: 25463
+  - name: worlds-port-25464
+    port: 25464
+    protocol: UDP
+    targetPort: 25464
+  - name: worlds-port-25465
+    port: 25465
+    protocol: UDP
+    targetPort: 25465
+  - name: worlds-port-25466
+    port: 25466
+    protocol: UDP
+    targetPort: 25466
+  - name: worlds-port-25467
+    port: 25467
+    protocol: UDP
+    targetPort: 25467
+  - name: worlds-port-25468
+    port: 25468
+    protocol: UDP
+    targetPort: 25468
+  - name: worlds-port-25469
+    port: 25469
+    protocol: UDP
+    targetPort: 25469
+  - name: worlds-port-25470
+    port: 25470
+    protocol: UDP
+    targetPort: 25470
+  - name: worlds-port-25471
+    port: 25471
+    protocol: UDP
+    targetPort: 25471
+  - name: worlds-port-25472
+    port: 25472
+    protocol: UDP
+    targetPort: 25472
+  - name: worlds-port-25473
+    port: 25473
+    protocol: UDP
+    targetPort: 25473
+  - name: worlds-port-25474
+    port: 25474
+    protocol: UDP
+    targetPort: 25474
+  - name: worlds-port-25475
+    port: 25475
+    protocol: UDP
+    targetPort: 25475
+  - name: worlds-port-25476
+    port: 25476
+    protocol: UDP
+    targetPort: 25476
+  - name: worlds-port-25477
+    port: 25477
+    protocol: UDP
+    targetPort: 25477
+  - name: worlds-port-25478
+    port: 25478
+    protocol: UDP
+    targetPort: 25478
+  - name: worlds-port-25479
+    port: 25479
+    protocol: UDP
+    targetPort: 25479
+  - name: worlds-port-25480
+    port: 25480
+    protocol: UDP
+    targetPort: 25480
+  - name: worlds-port-25481
+    port: 25481
+    protocol: UDP
+    targetPort: 25481
+  - name: worlds-port-25482
+    port: 25482
+    protocol: UDP
+    targetPort: 25482
+  - name: worlds-port-25483
+    port: 25483
+    protocol: UDP
+    targetPort: 25483
+  - name: worlds-port-25484
+    port: 25484
+    protocol: UDP
+    targetPort: 25484
+  - name: worlds-port-25485
+    port: 25485
+    protocol: UDP
+    targetPort: 25485
+  - name: worlds-port-25486
+    port: 25486
+    protocol: UDP
+    targetPort: 25486
+  - name: worlds-port-25487
+    port: 25487
+    protocol: UDP
+    targetPort: 25487
+  - name: worlds-port-25488
+    port: 25488
+    protocol: UDP
+    targetPort: 25488
+  - name: worlds-port-25489
+    port: 25489
+    protocol: UDP
+    targetPort: 25489
+  - name: worlds-port-25490
+    port: 25490
+    protocol: UDP
+    targetPort: 25490
+  - name: worlds-port-25491
+    port: 25491
+    protocol: UDP
+    targetPort: 25491
+  - name: worlds-port-25492
+    port: 25492
+    protocol: UDP
+    targetPort: 25492
+  - name: worlds-port-25493
+    port: 25493
+    protocol: UDP
+    targetPort: 25493
+  - name: worlds-port-25494
+    port: 25494
+    protocol: UDP
+    targetPort: 25494
+  - name: worlds-port-25495
+    port: 25495
+    protocol: UDP
+    targetPort: 25495
+  - name: worlds-port-25496
+    port: 25496
+    protocol: UDP
+    targetPort: 25496
+  - name: worlds-port-25497
+    port: 25497
+    protocol: UDP
+    targetPort: 25497
+  - name: worlds-port-25498
+    port: 25498
+    protocol: UDP
+    targetPort: 25498
+  - name: worlds-port-25499
+    port: 25499
+    protocol: UDP
+    targetPort: 25499
+  - name: worlds-port-25500
+    port: 25500
+    protocol: UDP
+    targetPort: 25500
+  - name: worlds-port-25501
+    port: 25501
+    protocol: UDP
+    targetPort: 25501
+  - name: worlds-port-25502
+    port: 25502
+    protocol: UDP
+    targetPort: 25502
+  - name: worlds-port-25503
+    port: 25503
+    protocol: UDP
+    targetPort: 25503
+  - name: worlds-port-25504
+    port: 25504
+    protocol: UDP
+    targetPort: 25504
+  - name: worlds-port-25505
+    port: 25505
+    protocol: UDP
+    targetPort: 25505
+  - name: worlds-port-25506
+    port: 25506
+    protocol: UDP
+    targetPort: 25506
+  - name: worlds-port-25507
+    port: 25507
+    protocol: UDP
+    targetPort: 25507
+  - name: worlds-port-25508
+    port: 25508
+    protocol: UDP
+    targetPort: 25508
+  - name: worlds-port-25509
+    port: 25509
+    protocol: UDP
+    targetPort: 25509
+  - name: worlds-port-25510
+    port: 25510
+    protocol: UDP
+    targetPort: 25510
+  - name: worlds-port-25511
+    port: 25511
+    protocol: UDP
+    targetPort: 25511
+  - name: worlds-port-25512
+    port: 25512
+    protocol: UDP
+    targetPort: 25512
+  - name: worlds-port-25513
+    port: 25513
+    protocol: UDP
+    targetPort: 25513
+  - name: worlds-port-25514
+    port: 25514
+    protocol: UDP
+    targetPort: 25514
+  - name: worlds-port-25515
+    port: 25515
+    protocol: UDP
+    targetPort: 25515
+  - name: worlds-port-25516
+    port: 25516
+    protocol: UDP
+    targetPort: 25516
+  - name: worlds-port-25517
+    port: 25517
+    protocol: UDP
+    targetPort: 25517
+  - name: worlds-port-25518
+    port: 25518
+    protocol: UDP
+    targetPort: 25518
+  - name: worlds-port-25519
+    port: 25519
+    protocol: UDP
+    targetPort: 25519
+  - name: worlds-port-25520
+    port: 25520
+    protocol: UDP
+    targetPort: 25520
+  - name: worlds-port-25521
+    port: 25521
+    protocol: UDP
+    targetPort: 25521
+  - name: worlds-port-25522
+    port: 25522
+    protocol: UDP
+    targetPort: 25522
+  - name: worlds-port-25523
+    port: 25523
+    protocol: UDP
+    targetPort: 25523
+  - name: worlds-port-25524
+    port: 25524
+    protocol: UDP
+    targetPort: 25524
+  - name: worlds-port-25525
+    port: 25525
+    protocol: UDP
+    targetPort: 25525
+  - name: worlds-port-25526
+    port: 25526
+    protocol: UDP
+    targetPort: 25526
+  - name: worlds-port-25527
+    port: 25527
+    protocol: UDP
+    targetPort: 25527
+  - name: worlds-port-25528
+    port: 25528
+    protocol: UDP
+    targetPort: 25528
+  - name: worlds-port-25529
+    port: 25529
+    protocol: UDP
+    targetPort: 25529
+  - name: worlds-port-25530
+    port: 25530
+    protocol: UDP
+    targetPort: 25530
+  - name: worlds-port-25531
+    port: 25531
+    protocol: UDP
+    targetPort: 25531
+  - name: worlds-port-25532
+    port: 25532
+    protocol: UDP
+    targetPort: 25532
+  - name: worlds-port-25533
+    port: 25533
+    protocol: UDP
+    targetPort: 25533
+  - name: worlds-port-25534
+    port: 25534
+    protocol: UDP
+    targetPort: 25534
+  - name: worlds-port-25535
+    port: 25535
+    protocol: UDP
+    targetPort: 25535
+  - name: worlds-port-25536
+    port: 25536
+    protocol: UDP
+    targetPort: 25536
+  - name: worlds-port-25537
+    port: 25537
+    protocol: UDP
+    targetPort: 25537
+  - name: worlds-port-25538
+    port: 25538
+    protocol: UDP
+    targetPort: 25538
+  - name: worlds-port-25539
+    port: 25539
+    protocol: UDP
+    targetPort: 25539
+  - name: worlds-port-25540
+    port: 25540
+    protocol: UDP
+    targetPort: 25540
+  - name: worlds-port-25541
+    port: 25541
+    protocol: UDP
+    targetPort: 25541
+  - name: worlds-port-25542
+    port: 25542
+    protocol: UDP
+    targetPort: 25542
+  - name: worlds-port-25543
+    port: 25543
+    protocol: UDP
+    targetPort: 25543
+  - name: worlds-port-25544
+    port: 25544
+    protocol: UDP
+    targetPort: 25544
+  - name: worlds-port-25545
+    port: 25545
+    protocol: UDP
+    targetPort: 25545
+  - name: worlds-port-25546
+    port: 25546
+    protocol: UDP
+    targetPort: 25546
+  - name: worlds-port-25547
+    port: 25547
+    protocol: UDP
+    targetPort: 25547
+  - name: worlds-port-25548
+    port: 25548
+    protocol: UDP
+    targetPort: 25548
+  - name: worlds-port-25549
+    port: 25549
+    protocol: UDP
+    targetPort: 25549
+  - name: worlds-port-25550
+    port: 25550
+    protocol: UDP
+    targetPort: 25550
+  - name: worlds-port-25551
+    port: 25551
+    protocol: UDP
+    targetPort: 25551
+  - name: worlds-port-25552
+    port: 25552
+    protocol: UDP
+    targetPort: 25552
+  - name: worlds-port-25553
+    port: 25553
+    protocol: UDP
+    targetPort: 25553
+  - name: worlds-port-25554
+    port: 25554
+    protocol: UDP
+    targetPort: 25554
+  - name: worlds-port-25555
+    port: 25555
+    protocol: UDP
+    targetPort: 25555
+  - name: worlds-port-25556
+    port: 25556
+    protocol: UDP
+    targetPort: 25556
+  - name: worlds-port-25557
+    port: 25557
+    protocol: UDP
+    targetPort: 25557
+  - name: worlds-port-25558
+    port: 25558
+    protocol: UDP
+    targetPort: 25558
+  - name: worlds-port-25559
+    port: 25559
+    protocol: UDP
+    targetPort: 25559
+  - name: worlds-port-25560
+    port: 25560
+    protocol: UDP
+    targetPort: 25560
+  - name: worlds-port-25561
+    port: 25561
+    protocol: UDP
+    targetPort: 25561
+  - name: worlds-port-25562
+    port: 25562
+    protocol: UDP
+    targetPort: 25562
+  - name: worlds-port-25563
+    port: 25563
+    protocol: UDP
+    targetPort: 25563
+  - name: worlds-port-25564
+    port: 25564
+    protocol: UDP
+    targetPort: 25564
+  - name: worlds-port-25565
+    port: 25565
+    protocol: UDP
+    targetPort: 25565
+  - name: worlds-port-25566
+    port: 25566
+    protocol: UDP
+    targetPort: 25566
+  - name: worlds-port-25567
+    port: 25567
+    protocol: UDP
+    targetPort: 25567
+  - name: worlds-port-25568
+    port: 25568
+    protocol: UDP
+    targetPort: 25568
+  - name: worlds-port-25569
+    port: 25569
+    protocol: UDP
+    targetPort: 25569
+  - name: worlds-port-25570
+    port: 25570
+    protocol: UDP
+    targetPort: 25570
+  - name: worlds-port-25571
+    port: 25571
+    protocol: UDP
+    targetPort: 25571
+  - name: worlds-port-25572
+    port: 25572
+    protocol: UDP
+    targetPort: 25572
+  - name: worlds-port-25573
+    port: 25573
+    protocol: UDP
+    targetPort: 25573
+  - name: worlds-port-25574
+    port: 25574
+    protocol: UDP
+    targetPort: 25574
+  - name: worlds-port-25575
+    port: 25575
+    protocol: UDP
+    targetPort: 25575
+  - name: worlds-port-25576
+    port: 25576
+    protocol: UDP
+    targetPort: 25576
+  - name: worlds-port-25577
+    port: 25577
+    protocol: UDP
+    targetPort: 25577
+  - name: worlds-port-25578
+    port: 25578
+    protocol: UDP
+    targetPort: 25578
+  - name: worlds-port-25579
+    port: 25579
+    protocol: UDP
+    targetPort: 25579
+  - name: worlds-port-25580
+    port: 25580
+    protocol: UDP
+    targetPort: 25580
+  - name: worlds-port-25581
+    port: 25581
+    protocol: UDP
+    targetPort: 25581
+  - name: worlds-port-25582
+    port: 25582
+    protocol: UDP
+    targetPort: 25582
+  - name: worlds-port-25583
+    port: 25583
+    protocol: UDP
+    targetPort: 25583
+  - name: worlds-port-25584
+    port: 25584
+    protocol: UDP
+    targetPort: 25584
+  - name: worlds-port-25585
+    port: 25585
+    protocol: UDP
+    targetPort: 25585
+  - name: worlds-port-25586
+    port: 25586
+    protocol: UDP
+    targetPort: 25586
+  - name: worlds-port-25587
+    port: 25587
+    protocol: UDP
+    targetPort: 25587
+  - name: worlds-port-25588
+    port: 25588
+    protocol: UDP
+    targetPort: 25588
+  - name: worlds-port-25589
+    port: 25589
+    protocol: UDP
+    targetPort: 25589
+  - name: worlds-port-25590
+    port: 25590
+    protocol: UDP
+    targetPort: 25590
+  - name: worlds-port-25591
+    port: 25591
+    protocol: UDP
+    targetPort: 25591
+  - name: worlds-port-25592
+    port: 25592
+    protocol: UDP
+    targetPort: 25592
+  - name: worlds-port-25593
+    port: 25593
+    protocol: UDP
+    targetPort: 25593
+  - name: worlds-port-25594
+    port: 25594
+    protocol: UDP
+    targetPort: 25594
+  - name: worlds-port-25595
+    port: 25595
+    protocol: UDP
+    targetPort: 25595
+  - name: worlds-port-25596
+    port: 25596
+    protocol: UDP
+    targetPort: 25596
+  - name: worlds-port-25597
+    port: 25597
+    protocol: UDP
+    targetPort: 25597
+  - name: worlds-port-25598
+    port: 25598
+    protocol: UDP
+    targetPort: 25598
+  - name: worlds-port-25599
+    port: 25599
+    protocol: UDP
+    targetPort: 25599
+  - name: worlds-port-25600
+    port: 25600
+    protocol: UDP
+    targetPort: 25600
+  - name: worlds-port-25601
+    port: 25601
+    protocol: UDP
+    targetPort: 25601
+  - name: worlds-port-25602
+    port: 25602
+    protocol: UDP
+    targetPort: 25602
+  - name: worlds-port-25603
+    port: 25603
+    protocol: UDP
+    targetPort: 25603
+  - name: worlds-port-25604
+    port: 25604
+    protocol: UDP
+    targetPort: 25604
+  - name: worlds-port-25605
+    port: 25605
+    protocol: UDP
+    targetPort: 25605
+  - name: worlds-port-25606
+    port: 25606
+    protocol: UDP
+    targetPort: 25606
+  - name: worlds-port-25607
+    port: 25607
+    protocol: UDP
+    targetPort: 25607
+  - name: worlds-port-25608
+    port: 25608
+    protocol: UDP
+    targetPort: 25608
+  - name: worlds-port-25609
+    port: 25609
+    protocol: UDP
+    targetPort: 25609
+  - name: worlds-port-25610
+    port: 25610
+    protocol: UDP
+    targetPort: 25610
+  - name: worlds-port-25611
+    port: 25611
+    protocol: UDP
+    targetPort: 25611
+  - name: worlds-port-25612
+    port: 25612
+    protocol: UDP
+    targetPort: 25612
+  - name: worlds-port-25613
+    port: 25613
+    protocol: UDP
+    targetPort: 25613
+  - name: worlds-port-25614
+    port: 25614
+    protocol: UDP
+    targetPort: 25614
+  - name: worlds-port-25615
+    port: 25615
+    protocol: UDP
+    targetPort: 25615
+  - name: worlds-port-25616
+    port: 25616
+    protocol: UDP
+    targetPort: 25616
+  - name: worlds-port-25617
+    port: 25617
+    protocol: UDP
+    targetPort: 25617
+  - name: worlds-port-25618
+    port: 25618
+    protocol: UDP
+    targetPort: 25618
+  - name: worlds-port-25619
+    port: 25619
+    protocol: UDP
+    targetPort: 25619
+  - name: worlds-port-25620
+    port: 25620
+    protocol: UDP
+    targetPort: 25620
+  - name: worlds-port-25621
+    port: 25621
+    protocol: UDP
+    targetPort: 25621
+  - name: worlds-port-25622
+    port: 25622
+    protocol: UDP
+    targetPort: 25622
+  - name: worlds-port-25623
+    port: 25623
+    protocol: UDP
+    targetPort: 25623
+  - name: worlds-port-25624
+    port: 25624
+    protocol: UDP
+    targetPort: 25624
+  - name: worlds-port-25625
+    port: 25625
+    protocol: UDP
+    targetPort: 25625
+  - name: worlds-port-25626
+    port: 25626
+    protocol: UDP
+    targetPort: 25626
+  - name: worlds-port-25627
+    port: 25627
+    protocol: UDP
+    targetPort: 25627
+  - name: worlds-port-25628
+    port: 25628
+    protocol: UDP
+    targetPort: 25628
+  - name: worlds-port-25629
+    port: 25629
+    protocol: UDP
+    targetPort: 25629
+  - name: worlds-port-25630
+    port: 25630
+    protocol: UDP
+    targetPort: 25630
+  - name: worlds-port-25631
+    port: 25631
+    protocol: UDP
+    targetPort: 25631
+  - name: worlds-port-25632
+    port: 25632
+    protocol: UDP
+    targetPort: 25632
+  - name: worlds-port-25633
+    port: 25633
+    protocol: UDP
+    targetPort: 25633
+  - name: worlds-port-25634
+    port: 25634
+    protocol: UDP
+    targetPort: 25634
+  - name: worlds-port-25635
+    port: 25635
+    protocol: UDP
+    targetPort: 25635
+  - name: worlds-port-25636
+    port: 25636
+    protocol: UDP
+    targetPort: 25636
+  - name: worlds-port-25637
+    port: 25637
+    protocol: UDP
+    targetPort: 25637
+  - name: worlds-port-25638
+    port: 25638
+    protocol: UDP
+    targetPort: 25638
+  - name: worlds-port-25639
+    port: 25639
+    protocol: UDP
+    targetPort: 25639
+  - name: worlds-port-25640
+    port: 25640
+    protocol: UDP
+    targetPort: 25640
+  - name: worlds-port-25641
+    port: 25641
+    protocol: UDP
+    targetPort: 25641
+  - name: worlds-port-25642
+    port: 25642
+    protocol: UDP
+    targetPort: 25642
+  - name: worlds-port-25643
+    port: 25643
+    protocol: UDP
+    targetPort: 25643
+  - name: worlds-port-25644
+    port: 25644
+    protocol: UDP
+    targetPort: 25644
+  - name: worlds-port-25645
+    port: 25645
+    protocol: UDP
+    targetPort: 25645
+  - name: worlds-port-25646
+    port: 25646
+    protocol: UDP
+    targetPort: 25646
+  - name: worlds-port-25647
+    port: 25647
+    protocol: UDP
+    targetPort: 25647
+  - name: worlds-port-25648
+    port: 25648
+    protocol: UDP
+    targetPort: 25648
+  - name: worlds-port-25649
+    port: 25649
+    protocol: UDP
+    targetPort: 25649
+  - name: worlds-port-25650
+    port: 25650
+    protocol: UDP
+    targetPort: 25650
+  - name: worlds-port-25651
+    port: 25651
+    protocol: UDP
+    targetPort: 25651
+  - name: worlds-port-25652
+    port: 25652
+    protocol: UDP
+    targetPort: 25652
+  - name: worlds-port-25653
+    port: 25653
+    protocol: UDP
+    targetPort: 25653
+  - name: worlds-port-25654
+    port: 25654
+    protocol: UDP
+    targetPort: 25654
+  - name: worlds-port-25655
+    port: 25655
+    protocol: UDP
+    targetPort: 25655
+  - name: worlds-port-25656
+    port: 25656
+    protocol: UDP
+    targetPort: 25656
+  - name: worlds-port-25657
+    port: 25657
+    protocol: UDP
+    targetPort: 25657
+  - name: worlds-port-25658
+    port: 25658
+    protocol: UDP
+    targetPort: 25658
+  - name: worlds-port-25659
+    port: 25659
+    protocol: UDP
+    targetPort: 25659
+  - name: worlds-port-25660
+    port: 25660
+    protocol: UDP
+    targetPort: 25660
+  - name: worlds-port-25661
+    port: 25661
+    protocol: UDP
+    targetPort: 25661
+  - name: worlds-port-25662
+    port: 25662
+    protocol: UDP
+    targetPort: 25662
+  - name: worlds-port-25663
+    port: 25663
+    protocol: UDP
+    targetPort: 25663
+  - name: worlds-port-25664
+    port: 25664
+    protocol: UDP
+    targetPort: 25664
+  - name: worlds-port-25665
+    port: 25665
+    protocol: UDP
+    targetPort: 25665
+  - name: worlds-port-25666
+    port: 25666
+    protocol: UDP
+    targetPort: 25666
+  - name: worlds-port-25667
+    port: 25667
+    protocol: UDP
+    targetPort: 25667
+  - name: worlds-port-25668
+    port: 25668
+    protocol: UDP
+    targetPort: 25668
+  - name: worlds-port-25669
+    port: 25669
+    protocol: UDP
+    targetPort: 25669
+  - name: worlds-port-25670
+    port: 25670
+    protocol: UDP
+    targetPort: 25670
+  - name: worlds-port-25671
+    port: 25671
+    protocol: UDP
+    targetPort: 25671
+  - name: worlds-port-25672
+    port: 25672
+    protocol: UDP
+    targetPort: 25672
+  - name: worlds-port-25673
+    port: 25673
+    protocol: UDP
+    targetPort: 25673
+  - name: worlds-port-25674
+    port: 25674
+    protocol: UDP
+    targetPort: 25674
+  - name: worlds-port-25675
+    port: 25675
+    protocol: UDP
+    targetPort: 25675
+  - name: worlds-port-25676
+    port: 25676
+    protocol: UDP
+    targetPort: 25676
+  - name: worlds-port-25677
+    port: 25677
+    protocol: UDP
+    targetPort: 25677
+  - name: worlds-port-25678
+    port: 25678
+    protocol: UDP
+    targetPort: 25678
+  - name: worlds-port-25679
+    port: 25679
+    protocol: UDP
+    targetPort: 25679
+  - name: worlds-port-25680
+    port: 25680
+    protocol: UDP
+    targetPort: 25680
+  - name: worlds-port-25681
+    port: 25681
+    protocol: UDP
+    targetPort: 25681
+  - name: worlds-port-25682
+    port: 25682
+    protocol: UDP
+    targetPort: 25682
+  - name: worlds-port-25683
+    port: 25683
+    protocol: UDP
+    targetPort: 25683
+  - name: worlds-port-25684
+    port: 25684
+    protocol: UDP
+    targetPort: 25684
+  - name: worlds-port-25685
+    port: 25685
+    protocol: UDP
+    targetPort: 25685
+  - name: worlds-port-25686
+    port: 25686
+    protocol: UDP
+    targetPort: 25686
+  - name: worlds-port-25687
+    port: 25687
+    protocol: UDP
+    targetPort: 25687
+  - name: worlds-port-25688
+    port: 25688
+    protocol: UDP
+    targetPort: 25688
+  - name: worlds-port-25689
+    port: 25689
+    protocol: UDP
+    targetPort: 25689
+  - name: worlds-port-25690
+    port: 25690
+    protocol: UDP
+    targetPort: 25690
+  - name: worlds-port-25691
+    port: 25691
+    protocol: UDP
+    targetPort: 25691
+  - name: worlds-port-25692
+    port: 25692
+    protocol: UDP
+    targetPort: 25692
+  - name: worlds-port-25693
+    port: 25693
+    protocol: UDP
+    targetPort: 25693
+  - name: worlds-port-25694
+    port: 25694
+    protocol: UDP
+    targetPort: 25694
+  - name: worlds-port-25695
+    port: 25695
+    protocol: UDP
+    targetPort: 25695
+  - name: worlds-port-25696
+    port: 25696
+    protocol: UDP
+    targetPort: 25696
+  - name: worlds-port-25697
+    port: 25697
+    protocol: UDP
+    targetPort: 25697
+  - name: worlds-port-25698
+    port: 25698
+    protocol: UDP
+    targetPort: 25698
+  - name: worlds-port-25699
+    port: 25699
+    protocol: UDP
+    targetPort: 25699
+  - name: worlds-port-25700
+    port: 25700
+    protocol: UDP
+    targetPort: 25700
+  - name: worlds-port-25701
+    port: 25701
+    protocol: UDP
+    targetPort: 25701
+  - name: worlds-port-25702
+    port: 25702
+    protocol: UDP
+    targetPort: 25702
+  - name: worlds-port-25703
+    port: 25703
+    protocol: UDP
+    targetPort: 25703
+  - name: worlds-port-25704
+    port: 25704
+    protocol: UDP
+    targetPort: 25704
+  - name: worlds-port-25705
+    port: 25705
+    protocol: UDP
+    targetPort: 25705
+  - name: worlds-port-25706
+    port: 25706
+    protocol: UDP
+    targetPort: 25706
+  - name: worlds-port-25707
+    port: 25707
+    protocol: UDP
+    targetPort: 25707
+  - name: worlds-port-25708
+    port: 25708
+    protocol: UDP
+    targetPort: 25708
+  - name: worlds-port-25709
+    port: 25709
+    protocol: UDP
+    targetPort: 25709
+  - name: worlds-port-25710
+    port: 25710
+    protocol: UDP
+    targetPort: 25710
+  - name: worlds-port-25711
+    port: 25711
+    protocol: UDP
+    targetPort: 25711
+  - name: worlds-port-25712
+    port: 25712
+    protocol: UDP
+    targetPort: 25712
+  - name: worlds-port-25713
+    port: 25713
+    protocol: UDP
+    targetPort: 25713
+  - name: worlds-port-25714
+    port: 25714
+    protocol: UDP
+    targetPort: 25714
+  - name: worlds-port-25715
+    port: 25715
+    protocol: UDP
+    targetPort: 25715
+  - name: worlds-port-25716
+    port: 25716
+    protocol: UDP
+    targetPort: 25716
+  - name: worlds-port-25717
+    port: 25717
+    protocol: UDP
+    targetPort: 25717
+  - name: worlds-port-25718
+    port: 25718
+    protocol: UDP
+    targetPort: 25718
+  - name: worlds-port-25719
+    port: 25719
+    protocol: UDP
+    targetPort: 25719
+  - name: worlds-port-25720
+    port: 25720
+    protocol: UDP
+    targetPort: 25720
+  - name: worlds-port-25721
+    port: 25721
+    protocol: UDP
+    targetPort: 25721
+  - name: worlds-port-25722
+    port: 25722
+    protocol: UDP
+    targetPort: 25722
+  - name: worlds-port-25723
+    port: 25723
+    protocol: UDP
+    targetPort: 25723
+  - name: worlds-port-25724
+    port: 25724
+    protocol: UDP
+    targetPort: 25724
+  - name: worlds-port-25725
+    port: 25725
+    protocol: UDP
+    targetPort: 25725
+  - name: worlds-port-25726
+    port: 25726
+    protocol: UDP
+    targetPort: 25726
+  - name: worlds-port-25727
+    port: 25727
+    protocol: UDP
+    targetPort: 25727
+  - name: worlds-port-25728
+    port: 25728
+    protocol: UDP
+    targetPort: 25728
+  - name: worlds-port-25729
+    port: 25729
+    protocol: UDP
+    targetPort: 25729
+  - name: worlds-port-25730
+    port: 25730
+    protocol: UDP
+    targetPort: 25730
+  - name: worlds-port-25731
+    port: 25731
+    protocol: UDP
+    targetPort: 25731
+  - name: worlds-port-25732
+    port: 25732
+    protocol: UDP
+    targetPort: 25732
+  - name: worlds-port-25733
+    port: 25733
+    protocol: UDP
+    targetPort: 25733
+  - name: worlds-port-25734
+    port: 25734
+    protocol: UDP
+    targetPort: 25734
+  - name: worlds-port-25735
+    port: 25735
+    protocol: UDP
+    targetPort: 25735
+  - name: worlds-port-25736
+    port: 25736
+    protocol: UDP
+    targetPort: 25736
+  - name: worlds-port-25737
+    port: 25737
+    protocol: UDP
+    targetPort: 25737
+  - name: worlds-port-25738
+    port: 25738
+    protocol: UDP
+    targetPort: 25738
+  - name: worlds-port-25739
+    port: 25739
+    protocol: UDP
+    targetPort: 25739
+  - name: worlds-port-25740
+    port: 25740
+    protocol: UDP
+    targetPort: 25740
+  - name: worlds-port-25741
+    port: 25741
+    protocol: UDP
+    targetPort: 25741
+  - name: worlds-port-25742
+    port: 25742
+    protocol: UDP
+    targetPort: 25742
+  - name: worlds-port-25743
+    port: 25743
+    protocol: UDP
+    targetPort: 25743
+  - name: worlds-port-25744
+    port: 25744
+    protocol: UDP
+    targetPort: 25744
+  - name: worlds-port-25745
+    port: 25745
+    protocol: UDP
+    targetPort: 25745
+  - name: worlds-port-25746
+    port: 25746
+    protocol: UDP
+    targetPort: 25746
+  - name: worlds-port-25747
+    port: 25747
+    protocol: UDP
+    targetPort: 25747
+  - name: worlds-port-25748
+    port: 25748
+    protocol: UDP
+    targetPort: 25748
+  - name: worlds-port-25749
+    port: 25749
+    protocol: UDP
+    targetPort: 25749
+  - name: worlds-port-25750
+    port: 25750
+    protocol: UDP
+    targetPort: 25750
+  - name: worlds-port-25751
+    port: 25751
+    protocol: UDP
+    targetPort: 25751
+  - name: worlds-port-25752
+    port: 25752
+    protocol: UDP
+    targetPort: 25752
+  - name: worlds-port-25753
+    port: 25753
+    protocol: UDP
+    targetPort: 25753
+  - name: worlds-port-25754
+    port: 25754
+    protocol: UDP
+    targetPort: 25754
+  - name: worlds-port-25755
+    port: 25755
+    protocol: UDP
+    targetPort: 25755
+  - name: worlds-port-25756
+    port: 25756
+    protocol: UDP
+    targetPort: 25756
+  - name: worlds-port-25757
+    port: 25757
+    protocol: UDP
+    targetPort: 25757
+  - name: worlds-port-25758
+    port: 25758
+    protocol: UDP
+    targetPort: 25758
+  - name: worlds-port-25759
+    port: 25759
+    protocol: UDP
+    targetPort: 25759
+  - name: worlds-port-25760
+    port: 25760
+    protocol: UDP
+    targetPort: 25760
+  - name: worlds-port-25761
+    port: 25761
+    protocol: UDP
+    targetPort: 25761
+  - name: worlds-port-25762
+    port: 25762
+    protocol: UDP
+    targetPort: 25762
+  - name: worlds-port-25763
+    port: 25763
+    protocol: UDP
+    targetPort: 25763
+  - name: worlds-port-25764
+    port: 25764
+    protocol: UDP
+    targetPort: 25764
+  - name: worlds-port-25765
+    port: 25765
+    protocol: UDP
+    targetPort: 25765
+  - name: worlds-port-25766
+    port: 25766
+    protocol: UDP
+    targetPort: 25766
+  - name: worlds-port-25767
+    port: 25767
+    protocol: UDP
+    targetPort: 25767
+  - name: worlds-port-25768
+    port: 25768
+    protocol: UDP
+    targetPort: 25768
+  - name: worlds-port-25769
+    port: 25769
+    protocol: UDP
+    targetPort: 25769
+  - name: worlds-port-25770
+    port: 25770
+    protocol: UDP
+    targetPort: 25770
+  - name: worlds-port-25771
+    port: 25771
+    protocol: UDP
+    targetPort: 25771
+  - name: worlds-port-25772
+    port: 25772
+    protocol: UDP
+    targetPort: 25772
+  - name: worlds-port-25773
+    port: 25773
+    protocol: UDP
+    targetPort: 25773
+  - name: worlds-port-25774
+    port: 25774
+    protocol: UDP
+    targetPort: 25774
+  - name: worlds-port-25775
+    port: 25775
+    protocol: UDP
+    targetPort: 25775
+  - name: worlds-port-25776
+    port: 25776
+    protocol: UDP
+    targetPort: 25776
+  - name: worlds-port-25777
+    port: 25777
+    protocol: UDP
+    targetPort: 25777
+  - name: worlds-port-25778
+    port: 25778
+    protocol: UDP
+    targetPort: 25778
+  - name: worlds-port-25779
+    port: 25779
+    protocol: UDP
+    targetPort: 25779
+  - name: worlds-port-25780
+    port: 25780
+    protocol: UDP
+    targetPort: 25780
+  - name: worlds-port-25781
+    port: 25781
+    protocol: UDP
+    targetPort: 25781
+  - name: worlds-port-25782
+    port: 25782
+    protocol: UDP
+    targetPort: 25782
+  - name: worlds-port-25783
+    port: 25783
+    protocol: UDP
+    targetPort: 25783
+  - name: worlds-port-25784
+    port: 25784
+    protocol: UDP
+    targetPort: 25784
+  - name: worlds-port-25785
+    port: 25785
+    protocol: UDP
+    targetPort: 25785
+  - name: worlds-port-25786
+    port: 25786
+    protocol: UDP
+    targetPort: 25786
+  - name: worlds-port-25787
+    port: 25787
+    protocol: UDP
+    targetPort: 25787
+  - name: worlds-port-25788
+    port: 25788
+    protocol: UDP
+    targetPort: 25788
+  - name: worlds-port-25789
+    port: 25789
+    protocol: UDP
+    targetPort: 25789
+  - name: worlds-port-25790
+    port: 25790
+    protocol: UDP
+    targetPort: 25790
+  - name: worlds-port-25791
+    port: 25791
+    protocol: UDP
+    targetPort: 25791
+  - name: worlds-port-25792
+    port: 25792
+    protocol: UDP
+    targetPort: 25792
+  - name: worlds-port-25793
+    port: 25793
+    protocol: UDP
+    targetPort: 25793
+  - name: worlds-port-25794
+    port: 25794
+    protocol: UDP
+    targetPort: 25794
+  - name: worlds-port-25795
+    port: 25795
+    protocol: UDP
+    targetPort: 25795
+  - name: worlds-port-25796
+    port: 25796
+    protocol: UDP
+    targetPort: 25796
+  - name: worlds-port-25797
+    port: 25797
+    protocol: UDP
+    targetPort: 25797
+  - name: worlds-port-25798
+    port: 25798
+    protocol: UDP
+    targetPort: 25798
+  - name: worlds-port-25799
+    port: 25799
+    protocol: UDP
+    targetPort: 25799
+  - name: worlds-port-25800
+    port: 25800
+    protocol: UDP
+    targetPort: 25800
+  - name: worlds-port-25801
+    port: 25801
+    protocol: UDP
+    targetPort: 25801
+  - name: worlds-port-25802
+    port: 25802
+    protocol: UDP
+    targetPort: 25802
+  - name: worlds-port-25803
+    port: 25803
+    protocol: UDP
+    targetPort: 25803
+  - name: worlds-port-25804
+    port: 25804
+    protocol: UDP
+    targetPort: 25804
+  - name: worlds-port-25805
+    port: 25805
+    protocol: UDP
+    targetPort: 25805
+  - name: worlds-port-25806
+    port: 25806
+    protocol: UDP
+    targetPort: 25806
+  - name: worlds-port-25807
+    port: 25807
+    protocol: UDP
+    targetPort: 25807
+  - name: worlds-port-25808
+    port: 25808
+    protocol: UDP
+    targetPort: 25808
+  - name: worlds-port-25809
+    port: 25809
+    protocol: UDP
+    targetPort: 25809
+  - name: worlds-port-25810
+    port: 25810
+    protocol: UDP
+    targetPort: 25810
+  - name: worlds-port-25811
+    port: 25811
+    protocol: UDP
+    targetPort: 25811
+  - name: worlds-port-25812
+    port: 25812
+    protocol: UDP
+    targetPort: 25812
+  - name: worlds-port-25813
+    port: 25813
+    protocol: UDP
+    targetPort: 25813
+  - name: worlds-port-25814
+    port: 25814
+    protocol: UDP
+    targetPort: 25814
+  - name: worlds-port-25815
+    port: 25815
+    protocol: UDP
+    targetPort: 25815
+  - name: worlds-port-25816
+    port: 25816
+    protocol: UDP
+    targetPort: 25816
+  - name: worlds-port-25817
+    port: 25817
+    protocol: UDP
+    targetPort: 25817
+  - name: worlds-port-25818
+    port: 25818
+    protocol: UDP
+    targetPort: 25818
+  - name: worlds-port-25819
+    port: 25819
+    protocol: UDP
+    targetPort: 25819
+  - name: worlds-port-25820
+    port: 25820
+    protocol: UDP
+    targetPort: 25820
+  - name: worlds-port-25821
+    port: 25821
+    protocol: UDP
+    targetPort: 25821
+  - name: worlds-port-25822
+    port: 25822
+    protocol: UDP
+    targetPort: 25822
+  - name: worlds-port-25823
+    port: 25823
+    protocol: UDP
+    targetPort: 25823
+  - name: worlds-port-25824
+    port: 25824
+    protocol: UDP
+    targetPort: 25824
+  - name: worlds-port-25825
+    port: 25825
+    protocol: UDP
+    targetPort: 25825
+  - name: worlds-port-25826
+    port: 25826
+    protocol: UDP
+    targetPort: 25826
+  - name: worlds-port-25827
+    port: 25827
+    protocol: UDP
+    targetPort: 25827
+  - name: worlds-port-25828
+    port: 25828
+    protocol: UDP
+    targetPort: 25828
+  - name: worlds-port-25829
+    port: 25829
+    protocol: UDP
+    targetPort: 25829
+  - name: worlds-port-25830
+    port: 25830
+    protocol: UDP
+    targetPort: 25830
+  - name: worlds-port-25831
+    port: 25831
+    protocol: UDP
+    targetPort: 25831
+  - name: worlds-port-25832
+    port: 25832
+    protocol: UDP
+    targetPort: 25832
+  - name: worlds-port-25833
+    port: 25833
+    protocol: UDP
+    targetPort: 25833
+  - name: worlds-port-25834
+    port: 25834
+    protocol: UDP
+    targetPort: 25834
+  - name: worlds-port-25835
+    port: 25835
+    protocol: UDP
+    targetPort: 25835
+  - name: worlds-port-25836
+    port: 25836
+    protocol: UDP
+    targetPort: 25836
+  - name: worlds-port-25837
+    port: 25837
+    protocol: UDP
+    targetPort: 25837
+  - name: worlds-port-25838
+    port: 25838
+    protocol: UDP
+    targetPort: 25838
+  - name: worlds-port-25839
+    port: 25839
+    protocol: UDP
+    targetPort: 25839
+  - name: worlds-port-25840
+    port: 25840
+    protocol: UDP
+    targetPort: 25840
+  - name: worlds-port-25841
+    port: 25841
+    protocol: UDP
+    targetPort: 25841
+  - name: worlds-port-25842
+    port: 25842
+    protocol: UDP
+    targetPort: 25842
+  - name: worlds-port-25843
+    port: 25843
+    protocol: UDP
+    targetPort: 25843
+  - name: worlds-port-25844
+    port: 25844
+    protocol: UDP
+    targetPort: 25844
+  - name: worlds-port-25845
+    port: 25845
+    protocol: UDP
+    targetPort: 25845
+  - name: worlds-port-25846
+    port: 25846
+    protocol: UDP
+    targetPort: 25846
+  - name: worlds-port-25847
+    port: 25847
+    protocol: UDP
+    targetPort: 25847
+  - name: worlds-port-25848
+    port: 25848
+    protocol: UDP
+    targetPort: 25848
+  - name: worlds-port-25849
+    port: 25849
+    protocol: UDP
+    targetPort: 25849
+  - name: worlds-port-25850
+    port: 25850
+    protocol: UDP
+    targetPort: 25850
+  - name: worlds-port-25851
+    port: 25851
+    protocol: UDP
+    targetPort: 25851
+  - name: worlds-port-25852
+    port: 25852
+    protocol: UDP
+    targetPort: 25852
+  - name: worlds-port-25853
+    port: 25853
+    protocol: UDP
+    targetPort: 25853
+  - name: worlds-port-25854
+    port: 25854
+    protocol: UDP
+    targetPort: 25854
+  - name: worlds-port-25855
+    port: 25855
+    protocol: UDP
+    targetPort: 25855
+  - name: worlds-port-25856
+    port: 25856
+    protocol: UDP
+    targetPort: 25856
+  - name: worlds-port-25857
+    port: 25857
+    protocol: UDP
+    targetPort: 25857
+  - name: worlds-port-25858
+    port: 25858
+    protocol: UDP
+    targetPort: 25858
+  - name: worlds-port-25859
+    port: 25859
+    protocol: UDP
+    targetPort: 25859
+  - name: worlds-port-25860
+    port: 25860
+    protocol: UDP
+    targetPort: 25860
+  - name: worlds-port-25861
+    port: 25861
+    protocol: UDP
+    targetPort: 25861
+  - name: worlds-port-25862
+    port: 25862
+    protocol: UDP
+    targetPort: 25862
+  - name: worlds-port-25863
+    port: 25863
+    protocol: UDP
+    targetPort: 25863
+  - name: worlds-port-25864
+    port: 25864
+    protocol: UDP
+    targetPort: 25864
+  - name: worlds-port-25865
+    port: 25865
+    protocol: UDP
+    targetPort: 25865
+  - name: worlds-port-25866
+    port: 25866
+    protocol: UDP
+    targetPort: 25866
+  - name: worlds-port-25867
+    port: 25867
+    protocol: UDP
+    targetPort: 25867
+  - name: worlds-port-25868
+    port: 25868
+    protocol: UDP
+    targetPort: 25868
+  - name: worlds-port-25869
+    port: 25869
+    protocol: UDP
+    targetPort: 25869
+  - name: worlds-port-25870
+    port: 25870
+    protocol: UDP
+    targetPort: 25870
+  - name: worlds-port-25871
+    port: 25871
+    protocol: UDP
+    targetPort: 25871
+  - name: worlds-port-25872
+    port: 25872
+    protocol: UDP
+    targetPort: 25872
+  - name: worlds-port-25873
+    port: 25873
+    protocol: UDP
+    targetPort: 25873
+  - name: worlds-port-25874
+    port: 25874
+    protocol: UDP
+    targetPort: 25874
+  - name: worlds-port-25875
+    port: 25875
+    protocol: UDP
+    targetPort: 25875
+  - name: worlds-port-25876
+    port: 25876
+    protocol: UDP
+    targetPort: 25876
+  - name: worlds-port-25877
+    port: 25877
+    protocol: UDP
+    targetPort: 25877
+  - name: worlds-port-25878
+    port: 25878
+    protocol: UDP
+    targetPort: 25878
+  - name: worlds-port-25879
+    port: 25879
+    protocol: UDP
+    targetPort: 25879
+  - name: worlds-port-25880
+    port: 25880
+    protocol: UDP
+    targetPort: 25880
+  - name: worlds-port-25881
+    port: 25881
+    protocol: UDP
+    targetPort: 25881
+  - name: worlds-port-25882
+    port: 25882
+    protocol: UDP
+    targetPort: 25882
+  - name: worlds-port-25883
+    port: 25883
+    protocol: UDP
+    targetPort: 25883
+  - name: worlds-port-25884
+    port: 25884
+    protocol: UDP
+    targetPort: 25884
+  - name: worlds-port-25885
+    port: 25885
+    protocol: UDP
+    targetPort: 25885
+  - name: worlds-port-25886
+    port: 25886
+    protocol: UDP
+    targetPort: 25886
+  - name: worlds-port-25887
+    port: 25887
+    protocol: UDP
+    targetPort: 25887
+  - name: worlds-port-25888
+    port: 25888
+    protocol: UDP
+    targetPort: 25888
+  - name: worlds-port-25889
+    port: 25889
+    protocol: UDP
+    targetPort: 25889
+  - name: worlds-port-25890
+    port: 25890
+    protocol: UDP
+    targetPort: 25890
+  - name: worlds-port-25891
+    port: 25891
+    protocol: UDP
+    targetPort: 25891
+  - name: worlds-port-25892
+    port: 25892
+    protocol: UDP
+    targetPort: 25892
+  - name: worlds-port-25893
+    port: 25893
+    protocol: UDP
+    targetPort: 25893
+  - name: worlds-port-25894
+    port: 25894
+    protocol: UDP
+    targetPort: 25894
+  - name: worlds-port-25895
+    port: 25895
+    protocol: UDP
+    targetPort: 25895
+  - name: worlds-port-25896
+    port: 25896
+    protocol: UDP
+    targetPort: 25896
+  - name: worlds-port-25897
+    port: 25897
+    protocol: UDP
+    targetPort: 25897
+  - name: worlds-port-25898
+    port: 25898
+    protocol: UDP
+    targetPort: 25898
+  - name: worlds-port-25899
+    port: 25899
+    protocol: UDP
+    targetPort: 25899
+  - name: worlds-port-25900
+    port: 25900
+    protocol: UDP
+    targetPort: 25900
+  - name: worlds-port-25901
+    port: 25901
+    protocol: UDP
+    targetPort: 25901
+  - name: worlds-port-25902
+    port: 25902
+    protocol: UDP
+    targetPort: 25902
+  - name: worlds-port-25903
+    port: 25903
+    protocol: UDP
+    targetPort: 25903
+  - name: worlds-port-25904
+    port: 25904
+    protocol: UDP
+    targetPort: 25904
+  - name: worlds-port-25905
+    port: 25905
+    protocol: UDP
+    targetPort: 25905
+  - name: worlds-port-25906
+    port: 25906
+    protocol: UDP
+    targetPort: 25906
+  - name: worlds-port-25907
+    port: 25907
+    protocol: UDP
+    targetPort: 25907
+  - name: worlds-port-25908
+    port: 25908
+    protocol: UDP
+    targetPort: 25908
+  - name: worlds-port-25909
+    port: 25909
+    protocol: UDP
+    targetPort: 25909
+  - name: worlds-port-25910
+    port: 25910
+    protocol: UDP
+    targetPort: 25910
+  - name: worlds-port-25911
+    port: 25911
+    protocol: UDP
+    targetPort: 25911
+  - name: worlds-port-25912
+    port: 25912
+    protocol: UDP
+    targetPort: 25912
+  - name: worlds-port-25913
+    port: 25913
+    protocol: UDP
+    targetPort: 25913
+  - name: worlds-port-25914
+    port: 25914
+    protocol: UDP
+    targetPort: 25914
+  - name: worlds-port-25915
+    port: 25915
+    protocol: UDP
+    targetPort: 25915
+  - name: worlds-port-25916
+    port: 25916
+    protocol: UDP
+    targetPort: 25916
+  - name: worlds-port-25917
+    port: 25917
+    protocol: UDP
+    targetPort: 25917
+  - name: worlds-port-25918
+    port: 25918
+    protocol: UDP
+    targetPort: 25918
+  - name: worlds-port-25919
+    port: 25919
+    protocol: UDP
+    targetPort: 25919
+  - name: worlds-port-25920
+    port: 25920
+    protocol: UDP
+    targetPort: 25920
+  - name: worlds-port-25921
+    port: 25921
+    protocol: UDP
+    targetPort: 25921
+  - name: worlds-port-25922
+    port: 25922
+    protocol: UDP
+    targetPort: 25922
+  - name: worlds-port-25923
+    port: 25923
+    protocol: UDP
+    targetPort: 25923
+  - name: worlds-port-25924
+    port: 25924
+    protocol: UDP
+    targetPort: 25924
+  - name: worlds-port-25925
+    port: 25925
+    protocol: UDP
+    targetPort: 25925
+  - name: worlds-port-25926
+    port: 25926
+    protocol: UDP
+    targetPort: 25926
+  - name: worlds-port-25927
+    port: 25927
+    protocol: UDP
+    targetPort: 25927
+  - name: worlds-port-25928
+    port: 25928
+    protocol: UDP
+    targetPort: 25928
+  - name: worlds-port-25929
+    port: 25929
+    protocol: UDP
+    targetPort: 25929
+  - name: worlds-port-25930
+    port: 25930
+    protocol: UDP
+    targetPort: 25930
+  - name: worlds-port-25931
+    port: 25931
+    protocol: UDP
+    targetPort: 25931
+  - name: worlds-port-25932
+    port: 25932
+    protocol: UDP
+    targetPort: 25932
+  - name: worlds-port-25933
+    port: 25933
+    protocol: UDP
+    targetPort: 25933
+  - name: worlds-port-25934
+    port: 25934
+    protocol: UDP
+    targetPort: 25934
+  - name: worlds-port-25935
+    port: 25935
+    protocol: UDP
+    targetPort: 25935
+  - name: worlds-port-25936
+    port: 25936
+    protocol: UDP
+    targetPort: 25936
+  - name: worlds-port-25937
+    port: 25937
+    protocol: UDP
+    targetPort: 25937
+  - name: worlds-port-25938
+    port: 25938
+    protocol: UDP
+    targetPort: 25938
+  - name: worlds-port-25939
+    port: 25939
+    protocol: UDP
+    targetPort: 25939
+  - name: worlds-port-25940
+    port: 25940
+    protocol: UDP
+    targetPort: 25940
+  - name: worlds-port-25941
+    port: 25941
+    protocol: UDP
+    targetPort: 25941
+  - name: worlds-port-25942
+    port: 25942
+    protocol: UDP
+    targetPort: 25942
+  - name: worlds-port-25943
+    port: 25943
+    protocol: UDP
+    targetPort: 25943
+  - name: worlds-port-25944
+    port: 25944
+    protocol: UDP
+    targetPort: 25944
+  - name: worlds-port-25945
+    port: 25945
+    protocol: UDP
+    targetPort: 25945
+  - name: worlds-port-25946
+    port: 25946
+    protocol: UDP
+    targetPort: 25946
+  - name: worlds-port-25947
+    port: 25947
+    protocol: UDP
+    targetPort: 25947
+  - name: worlds-port-25948
+    port: 25948
+    protocol: UDP
+    targetPort: 25948
+  - name: worlds-port-25949
+    port: 25949
+    protocol: UDP
+    targetPort: 25949
+  - name: worlds-port-25950
+    port: 25950
+    protocol: UDP
+    targetPort: 25950
+  - name: worlds-port-25951
+    port: 25951
+    protocol: UDP
+    targetPort: 25951
+  - name: worlds-port-25952
+    port: 25952
+    protocol: UDP
+    targetPort: 25952
+  - name: worlds-port-25953
+    port: 25953
+    protocol: UDP
+    targetPort: 25953
+  - name: worlds-port-25954
+    port: 25954
+    protocol: UDP
+    targetPort: 25954
+  - name: worlds-port-25955
+    port: 25955
+    protocol: UDP
+    targetPort: 25955
+  - name: worlds-port-25956
+    port: 25956
+    protocol: UDP
+    targetPort: 25956
+  - name: worlds-port-25957
+    port: 25957
+    protocol: UDP
+    targetPort: 25957
+  - name: worlds-port-25958
+    port: 25958
+    protocol: UDP
+    targetPort: 25958
+  - name: worlds-port-25959
+    port: 25959
+    protocol: UDP
+    targetPort: 25959
+  - name: worlds-port-25960
+    port: 25960
+    protocol: UDP
+    targetPort: 25960
+  - name: worlds-port-25961
+    port: 25961
+    protocol: UDP
+    targetPort: 25961
+  - name: worlds-port-25962
+    port: 25962
+    protocol: UDP
+    targetPort: 25962
+  - name: worlds-port-25963
+    port: 25963
+    protocol: UDP
+    targetPort: 25963
+  - name: worlds-port-25964
+    port: 25964
+    protocol: UDP
+    targetPort: 25964
+  - name: worlds-port-25965
+    port: 25965
+    protocol: UDP
+    targetPort: 25965
+  - name: worlds-port-25966
+    port: 25966
+    protocol: UDP
+    targetPort: 25966
+  - name: worlds-port-25967
+    port: 25967
+    protocol: UDP
+    targetPort: 25967
+  - name: worlds-port-25968
+    port: 25968
+    protocol: UDP
+    targetPort: 25968
+  - name: worlds-port-25969
+    port: 25969
+    protocol: UDP
+    targetPort: 25969
+  - name: worlds-port-25970
+    port: 25970
+    protocol: UDP
+    targetPort: 25970
+  - name: worlds-port-25971
+    port: 25971
+    protocol: UDP
+    targetPort: 25971
+  - name: worlds-port-25972
+    port: 25972
+    protocol: UDP
+    targetPort: 25972
+  - name: worlds-port-25973
+    port: 25973
+    protocol: UDP
+    targetPort: 25973
+  - name: worlds-port-25974
+    port: 25974
+    protocol: UDP
+    targetPort: 25974
+  - name: worlds-port-25975
+    port: 25975
+    protocol: UDP
+    targetPort: 25975
+  - name: worlds-port-25976
+    port: 25976
+    protocol: UDP
+    targetPort: 25976
+  - name: worlds-port-25977
+    port: 25977
+    protocol: UDP
+    targetPort: 25977
+  - name: worlds-port-25978
+    port: 25978
+    protocol: UDP
+    targetPort: 25978
+  - name: worlds-port-25979
+    port: 25979
+    protocol: UDP
+    targetPort: 25979
+  - name: worlds-port-25980
+    port: 25980
+    protocol: UDP
+    targetPort: 25980
+  - name: worlds-port-25981
+    port: 25981
+    protocol: UDP
+    targetPort: 25981
+  - name: worlds-port-25982
+    port: 25982
+    protocol: UDP
+    targetPort: 25982
+  - name: worlds-port-25983
+    port: 25983
+    protocol: UDP
+    targetPort: 25983
+  - name: worlds-port-25984
+    port: 25984
+    protocol: UDP
+    targetPort: 25984
+  - name: worlds-port-25985
+    port: 25985
+    protocol: UDP
+    targetPort: 25985
+  - name: worlds-port-25986
+    port: 25986
+    protocol: UDP
+    targetPort: 25986
+  - name: worlds-port-25987
+    port: 25987
+    protocol: UDP
+    targetPort: 25987
+  - name: worlds-port-25988
+    port: 25988
+    protocol: UDP
+    targetPort: 25988
+  - name: worlds-port-25989
+    port: 25989
+    protocol: UDP
+    targetPort: 25989
+  - name: worlds-port-25990
+    port: 25990
+    protocol: UDP
+    targetPort: 25990
+  - name: worlds-port-25991
+    port: 25991
+    protocol: UDP
+    targetPort: 25991
+  - name: worlds-port-25992
+    port: 25992
+    protocol: UDP
+    targetPort: 25992
+  - name: worlds-port-25993
+    port: 25993
+    protocol: UDP
+    targetPort: 25993
+  - name: worlds-port-25994
+    port: 25994
+    protocol: UDP
+    targetPort: 25994
+  - name: worlds-port-25995
+    port: 25995
+    protocol: UDP
+    targetPort: 25995
+  - name: worlds-port-25996
+    port: 25996
+    protocol: UDP
+    targetPort: 25996
+  - name: worlds-port-25997
+    port: 25997
+    protocol: UDP
+    targetPort: 25997
+  - name: worlds-port-25998
+    port: 25998
+    protocol: UDP
+    targetPort: 25998
+  - name: worlds-port-25999
+    port: 25999
+    protocol: UDP
+    targetPort: 25999
+  - name: worlds-port-26000
+    port: 26000
+    protocol: UDP
+    targetPort: 26000
   - name: web-port
     port: {{ .Values.env.webPort | int }}
     protocol: TCP
@@ -25,5 +4023,5 @@ spec:
     protocol: TCP
     targetPort: {{ .Values.env.adminPort | int }}
   selector:
-    app: "{{ .Chart.Name }}"
+    app: test-service
 
