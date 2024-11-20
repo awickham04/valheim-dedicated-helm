@@ -44,10 +44,10 @@ spec:
           value: {{ .Values.env.steamAPIKey }}
         ports:
         {{- range seq 0 1000}}
-        - name: worlds-port-{{add {{ .Values.env.worldsPortRangeStart | int }} }}
-          containerPort: {{add {{ .Values.env.worldsPortRangeStart | int }} }}
+        - name: worlds-port-{{add .Values.env.worldsPortRangeStart | int }}
+          containerPort: {{add .Values.env.worldsPortRangeStart | int }}
           hostIP: {{ .Values.env.hostIP }}
-          hostPort: {{add {{ .Values.env.worldsPortRangeStart | int }} }}
+          hostPort: {{add .Values.env.worldsPortRangeStart | int }}
           protocol: UDP
         {{- end -}}
         - name: web-port

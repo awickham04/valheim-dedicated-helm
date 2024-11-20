@@ -11,10 +11,10 @@ spec:
   type: {{ .Values.service.type }}
   ports:
   {{- range seq 0 1000}}
-  - name: worlds-port-{{add {{ .Values.env.worldsPortRangeStart | int }} }}
-    port: {{add {{ .Values.env.worldsPortRangeStart | int }} }}
+  - name: worlds-port-{{add .Values.env.worldsPortRangeStart | int }}
+    port: {{add .Values.env.worldsPortRangeStart | int }}
     protocol: UDP
-    targetPort: {{add {{ .Values.env.worldsPortRangeStart | int }} }}
+    targetPort: {{add .Values.env.worldsPortRangeStart | int }}
   {{- end -}}
   - name: web-port
     port: {{ .Values.env.webPort | int }}
